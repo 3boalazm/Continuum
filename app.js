@@ -316,17 +316,25 @@ function sheetEditProject(id){
   document.getElementById("epColor").addEventListener("click",function(e){var b=e.target.closest(".colordot");if(!b)return;[].forEach.call(this.children,function(c){c.classList.remove("on")});b.classList.add("on");SH._ec=b.getAttribute("data-c")});
 }
 function cleanState(){var o={},k;for(k in S){if(!Object.prototype.hasOwnProperty.call(S,k))continue;if(k.charAt(0)==="_")continue;if(k==="view"||k==="activePid"||k==="back"||k==="uiView")continue;o[k]=S[k];}o.deleted=S._deleted||{};o._localAt=S._localAt||Date.now();return o;}
-function adoptRemote(data){
-  if(!data)return;
-  var merged=mergeStates(cleanState(),data);
+function syncSig(st){
+  function coll(a){return (a||[]).slice().sort(function(x,y){return (x.id<y.id?-1:x.id>y.id?1:0)}).map(function(i){return i.id+":"+itemTime(i)});}
+  var o={l:st.lang,t:st.theme,m:st.mode,j:{},d:st.deleted||st._deleted||{}},jj=st.journal||{};
+  ["projects","tasks","notes","bookmarks","courses","prompts","servers","repos","decisions","inbox"].forEach(function(c){o[c]=coll(st[c]);});
+  Object.keys(jj).sort().forEach(function(k){o.j[k]=(jj[k]&&jj[k].updatedAt)||1;});
+  return JSON.stringify(o);
+}
+function applyState(merged,doPush){
+  if(!merged)return;
   ["lang","theme","mode","projects","tasks","notes","bookmarks","courses","prompts","servers","repos","decisions","inbox","journal"].forEach(function(k){if(merged[k]!==undefined)S[k]=merged[k];});
-  S._deleted=merged._deleted||{};S._localAt=merged._localAt||Date.now();
+  S._deleted=merged._deleted||merged.deleted||{};S._localAt=merged._localAt||Date.now();
   if(!S.mode)S.mode="advanced";
   ["projects","tasks","notes","bookmarks","courses","prompts","servers","repos","decisions"].forEach(function(kk){if(!Array.isArray(S[kk]))S[kk]=[]});
   if(!S.journal)S.journal={};
   S.projects.forEach(function(p){p.commits=p.commits||[];p.blockers=p.blockers||[];(p.sessions||[]).forEach(function(sx){sx.accomplishments=sx.accomplishments||[]})});
-  save();render();
+  if(doPush){save();}else{try{localStorage.setItem(KEY,JSON.stringify(S));}catch(e){}}
+  render();
 }
+function adoptRemote(data){ if(!data)return; applyState(mergeStates(cleanState(),data),true); }
 function accountCard(){
   if(!window.CxSync||!CxSync.configured()) return '<div class="card"><div class="ic-s">'+T("syncOff")+'</div></div>';
   var u=CxSync.user&&CxSync.user();
@@ -1079,13 +1087,18 @@ S.view=window.__PAGE__;
 if(window.__PAGE__==="project"||window.__PAGE__==="focus"){try{var _pid=new URLSearchParams(location.search).get("id");if(_pid)S.activePid=_pid;}catch(e){}}
 render();
 if(window.CxSync){
-  CxSync.onStatus(function(){if(S.view==="profile")render();});
+  var _subDone=false,_lastAuthUid=null;
   CxSync.onAuth(function(u){
+    var uid=u?(u.uid||u.email||"1"):null;
+    if(uid===_lastAuthUid)return;   // ignore repeat fires (token refresh etc.)
+    _lastAuthUid=uid;
     if(S.view==="profile")render();
     if(u){CxSync.pull().then(function(remote){
       if(remote&&remote.data){adoptRemote(remote.data);toast(T("synced"));} else {CxSync.push(cleanState());}
-      if(CxSync.subscribe){CxSync.subscribe(function(rem){
-        if(rem&&rem.data){var cur=JSON.stringify(cleanState());var mg=JSON.stringify(mergeStates(cleanState(),rem.data));if(cur!==mg){adoptRemote(rem.data);}}
+      if(CxSync.subscribe&&!_subDone){_subDone=true;CxSync.subscribe(function(rem){
+        if(!rem||!rem.data)return;
+        var merged=mergeStates(cleanState(),rem.data);
+        if(syncSig(merged)!==syncSig(cleanState())){applyState(merged,false);}  // apply locally, DO NOT push (prevents echo loop)
       });}
     });}
   });
