@@ -271,7 +271,7 @@
   /* ============ PHASE 1 — PREMIUM FOUNDATION ============ */
   :root{
     --sora:'Sora','Inter',sans-serif;
-    --dm:'DM Sans','IBM Plex Sans Arabic','Inter',sans-serif;
+    --dm:'IBM Plex Sans Arabic','Inter',system-ui,sans-serif;
     --ws:#7B7BF0;                 /* active workspace color (dynamic) */
     --ws-soft:rgba(123,123,240,.14);
   }
@@ -606,3 +606,31 @@
   .item > svg{width:20px;height:20px;flex-shrink:0}
   .body.tap{cursor:pointer}
   .body.tap:active{opacity:.7}
+
+  /* ============ SEARCH: highlight + count ============ */
+  mark{background:color-mix(in srgb,var(--ws) 32%,transparent);color:var(--c-ink-900);border-radius:3px;padding:0 2px;font-weight:600}
+  .sec-label .cnt{font-family:var(--mono);font-size:10px;color:var(--c-ink-300);background:var(--bg-elevated);padding:1px 6px;border-radius:6px;margin-inline-start:6px}
+
+  /* ============ WELCOME / ONBOARDING ============ */
+  .welcome{position:relative;overflow:hidden;text-align:center;padding:24px 20px;margin-bottom:16px;border-radius:var(--r-lg);
+    background:rgba(14,14,24,.5);backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,.07)}
+  html[data-theme="light"] .welcome{background:rgba(255,255,255,.7);border-color:rgba(0,0,0,.06)}
+  .welcome::before{content:"";position:absolute;top:-40%;left:50%;width:180px;height:180px;transform:translateX(-50%);
+    background:radial-gradient(circle,var(--ws-soft),transparent 70%);opacity:.5;animation:haloPulse 4s ease-in-out infinite;pointer-events:none}
+  .wc-badge{position:relative;font-family:var(--mono);font-size:11px;letter-spacing:.14em;color:var(--ws);margin-bottom:12px}
+  .wc-title{position:relative;font-family:var(--display);font-size:22px;font-weight:800;color:var(--c-ink-900);line-height:1.35}
+  .wc-sub{position:relative;font-size:14px;color:var(--c-ink-500);margin-top:8px;line-height:1.6;max-width:340px;margin-inline:auto}
+  .loopchips{position:relative;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:6px;margin:18px 0}
+  .loopchip{display:inline-flex;align-items:center;gap:5px;padding:6px 11px;border-radius:20px;background:var(--bg-elevated);
+    border:1px solid var(--border);font-size:12px;font-weight:600;color:var(--c-ink-500)}
+  .looparr{color:var(--c-ink-300);font-size:11px}
+  .wc-actions{position:relative;display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+
+  /* ============ AI (Ask Continuum) ============ */
+  .ai-ans{white-space:normal;line-height:1.7}
+  .ai-thinking{display:flex;align-items:center;gap:8px;color:var(--ws)}
+  .ai-thinking .dots{display:inline-flex;gap:3px}
+  .ai-thinking .dots i{width:5px;height:5px;border-radius:50%;background:var(--ws);animation:aidot 1s infinite ease-in-out}
+  .ai-thinking .dots i:nth-child(2){animation-delay:.15s}
+  .ai-thinking .dots i:nth-child(3){animation-delay:.3s}
+  @keyframes aidot{0%,60%,100%{opacity:.25;transform:translateY(0)}30%{opacity:1;transform:translateY(-3px)}}

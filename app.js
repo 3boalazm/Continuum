@@ -25,7 +25,7 @@ var I18N={
   allTasks:"كل المهام",activeOnly:"المطلوب",relNow:"الآن",relMin:"د",relHour:"س",relYesterday:"أمس",relDay:"يوم",
   welcome:"أهلاً 👋",demoNote:"ده مشروع تجريبي — امسحه وابدأ بتاعك.",of:"من",
   quick:"سريع",advanced:"متقدّم",simpleTasks:"مهام بسيطة",fullSystem:"النظام الكامل",navigate:"تنقّل",searchLabel:"بحث",qToday:"النهاردة",qTasks:"المهام",quickAdd:"أضف مهمة سريعة…",modeHint:"بدّل الوضع من هنا",
-  contextRecovered:"تم استرجاع السياق",resumeYourWork:"استكمل شغلك",sessionSummary:"ملخّص الجلسة",accomplishments:"اللي اتعمل",continueLeft:"كمّل من حيث وقفت",sessionNotes:"ملاحظات الجلسة",recentCommits:"آخر Commits",recentDecisions:"آخر القرارات",blockersT:"العوائق",relevantDocs:"مستندات ذات صلة",reconstructed:function(n){return "اتجمّع من "+n+" إشارات · تحدّث الآن"},todaysFocus:"تركيز النهاردة",aiSuggestions:"اقتراحات الذكاء",estimate:"تقدير",pHigh:"عالي",pMed:"متوسط",pLow:"منخفض",dueToday:"النهاردة",dueTomorrow:"بكرة",due:"موعد",knowledge:"المعرفة",courses:"الكورسات",bookmarks:"العلامات",promptLib:"مكتبة البرومبت",servers:"السيرفرات",repositories:"المستودعات",timeline:"الخط الزمني",aiAssistant:"المساعد",askContinuum:"اسأل Continuum",askPh:"اسأل عن شغلك…",pinned:"مثبّت",workspaceSec:"مساحة العمل",systemSec:"النظام",logDecision:"سجّل قرار",addCommit:"أضف Commit",addBlocker:"أضف عائق",reason:"السبب",addBookmark:"أضف علامة",addCourse:"أضف كورس",addPrompt:"أضف برومبت",addServer:"أضف سيرفر",addRepo:"أضف مستودع",url:"الرابط",provider:"المصدر",items:"عناصر",noItems:"لسه فاضي.",priority:"الأولوية",mobileView:"موبايل",desktopView:"سطح المكتب",contextHealth:"صحّة السياق",contextHealthSub:"جاهزيتك ترجع لشغلك في ثانية",inFlow:"شغّال",openTasks:"مهام مفتوحة",focusWk:"تركيز/أسبوع",learning:"التعلّم",sessionHeat:"سخونة الجلسات",dayStreak:"يوم متتابع",select:"تحديد",selDone:"تم",byPrio:"الأولوية",byDue:"الموعد",byNew:"الأحدث",selected:"محدّد",complete:"إكمال",delSelQ:"تحذف المحدّد؟",focusMode:"وضع التركيز",start:"ابدأ",pause:"إيقاف",reset:"تصفير",exit:"خروج",aiInsights:"رؤى الذكاء",insTop:"أكتر مشروع نشط",insBlk:"عوائق مفتوحة",insFocus:"تركيز الأسبوع",inboxT:"الوارد",inboxSub:"استرجاع السياق ورؤى وتذكيرات",contextRecovery:"استرجاع السياق",reminders:"تذكيرات",inboxRaw:"ملتقَطات",inboxEmpty:"الوارد فاضي ✓",pin:"تثبيت",account:"الحساب",signIn:"دخول",signUp:"حساب جديد",signOut:"تسجيل خروج",email:"الإيميل",password:"كلمة السر",syncOff:"المزامنة السحابية مش مفعّلة — بص على FIREBASE_SETUP.md",syncHint:"الدخول بيحمّل نسختك السحابية على الجهاز ده.",synced:"اتزامن ✓",signedIn:"أهلاً بيك ✓",signedOut:"خرجت",checkEmail:"بص إيميلك لتأكيد الحساب",syncStatus:"الحالة",cloudGuest:"محلي (بدون حساب)",editTask:"تعديل المهمة",editProject:"تعديل المشروع",version:"الإصدار",subtitle:"الوصف",statusL:"الحالة",color:"اللون",undo:"تراجع",deleted:"اتحذف",restored:"رجع",mood:"المزاج",energy:"الطاقة",e_high:"عالية",e_mid:"وسط",e_low:"منخفضة",daySummary:"ملخّص اليوم",doneT:"اتعمل",pastEntries:"مدوّنات سابقة",yesterday:"إمبارح",notifs:"إشعارات المتصفّح",notifOnMsg:"الإشعارات مفعّلة ✓",notifBlocked:"المتصفّح رافض الإشعارات",work:"الشغل",workSub:"كل السايتس والريبوز اللي اشتغلت عليها",addSite:"ضيف سايت",editSite:"تعديل سايت",workEmpty:"لسه مفيش سايتس — ضيف أول واحد",siteName:"اسم السايت",liveUrl:"لينك مباشر (Live)",deployUrl:"لينك الديبلوي",repoUrl:"لينك الريبو (GitHub)",firebaseUrl:"لينك Firebase / Console",edit:"تعديل",copy:"نسخ",copied:"اتنسخ",currentL:"الدرس الحالي",totalL:"الإجمالي",details:"تفاصيل",openLink:"افتح اللينك",profileT:"الملف",you:"أنت",kBookmark:"علامة",kReference:"مرجع",hoursT:"ساعات"},
+  contextRecovered:"تم استرجاع السياق",resumeYourWork:"استكمل شغلك",sessionSummary:"ملخّص الجلسة",accomplishments:"اللي اتعمل",continueLeft:"كمّل من حيث وقفت",sessionNotes:"ملاحظات الجلسة",recentCommits:"آخر Commits",recentDecisions:"آخر القرارات",blockersT:"العوائق",relevantDocs:"مستندات ذات صلة",reconstructed:function(n){return "اتجمّع من "+n+" إشارات · تحدّث الآن"},todaysFocus:"تركيز النهاردة",aiSuggestions:"اقتراحات الذكاء",estimate:"تقدير",pHigh:"عالي",pMed:"متوسط",pLow:"منخفض",dueToday:"النهاردة",dueTomorrow:"بكرة",due:"موعد",knowledge:"المعرفة",courses:"الكورسات",bookmarks:"العلامات",promptLib:"مكتبة البرومبت",servers:"السيرفرات",repositories:"المستودعات",timeline:"الخط الزمني",aiAssistant:"المساعد",askContinuum:"اسأل Continuum",askPh:"اسأل عن شغلك…",pinned:"مثبّت",workspaceSec:"مساحة العمل",systemSec:"النظام",logDecision:"سجّل قرار",addCommit:"أضف Commit",addBlocker:"أضف عائق",reason:"السبب",addBookmark:"أضف علامة",addCourse:"أضف كورس",addPrompt:"أضف برومبت",addServer:"أضف سيرفر",addRepo:"أضف مستودع",url:"الرابط",provider:"المصدر",items:"عناصر",noItems:"لسه فاضي.",priority:"الأولوية",mobileView:"موبايل",desktopView:"سطح المكتب",contextHealth:"صحّة السياق",contextHealthSub:"جاهزيتك ترجع لشغلك في ثانية",inFlow:"شغّال",openTasks:"مهام مفتوحة",focusWk:"تركيز/أسبوع",learning:"التعلّم",sessionHeat:"سخونة الجلسات",dayStreak:"يوم متتابع",select:"تحديد",selDone:"تم",byPrio:"الأولوية",byDue:"الموعد",byNew:"الأحدث",selected:"محدّد",complete:"إكمال",delSelQ:"تحذف المحدّد؟",focusMode:"وضع التركيز",start:"ابدأ",pause:"إيقاف",reset:"تصفير",exit:"خروج",aiInsights:"رؤى الذكاء",insTop:"أكتر مشروع نشط",insBlk:"عوائق مفتوحة",insFocus:"تركيز الأسبوع",inboxT:"الوارد",inboxSub:"استرجاع السياق ورؤى وتذكيرات",contextRecovery:"استرجاع السياق",reminders:"تذكيرات",inboxRaw:"ملتقَطات",inboxEmpty:"الوارد فاضي ✓",pin:"تثبيت",account:"الحساب",signIn:"دخول",signUp:"حساب جديد",signOut:"تسجيل خروج",email:"الإيميل",password:"كلمة السر",syncOff:"المزامنة السحابية مش مفعّلة — بص على FIREBASE_SETUP.md",syncHint:"الدخول بيحمّل نسختك السحابية على الجهاز ده.",synced:"اتزامن ✓",signedIn:"أهلاً بيك ✓",signedOut:"خرجت",checkEmail:"بص إيميلك لتأكيد الحساب",syncStatus:"الحالة",cloudGuest:"محلي (بدون حساب)",editTask:"تعديل المهمة",editProject:"تعديل المشروع",version:"الإصدار",subtitle:"الوصف",statusL:"الحالة",color:"اللون",undo:"تراجع",deleted:"اتحذف",restored:"رجع",mood:"المزاج",energy:"الطاقة",e_high:"عالية",e_mid:"وسط",e_low:"منخفضة",daySummary:"ملخّص اليوم",doneT:"اتعمل",pastEntries:"مدوّنات سابقة",yesterday:"إمبارح",notifs:"إشعارات المتصفّح",notifOnMsg:"الإشعارات مفعّلة ✓",notifBlocked:"المتصفّح رافض الإشعارات",work:"الشغل",workSub:"كل السايتس والريبوز اللي اشتغلت عليها",addSite:"ضيف سايت",editSite:"تعديل سايت",workEmpty:"لسه مفيش سايتس — ضيف أول واحد",siteName:"اسم السايت",liveUrl:"لينك مباشر (Live)",deployUrl:"لينك الديبلوي",repoUrl:"لينك الريبو (GitHub)",firebaseUrl:"لينك Firebase / Console",edit:"تعديل",copy:"نسخ",copied:"اتنسخ",currentL:"الدرس الحالي",totalL:"الإجمالي",details:"تفاصيل",openLink:"افتح اللينك",results:"نتيجة",welcomeSub:"خلّينا نبدأ — التطبيق هيفتكرلك كل حاجة.",welcomeTitle:"التطبيق بيفتكر، إنت مش لازم تفتكر",welcomeLine:"التقط أفكارك، اشتغل، والتطبيق يرجّعك لسياقك في ثانية.",loop_capture:"التقاط",loop_link:"ربط",loop_work:"شغل",loop_snapshot:"لقطة",loop_resume:"استئناف",captureL:"التقاط",getStarted:"يلا نبدأ",aiSettings:"الذكاء الاصطناعي",aiProviderNote:"بيستخدم Anthropic API. مفتاحك بيتخزّن في المتصفّح بس ومابيتزامنش سحابيًا.",aiKey:"مفتاح الـ API",aiModel:"الموديل",aiSaved:"اتحفظ ✓",aiCleared:"اتمسح",aiEnabled:"الـ AI مفعّل ✓",aiThinking:"بيفكّر",aiOffHint:"فعّل الـ AI الحقيقي من الإعدادات (Profile) عشان إجابات أذكى.",aiErrHint:"في مشكلة في النداء — اتأكد من المفتاح والموديل.",profileT:"الملف",you:"أنت",kBookmark:"علامة",kReference:"مرجع",hoursT:"ساعات"},
  en:{app:"Continuum",home:"Home",projects:"Projects",tasks:"Tasks",journal:"Journal",settings:"Settings",
   gMorning:"Good morning",gAfternoon:"Good afternoon",gEvening:"Good evening",
   inflight:function(n){return n+" project"+(n==1?"":"s")+" in flight"},
@@ -49,7 +49,7 @@ var I18N={
   allTasks:"All",activeOnly:"To do",relNow:"now",relMin:"m",relHour:"h",relYesterday:"yesterday",relDay:"d",
   welcome:"Welcome 👋",demoNote:"This is a demo project — delete it and start yours.",of:"of",
   quick:"Quick",advanced:"Advanced",simpleTasks:"Simple tasks",fullSystem:"Full system",navigate:"Navigate",searchLabel:"Search",qToday:"Today",qTasks:"Tasks",quickAdd:"Quick add a task…",modeHint:"Switch mode here",
-  contextRecovered:"Context recovered",resumeYourWork:"Resume your work",sessionSummary:"Session summary",accomplishments:"What you did",continueLeft:"Continue where you left off",sessionNotes:"Open session notes",recentCommits:"Recent commits",recentDecisions:"Recent decisions",blockersT:"Blockers",relevantDocs:"Relevant docs",reconstructed:function(n){return "Reconstructed from "+n+" signals · updated just now"},todaysFocus:"Today's focus",aiSuggestions:"AI suggestions",estimate:"estimate",pHigh:"HIGH",pMed:"MED",pLow:"LOW",dueToday:"Today",dueTomorrow:"Tomorrow",due:"due",knowledge:"Knowledge",courses:"Courses",bookmarks:"Bookmarks",promptLib:"Prompt Library",servers:"Servers",repositories:"Repositories",timeline:"Timeline",aiAssistant:"AI Assistant",askContinuum:"Ask Continuum",askPh:"Ask about your work…",pinned:"Pinned",workspaceSec:"Workspace",systemSec:"System",logDecision:"Log decision",addCommit:"Add commit",addBlocker:"Add blocker",reason:"Reason",addBookmark:"Add bookmark",addCourse:"Add course",addPrompt:"Add prompt",addServer:"Add server",addRepo:"Add repository",url:"URL",provider:"Provider",items:"items",noItems:"Nothing here yet.",priority:"Priority",mobileView:"Mobile",desktopView:"Desktop",contextHealth:"Context Health",contextHealthSub:"How ready you are to jump back in",inFlow:"In flow",openTasks:"Open tasks",focusWk:"Focus/wk",learning:"Learning",sessionHeat:"Session heat",dayStreak:"day streak",select:"Select",selDone:"Done",byPrio:"Priority",byDue:"Due",byNew:"Newest",selected:"selected",complete:"Complete",delSelQ:"Delete selected tasks?",focusMode:"Focus mode",start:"Start",pause:"Pause",reset:"Reset",exit:"Exit",aiInsights:"AI insights",insTop:"Most active project",insBlk:"Open blockers",insFocus:"Focus this week",inboxT:"Inbox",inboxSub:"Context recovery, insights & reminders",contextRecovery:"Context recovery",reminders:"Reminders",inboxRaw:"Captures",inboxEmpty:"Inbox is clear ✓",pin:"Pin",account:"Account",signIn:"Sign in",signUp:"Sign up",signOut:"Sign out",email:"Email",password:"Password",syncOff:"Cloud sync not set up — see FIREBASE_SETUP.md",syncHint:"Signing in loads your cloud copy onto this device.",synced:"Synced ✓",signedIn:"Welcome ✓",signedOut:"Signed out",checkEmail:"Check your email to confirm",syncStatus:"Status",cloudGuest:"Local (no account)",editTask:"Edit task",editProject:"Edit project",version:"Version",subtitle:"Subtitle",statusL:"Status",color:"Color",undo:"Undo",deleted:"Deleted",restored:"Restored",mood:"Mood",energy:"Energy",e_high:"High",e_mid:"Mid",e_low:"Low",daySummary:"Day summary",doneT:"Done",pastEntries:"Past entries",yesterday:"Yesterday",notifs:"Browser notifications",notifOnMsg:"Notifications on ✓",notifBlocked:"Browser blocked notifications",work:"Work",workSub:"All sites and repos you have worked on",addSite:"Add site",editSite:"Edit site",workEmpty:"No sites yet, add your first",siteName:"Site name",liveUrl:"Live URL",deployUrl:"Deploy URL",repoUrl:"Repo URL (GitHub)",firebaseUrl:"Firebase / Console URL",edit:"Edit",copy:"Copy",copied:"Copied",currentL:"Current lesson",totalL:"Total",details:"Details",openLink:"Open link",profileT:"Profile",you:"You",kBookmark:"Bookmark",kReference:"Reference",hoursT:"Hours"}
+  contextRecovered:"Context recovered",resumeYourWork:"Resume your work",sessionSummary:"Session summary",accomplishments:"What you did",continueLeft:"Continue where you left off",sessionNotes:"Open session notes",recentCommits:"Recent commits",recentDecisions:"Recent decisions",blockersT:"Blockers",relevantDocs:"Relevant docs",reconstructed:function(n){return "Reconstructed from "+n+" signals · updated just now"},todaysFocus:"Today's focus",aiSuggestions:"AI suggestions",estimate:"estimate",pHigh:"HIGH",pMed:"MED",pLow:"LOW",dueToday:"Today",dueTomorrow:"Tomorrow",due:"due",knowledge:"Knowledge",courses:"Courses",bookmarks:"Bookmarks",promptLib:"Prompt Library",servers:"Servers",repositories:"Repositories",timeline:"Timeline",aiAssistant:"AI Assistant",askContinuum:"Ask Continuum",askPh:"Ask about your work…",pinned:"Pinned",workspaceSec:"Workspace",systemSec:"System",logDecision:"Log decision",addCommit:"Add commit",addBlocker:"Add blocker",reason:"Reason",addBookmark:"Add bookmark",addCourse:"Add course",addPrompt:"Add prompt",addServer:"Add server",addRepo:"Add repository",url:"URL",provider:"Provider",items:"items",noItems:"Nothing here yet.",priority:"Priority",mobileView:"Mobile",desktopView:"Desktop",contextHealth:"Context Health",contextHealthSub:"How ready you are to jump back in",inFlow:"In flow",openTasks:"Open tasks",focusWk:"Focus/wk",learning:"Learning",sessionHeat:"Session heat",dayStreak:"day streak",select:"Select",selDone:"Done",byPrio:"Priority",byDue:"Due",byNew:"Newest",selected:"selected",complete:"Complete",delSelQ:"Delete selected tasks?",focusMode:"Focus mode",start:"Start",pause:"Pause",reset:"Reset",exit:"Exit",aiInsights:"AI insights",insTop:"Most active project",insBlk:"Open blockers",insFocus:"Focus this week",inboxT:"Inbox",inboxSub:"Context recovery, insights & reminders",contextRecovery:"Context recovery",reminders:"Reminders",inboxRaw:"Captures",inboxEmpty:"Inbox is clear ✓",pin:"Pin",account:"Account",signIn:"Sign in",signUp:"Sign up",signOut:"Sign out",email:"Email",password:"Password",syncOff:"Cloud sync not set up — see FIREBASE_SETUP.md",syncHint:"Signing in loads your cloud copy onto this device.",synced:"Synced ✓",signedIn:"Welcome ✓",signedOut:"Signed out",checkEmail:"Check your email to confirm",syncStatus:"Status",cloudGuest:"Local (no account)",editTask:"Edit task",editProject:"Edit project",version:"Version",subtitle:"Subtitle",statusL:"Status",color:"Color",undo:"Undo",deleted:"Deleted",restored:"Restored",mood:"Mood",energy:"Energy",e_high:"High",e_mid:"Mid",e_low:"Low",daySummary:"Day summary",doneT:"Done",pastEntries:"Past entries",yesterday:"Yesterday",notifs:"Browser notifications",notifOnMsg:"Notifications on ✓",notifBlocked:"Browser blocked notifications",work:"Work",workSub:"All sites and repos you have worked on",addSite:"Add site",editSite:"Edit site",workEmpty:"No sites yet, add your first",siteName:"Site name",liveUrl:"Live URL",deployUrl:"Deploy URL",repoUrl:"Repo URL (GitHub)",firebaseUrl:"Firebase / Console URL",edit:"Edit",copy:"Copy",copied:"Copied",currentL:"Current lesson",totalL:"Total",details:"Details",openLink:"Open link",results:"results",welcomeSub:"Get started. The app remembers everything for you.",welcomeTitle:"The app does the remembering for you",welcomeLine:"Capture your thoughts, do the work, and jump right back into context.",loop_capture:"Capture",loop_link:"Link",loop_work:"Work",loop_snapshot:"Snapshot",loop_resume:"Resume",captureL:"Capture",getStarted:"Get started",aiSettings:"AI",aiProviderNote:"Uses the Anthropic API. Your key is stored only in this browser and is never synced.",aiKey:"API key",aiModel:"Model",aiSaved:"Saved",aiCleared:"Cleared",aiEnabled:"AI enabled",aiThinking:"Thinking",aiOffHint:"Enable real AI in Profile settings for smarter answers.",aiErrHint:"Request failed — check your key and model.",profileT:"Profile",you:"You",kBookmark:"Bookmark",kReference:"Reference",hoursT:"Hours"}
 };
 
 /* ---------------- state ---------------- */
@@ -191,6 +191,7 @@ function vProfile(){
      '<div class="set-row"><span class="k">'+T("theme")+'</span><div class="seg"><button class="'+(S.theme==="dark"?"on":"")+'" data-a="theme" data-t="dark">'+T("dark")+'</button><button class="'+(S.theme==="light"?"on":"")+'" data-a="theme" data-t="light">'+T("light")+'</button></div></div>'+
      '<div class="set-row" style="border:none"><span class="k">'+T("mobileView")+' / '+T("desktopView")+'</span><div class="seg"><button class="'+(S.uiView==="mobile"?"on":"")+'" data-a="setView" data-vw="mobile">'+T("mobileView")+'</button><button class="'+(S.uiView==="desktop"?"on":"")+'" data-a="setView" data-vw="desktop">'+T("desktopView")+'</button></div></div><div class="set-row" style="border:none"><span class="k">'+T("notifs")+'</span><button class="link" data-a="toggleNotif">'+(S.notifOn?"🔔":"🔕")+'</button></div></div>';
   h+='<div class="eyebrow">☁ '+T("account")+'</div>'+accountCard();
+  h+='<div class="eyebrow">✦ '+T("aiSettings")+'</div>'+aiCard();
   h+='<button class="btn btn-ghost btn-block" data-a="export" style="margin-top:10px">'+T("exportD")+'</button>';
   h+='<button class="btn btn-ghost btn-block" data-a="clear" style="color:var(--danger);margin-top:8px">'+T("clearD")+'</button>';
   return h;
@@ -347,6 +348,54 @@ function accountCard(){
   var u=CxSync.user&&CxSync.user();
   if(u) return '<div class="card"><div class="set-row"><span class="k">'+esc(u.email||T("account"))+'</span><span class="ic-s">'+T("syncStatus")+': '+esc(CxSync.status())+'</span></div><button class="btn btn-ghost btn-block" data-a="signOut" style="margin-top:10px">'+T("signOut")+'</button></div>';
   return '<div class="card"><div class="field"><input id="authEmail" type="email" placeholder="'+T("email")+'" autocomplete="username"></div><div class="field"><input id="authPass" type="password" placeholder="'+T("password")+'" autocomplete="current-password"></div><div class="row" style="gap:8px"><button class="btn btn-primary" data-a="signIn" style="flex:1">'+T("signIn")+'</button><button class="btn btn-ghost" data-a="signUp" style="flex:1">'+T("signUp")+'</button></div><div class="ic-s" style="margin-top:10px">'+T("syncHint")+'</div></div>';
+}
+function aiConfigured(){return !!(S._aiKey&&window.fetch);}
+function aiSystem(){return "You are Continuum, a personal memory-OS assistant. You help the user recall and reason about THEIR OWN projects, tasks, notes, decisions and work context. Answer concisely and practically. Reply in the SAME language and dialect as the question (Egyptian Arabic if the question is Arabic, else English). Use ONLY the CONTEXT provided; if the answer is not in the context, say you do not have that info. Do not invent projects or facts.";}
+function aiContext(){
+  var L=[];
+  S.projects.slice().sort(function(a,b){return(b.lastWorkedAt||0)-(a.lastWorkedAt||0)}).slice(0,6).forEach(function(p){
+    var ss=(p.sessions||[]);var sx=ss[ss.length-1];
+    L.push("PROJECT: "+p.name+" ["+(p.status||"")+"]"+(p.nextAction?" | next: "+p.nextAction:"")+(sx&&sx.summary?" | last session: "+sx.summary:"")+((p.blockers&&p.blockers.length)?" | blockers: "+p.blockers.join("; "):""));
+  });
+  var tks=S.tasks.filter(function(t){return !t.done}).slice(0,12);
+  if(tks.length)L.push("OPEN TASKS: "+tks.map(function(t){return t.title+(t.due?" (due "+new Date(t.due).toISOString().slice(0,10)+")":"")}).join("; "));
+  var decs=S.decisions.slice(0,6);if(decs.length)L.push("DECISIONS: "+decs.map(function(d){return d.text}).join("; "));
+  var nts=S.notes.slice(0,8);if(nts.length)L.push("NOTES: "+nts.map(function(n){return n.title}).join("; "));
+  var sites=(S.sites||[]).slice(0,8);if(sites.length)L.push("SITES: "+sites.map(function(w){return w.name+(w.live?" ("+w.live+")":"")}).join("; "));
+  return L.join("\n")||"(no data yet)";
+}
+function aiChat(system,userText){
+  var key=S._aiKey,model=S._aiModel||"claude-3-5-sonnet-latest";
+  if(!key)return Promise.reject(new Error("no key"));
+  return fetch("https://api.anthropic.com/v1/messages",{
+    method:"POST",
+    headers:{"content-type":"application/json","x-api-key":key,"anthropic-version":"2023-06-01","anthropic-dangerous-direct-browser-access":"true"},
+    body:JSON.stringify({model:model,max_tokens:1024,system:system,messages:[{role:"user",content:userText}]})
+  }).then(function(r){return r.json();}).then(function(d){
+    if(d&&d.content&&d.content[0]&&d.content[0].text)return d.content[0].text;
+    if(d&&d.error)throw new Error(d.error.message||"AI error");
+    throw new Error("AI error");
+  });
+}
+function runAsk(q){
+  q=(q||"").trim();S._ask=q;S._aiErr="";
+  if(!q){render();return;}
+  if(aiConfigured()){
+    S._aiLoading=true;S._aiAnswer="";render();
+    aiChat(aiSystem(),"CONTEXT:\n"+aiContext()+"\n\nQUESTION: "+q).then(function(txt){
+      S._aiLoading=false;S._aiAnswer=txt;render();
+    }).catch(function(e){
+      S._aiLoading=false;S._aiErr=(e&&e.message)||"error";render();
+    });
+  }else{save();render();}
+}
+function aiCard(){
+  var on=!!S._aiKey;
+  return '<div class="card"><div class="ic-s" style="margin-bottom:10px">'+T("aiProviderNote")+'</div>'+
+    '<div class="field"><label>'+T("aiKey")+'</label><input id="aiKey" type="password" placeholder="sk-ant-..." value="'+(on?"••••••••••":"")+'" autocomplete="off"></div>'+
+    '<div class="field"><label>'+T("aiModel")+'</label><input id="aiModel" value="'+esc(S._aiModel||"claude-3-5-sonnet-latest")+'" autocomplete="off"></div>'+
+    '<div class="row" style="gap:8px"><button class="btn btn-primary" data-a="saveAiKey" style="flex:1">'+T("save")+'</button>'+(on?'<button class="btn btn-ghost" data-a="clearAiKey" style="color:var(--danger)">'+T("delete")+'</button>':'')+'</div>'+
+    (on?'<div class="ic-s" style="margin-top:8px;color:#3FBE86">'+T("aiEnabled")+'</div>':'')+'</div>';
 }
 function render(){
   normalizeView();
@@ -619,18 +668,28 @@ function todayKeyOf(d){return d.getFullYear()+"-"+(d.getMonth()+1)+"-"+d.getDate
 
 /* ---- Search ---- */
 function vSearch(){
-  var q=(S._q||"").trim().toLowerCase();
+  var raw=(S._q||"").trim(),q=raw.toLowerCase(),terms=q.split(/\s+/).filter(Boolean),filt=S._sfilter||"all";
   var h='<input class="search-in" id="searchInput" placeholder="'+T("searchPh")+'" value="'+esc(S._q||"")+'" autocomplete="off">';
-  if(!q)return h+'<div class="empty" style="padding:30px">'+svg(IC.search)+'<div style="margin-top:12px;color:var(--c-ink-300);font-size:14px">'+T("searchPh")+'</div></div>';
-  var res={projects:[],tasks:[],notes:[]};
-  S.projects.forEach(function(p){if((p.name+" "+(p.nextAction||"")).toLowerCase().indexOf(q)>=0)res.projects.push(p)});
-  S.tasks.forEach(function(t){if(t.title.toLowerCase().indexOf(q)>=0)res.tasks.push(t)});
-  S.notes.forEach(function(n){if((n.title+" "+n.body).toLowerCase().indexOf(q)>=0)res.notes.push(n)});
-  var total=res.projects.length+res.tasks.length+res.notes.length;
+  var types=[["all",T("allTasks")],["projects",T("projects")],["tasks",T("tasks")],["notes",T("notesT")],["bookmarks",T("bookmarks")],["courses",T("courses")],["prompts",T("promptLib")],["servers",T("servers")],["repos",T("repositories")],["sites",T("work")]];
+  h+='<div class="opts" style="margin-top:10px"><div class="seg" style="flex-wrap:wrap">'+types.map(function(t){return '<button class="'+(filt===t[0]?"on":"")+'" data-a="sfilter" data-f="'+t[0]+'">'+t[1]+'</button>'}).join("")+'</div></div>';
+  if(!terms.length)return h+'<div class="empty" style="padding:30px">'+svg(IC.search)+'<div style="margin-top:12px;color:var(--c-ink-300);font-size:14px">'+T("searchPh")+'</div></div>';
+  function match(text){text=(text||"").toLowerCase();return terms.every(function(t){return text.indexOf(t)>=0});}
+  function hl(str){var out=esc(str||"");terms.forEach(function(t){if(!t)return;var re=new RegExp("("+t.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+")","ig");out=out.replace(re,"<mark>$1</mark>");});return out;}
+  var groups=[];
+  function grp(key,label,items,rowFn){if((filt==="all"||filt===key)&&items.length){groups.push({label:label,count:items.length,html:items.map(rowFn).join("")});}}
+  grp("projects",T("projects"),S.projects.filter(function(p){return match(p.name+" "+(p.nextAction||"")+" "+(p.subtitle||"")+" "+(p.version||""))}),function(p){return '<div class="item tap" data-a="open" data-id="'+p.id+'"><div class="ico" style="color:'+(p.color||"var(--accent)")+'">◈</div><div class="body"><div class="t">'+hl(p.name)+'</div>'+(p.nextAction?'<div class="m">▸ '+esc(p.nextAction)+'</div>':'')+'</div>'+svg(IC.chev,"flip go")+'</div>';});
+  grp("tasks",T("tasks"),S.tasks.filter(function(t){return match(t.title)}),function(t){var p=project(t.projectId);return '<div class="item tap" data-a="editTask" data-id="'+t.id+'"><div class="ico">'+(t.done?"✓":"○")+'</div><div class="body"><div class="t">'+hl(t.title)+'</div>'+(p?'<div class="m">'+esc(p.name)+'</div>':'')+'</div></div>';});
+  grp("notes",T("notesT"),S.notes.filter(function(n){return match(n.title+" "+(n.body||""))}),function(n){var p=project(n.projectId);return '<div class="item tap" data-a="openNote" data-id="'+n.id+'"><div class="ico">📝</div><div class="body"><div class="t">'+hl(n.title)+'</div>'+(n.body?'<div class="m">'+esc(n.body.slice(0,80))+'</div>':'')+'</div></div>';});
+  grp("bookmarks",T("bookmarks"),S.bookmarks.filter(function(b){return match(b.title+" "+(b.url||"")+" "+(b.topic||""))}),function(b){return '<div class="item"><div class="ico">🔖</div><div class="body tap" data-a="openBk" data-id="'+b.id+'"><div class="t">'+hl(b.title)+'</div>'+(b.url?'<div class="m">'+esc(b.url)+'</div>':'')+'</div></div>';});
+  grp("courses",T("courses"),S.courses.filter(function(c){return match(c.title+" "+(c.provider||"")+" "+(c.details||""))}),function(c){return '<div class="item tap" data-a="openCourse" data-id="'+c.id+'"><div class="ico">🎓</div><div class="body"><div class="t">'+hl(c.title)+'</div>'+(c.provider?'<div class="m">'+esc(c.provider)+'</div>':'')+'</div></div>';});
+  grp("prompts",T("promptLib"),S.prompts.filter(function(p){return match(p.title+" "+(p.model||"")+" "+(p.body||""))}),function(p){return '<div class="item"><div class="ico">✦</div><div class="body"><div class="t">'+hl(p.title)+'</div>'+(p.body?'<div class="m">'+esc(p.body.slice(0,80))+'</div>':'')+'</div>'+copyBtn(p.body||"")+'</div>';});
+  grp("servers",T("servers"),S.servers.filter(function(v){return match(v.name+" "+(v.host||"")+" "+(v.notes||""))}),function(v){return '<div class="item"><div class="ico">🖥</div><div class="body"><div class="t">'+hl(v.name)+'</div>'+(v.host?'<div class="m">'+esc(v.host)+'</div>':'')+'</div>'+copyBtn(v.host||"")+'</div>';});
+  grp("repos",T("repositories"),S.repos.filter(function(r){return match(r.name+" "+(r.branch||"")+" "+(r.url||""))}),function(r){return '<div class="item"><div class="ico">⎇</div><div class="body"><div class="t">'+hl(r.name)+'</div>'+(r.url?'<div class="m">'+esc(r.url)+'</div>':'')+'</div>'+copyBtn(r.url||"")+'</div>';});
+  grp("sites",T("work"),(S.sites||[]).filter(function(w){return match(w.name+" "+(w.note||"")+" "+(w.live||"")+" "+(w.repo||"")+" "+(w.deploy||""))}),function(w){return '<div class="item tap" data-a="editItem" data-t="sites" data-id="'+w.id+'"><div class="ico">🌐</div><div class="body"><div class="t">'+hl(w.name)+'</div>'+((w.live||w.repo)?'<div class="m">'+esc(w.live||w.repo)+'</div>':'')+'</div></div>';});
+  var total=groups.reduce(function(a,g){return a+g.count},0);
   if(!total)return h+'<div class="empty" style="padding:30px">'+T("noResults")+'</div>';
-  if(res.projects.length){h+='<div class="sec-label">'+T("projects")+'</div>';res.projects.forEach(function(p){h+='<div class="item tap" data-a="open" data-id="'+p.id+'"><div class="ico">◈</div><div class="body"><div class="t">'+esc(p.name)+'</div></div>'+svg(IC.chev,"flip go")+'</div>'})}
-  if(res.tasks.length){h+='<div class="sec-label">'+T("tasks")+'</div>';res.tasks.forEach(function(t){var p=project(t.projectId);h+='<div class="item"><div class="ico">✓</div><div class="body"><div class="t">'+esc(t.title)+'</div>'+(p?'<div class="m">'+esc(p.name)+'</div>':'')+'</div></div>'})}
-  if(res.notes.length){h+='<div class="sec-label">'+T("notesT")+'</div>';res.notes.forEach(function(n){h+='<div class="item tap" data-a="openNote" data-id="'+n.id+'"><div class="ico">📝</div><div class="body"><div class="t">'+esc(n.title)+'</div></div></div>'})}
+  h+='<div class="ic-s" style="margin:10px 2px 2px">'+total+' '+T("results")+'</div>';
+  groups.forEach(function(g){h+='<div class="sec-label">'+g.label+' <span class="cnt">'+g.count+'</span></div>'+g.html;});
   return h;
 }
 
@@ -733,11 +792,28 @@ function heatBlock(){
   return '<div class="eyebrow between2"><span>◍ '+T("sessionHeat")+'</span><span class="streak">🔥 '+resumeStreak()+' '+T("dayStreak")+'</span></div>'+
     '<div class="card" style="padding:14px"><div class="heat">'+cells+'</div></div>';
 }
+function welcomePanel(){
+  var steps=[["capture","＋"],["link","⇄"],["work","▶"],["snapshot","⎙"],["resume","↺"]];
+  var loop='<div class="loopchips">'+steps.map(function(x,i){return '<span class="loopchip">'+x[1]+' '+T("loop_"+x[0])+'</span>'+(i<steps.length-1?'<span class="looparr">→</span>':'')}).join("")+'</div>';
+  return '<div class="welcome"><div class="wc-badge">◈ CONTINUUM</div>'+
+    '<div class="wc-title">'+T("welcomeTitle")+'</div>'+
+    '<div class="wc-sub">'+T("welcomeLine")+'</div>'+loop+
+    '<div class="wc-actions">'+
+      '<button class="btn btn-primary" data-a="newProject">'+T("startProject")+'</button>'+
+      '<button class="btn btn-ghost" data-a="capture">＋ '+T("captureL")+'</button>'+
+      '<button class="btn btn-ghost" data-a="go" data-v="work">🌐 '+T("addSite")+'</button>'+
+    '</div></div>';
+}
 function vHome(){
   var withSess=S.projects.filter(function(p){return p.sessions&&p.sessions.length}).sort(function(a,b){return(b.lastWorkedAt||0)-(a.lastWorkedAt||0)});
   if(!withSess.length){
-    return '<div class="greet">'+T(greetKey())+'</div><div class="sub">'+T("nothingSub")+'</div>'+
-      '<div class="resume"><div class="rhead"><span class="dia">◈</span><span class="nm">'+T("nothing")+'</span></div><button class="btn btn-primary btn-block" data-a="newProject" style="margin-top:12px">'+T("startProject")+'</button></div>';
+    var totalItems=S.projects.length+S.tasks.length+S.notes.length+(S.sites?S.sites.length:0)+S.bookmarks.length+S.courses.length;
+    var mn='<div class="greet">'+T(greetKey())+'</div><div class="sub">'+(totalItems?T("nothingSub"):T("welcomeSub"))+'</div>';
+    mn+=welcomePanel();
+    var focus0=S.tasks.filter(function(t){return !t.done}).sort(function(a,b){return((a.due||9e15)-(b.due||9e15))||(prioRank(b.priority)-prioRank(a.priority))});
+    if(focus0.length){mn+='<div class="eyebrow between2"><span>'+T("todaysFocus")+'</span><span class="cntlite">'+focus0.length+' '+T("items")+'</span></div>';
+      focus0.slice(0,6).forEach(function(t){var pr=project(t.projectId);mn+='<div class="item task"><button class="check '+(t.done?"on":"")+'" data-a="toggle" data-id="'+t.id+'">'+svg(IC.check)+'</button><div class="body"><div class="t">'+esc(t.title)+'</div><div class="m">'+(pr?esc(pr.name)+' · ':'')+(t.due?T("due")+' '+dueLabel(t.due):'')+'</div></div>'+prioPill(t.priority)+'</div>';});}
+    return mn;
   }
   var p=withSess[0],s=p.sessions[p.sessions.length-1];
   var commits=(p.commits||[]).slice(0,3),decs=S.decisions.filter(function(d){return d.projectId===p.id}).slice(0,3),blk=p.blockers||[],docs=S.notes.filter(function(n){return n.projectId===p.id}).slice(0,3);
@@ -857,7 +933,14 @@ function vAssistant(){
   h+='<div class="ins-row"><div class="ins"><div class="ins-k">'+T("insTop")+'</div><div class="ins-v">'+(_top?esc(_top.name):"—")+'</div></div>'+
      '<div class="ins"><div class="ins-k">'+T("insBlk")+'</div><div class="ins-v">'+_blk+'</div></div>'+
      '<div class="ins"><div class="ins-k">'+T("insFocus")+'</div><div class="ins-v">'+fmtEst(weekFocusMins())+'</div></div></div>';
-  if(q)h+='<div class="askans">'+answer(q)+'</div>';
+  if(aiConfigured()){
+    if(S._aiLoading)h+='<div class="askans ai-thinking">✦ '+T("aiThinking")+'<span class="dots"><i></i><i></i><i></i></span></div>';
+    else if(S._aiErr)h+='<div class="askans" style="color:var(--danger)">✦ '+esc(S._aiErr)+'<div class="ic-s" style="margin-top:6px;color:var(--c-ink-300)">'+T("aiErrHint")+'</div></div>';
+    else if(S._aiAnswer)h+='<div class="askans ai-ans">'+esc(S._aiAnswer).replace(/\n/g,"<br>")+'</div>';
+  }else{
+    if(q)h+='<div class="askans">'+answer(q)+'</div>';
+    h+='<div class="ic-s" style="margin-top:12px">✦ '+T("aiOffHint")+'</div>';
+  }
   return h;
 }
 function answer(q){
@@ -984,8 +1067,10 @@ document.addEventListener("click",function(e){
     case"doAddCommit":{var hh=val("cmHash"),mm=val("cmMsg");if(!mm)return;var p=project(S.activePid);p.commits=p.commits||[];p.commits.unshift({hash:hh||uid().slice(0,6),msg:mm,at:Date.now()});save();closeSheet();render();break;}
     case"logDecision":sheetForm(T("logDecision"),[["dcText",T("noteTitle"),""],["dcReason",T("reason"),""]],"doLogDecision");break;
     case"doLogDecision":{var tx=val("dcText");if(!tx)return;S.decisions.unshift({id:uid(),text:tx,reason:val("dcReason"),projectId:S.activePid,status:"decided",at:Date.now()});save();closeSheet();render();break;}
-    case"doAsk":{var e=document.getElementById("askInput");S._ask=e?e.value:"";save();render();setTimeout(function(){var x=document.getElementById("askInput");if(x)x.focus()},0);break;}
-    case"askChip":S._ask=el.getAttribute("data-q");save();render();break;
+    case"doAsk":{var e=document.getElementById("askInput");runAsk(e?e.value:"");setTimeout(function(){var x=document.getElementById("askInput");if(x)x.focus()},0);break;}
+    case"askChip":runAsk(el.getAttribute("data-q"));break;
+    case"saveAiKey":{var k=val("aiKey");if(k&&k.indexOf("•")<0)S._aiKey=k;var mdl=val("aiModel");if(mdl)S._aiModel=mdl;save();render();toast(T("aiSaved"));break;}
+    case"clearAiKey":{S._aiKey="";S._aiAnswer="";save();render();toast(T("aiCleared"));break;}
     case"capture":sheetCapture();break;
     case"menu":document.getElementById("drawerBack").classList.add("open");break;
     case"drawerGo":{var dv=el.getAttribute("data-v");nav(dv);break;}
@@ -1061,6 +1146,7 @@ document.addEventListener("click",function(e){
     case"setMood":{var tk=todayKey();S.journal[tk]=S.journal[tk]||{};S.journal[tk].mood=el.getAttribute("data-m");S.journal[tk].updatedAt=Date.now();save();render();break;}
     case"setEnergy":{var tk=todayKey();S.journal[tk]=S.journal[tk]||{};S.journal[tk].energy=el.getAttribute("data-e");S.journal[tk].updatedAt=Date.now();save();render();break;}
     case"tlfilter":S._tlf=el.getAttribute("data-f");render();break;
+    case"sfilter":{S._sfilter=el.getAttribute("data-f");renderMain();var ni=document.getElementById("searchInput");if(ni){ni.focus();var vp=ni.value.length;try{ni.setSelectionRange(vp,vp)}catch(_){}}break;}
     case"toggleNotif":{if(!window.Notification){toast("—");break;}if(S.notifOn){S.notifOn=false;save();render();break;}Notification.requestPermission().then(function(pm){S.notifOn=(pm==="granted");save();render();toast(S.notifOn?T("notifOnMsg"):T("notifBlocked"));});break;}
     case"lang":S.lang=el.getAttribute("data-l");save();render();break;
     case"theme":S.theme=el.getAttribute("data-t");document.querySelector('meta[name=theme-color]').setAttribute("content",S.theme==="dark"?"#0B0C0F":"#F4F5F8");save();render();break;
@@ -1120,5 +1206,6 @@ if(window.CxSync){
   });
   CxSync.init();
 }
+if("serviceWorker" in navigator){try{navigator.serviceWorker.register("sw.js").catch(function(){});}catch(e){}}
 try{ if(S.notifOn&&window.Notification&&Notification.permission==="granted"){ var _due=S.tasks.filter(function(t){return !t.done&&t.due&&startOfDay(t.due)<=startOfDay(Date.now())}).length; if(_due&&S._notifiedDay!==todayKey()){ S._notifiedDay=todayKey(); save(); new Notification("Continuum",{body:(S.lang==="ar"?(_due+" مهام مستحقّة النهاردة"):(_due+" tasks due today"))}); } } }catch(e){}
 })();
