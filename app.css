@@ -588,3 +588,21 @@
   .tl-day:first-child{margin-top:6px}
   .tl-ic{display:inline-block;width:18px;text-align:center;opacity:.85;margin-inline-end:2px}
   .tl .tldot{border:2px solid var(--ws);background:transparent}
+
+  /* ============ WORK / SITES TAB ============ */
+  .site-card{transition:border-color .2s var(--ease)}
+  @media(hover:hover){.site-card:hover{border-color:var(--ws-soft)}}
+  .linkchips{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+  .linkchip{display:inline-flex;align-items:center;gap:6px;padding:6px 11px;border-radius:9px;font-size:12.5px;font-weight:700;
+    color:var(--lc);text-decoration:none;border:1px solid color-mix(in srgb,var(--lc) 34%,transparent);
+    background:color-mix(in srgb,var(--lc) 10%,transparent);transition:.15s var(--ease)}
+  .linkchip:active{transform:scale(.94)}
+  @media(hover:hover){.linkchip:hover{background:color-mix(in srgb,var(--lc) 18%,transparent)}}
+  .linkchip .lc-ic{font-size:12px;line-height:1}
+  .site-card .delx{width:26px;height:26px}
+
+  /* ============ FIXES: chevron size, clickable rows ============ */
+  .go{width:20px;height:20px;flex-shrink:0}
+  .item > svg{width:20px;height:20px;flex-shrink:0}
+  .body.tap{cursor:pointer}
+  .body.tap:active{opacity:.7}

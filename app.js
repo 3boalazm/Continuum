@@ -25,7 +25,7 @@ var I18N={
   allTasks:"كل المهام",activeOnly:"المطلوب",relNow:"الآن",relMin:"د",relHour:"س",relYesterday:"أمس",relDay:"يوم",
   welcome:"أهلاً 👋",demoNote:"ده مشروع تجريبي — امسحه وابدأ بتاعك.",of:"من",
   quick:"سريع",advanced:"متقدّم",simpleTasks:"مهام بسيطة",fullSystem:"النظام الكامل",navigate:"تنقّل",searchLabel:"بحث",qToday:"النهاردة",qTasks:"المهام",quickAdd:"أضف مهمة سريعة…",modeHint:"بدّل الوضع من هنا",
-  contextRecovered:"تم استرجاع السياق",resumeYourWork:"استكمل شغلك",sessionSummary:"ملخّص الجلسة",accomplishments:"اللي اتعمل",continueLeft:"كمّل من حيث وقفت",sessionNotes:"ملاحظات الجلسة",recentCommits:"آخر Commits",recentDecisions:"آخر القرارات",blockersT:"العوائق",relevantDocs:"مستندات ذات صلة",reconstructed:function(n){return "اتجمّع من "+n+" إشارات · تحدّث الآن"},todaysFocus:"تركيز النهاردة",aiSuggestions:"اقتراحات الذكاء",estimate:"تقدير",pHigh:"عالي",pMed:"متوسط",pLow:"منخفض",dueToday:"النهاردة",dueTomorrow:"بكرة",due:"موعد",knowledge:"المعرفة",courses:"الكورسات",bookmarks:"العلامات",promptLib:"مكتبة البرومبت",servers:"السيرفرات",repositories:"المستودعات",timeline:"الخط الزمني",aiAssistant:"المساعد",askContinuum:"اسأل Continuum",askPh:"اسأل عن شغلك…",pinned:"مثبّت",workspaceSec:"مساحة العمل",systemSec:"النظام",logDecision:"سجّل قرار",addCommit:"أضف Commit",addBlocker:"أضف عائق",reason:"السبب",addBookmark:"أضف علامة",addCourse:"أضف كورس",addPrompt:"أضف برومبت",addServer:"أضف سيرفر",addRepo:"أضف مستودع",url:"الرابط",provider:"المصدر",items:"عناصر",noItems:"لسه فاضي.",priority:"الأولوية",mobileView:"موبايل",desktopView:"سطح المكتب",contextHealth:"صحّة السياق",contextHealthSub:"جاهزيتك ترجع لشغلك في ثانية",inFlow:"شغّال",openTasks:"مهام مفتوحة",focusWk:"تركيز/أسبوع",learning:"التعلّم",sessionHeat:"سخونة الجلسات",dayStreak:"يوم متتابع",select:"تحديد",selDone:"تم",byPrio:"الأولوية",byDue:"الموعد",byNew:"الأحدث",selected:"محدّد",complete:"إكمال",delSelQ:"تحذف المحدّد؟",focusMode:"وضع التركيز",start:"ابدأ",pause:"إيقاف",reset:"تصفير",exit:"خروج",aiInsights:"رؤى الذكاء",insTop:"أكتر مشروع نشط",insBlk:"عوائق مفتوحة",insFocus:"تركيز الأسبوع",inboxT:"الوارد",inboxSub:"استرجاع السياق ورؤى وتذكيرات",contextRecovery:"استرجاع السياق",reminders:"تذكيرات",inboxRaw:"ملتقَطات",inboxEmpty:"الوارد فاضي ✓",pin:"تثبيت",account:"الحساب",signIn:"دخول",signUp:"حساب جديد",signOut:"تسجيل خروج",email:"الإيميل",password:"كلمة السر",syncOff:"المزامنة السحابية مش مفعّلة — بص على FIREBASE_SETUP.md",syncHint:"الدخول بيحمّل نسختك السحابية على الجهاز ده.",synced:"اتزامن ✓",signedIn:"أهلاً بيك ✓",signedOut:"خرجت",checkEmail:"بص إيميلك لتأكيد الحساب",syncStatus:"الحالة",cloudGuest:"محلي (بدون حساب)",editTask:"تعديل المهمة",editProject:"تعديل المشروع",version:"الإصدار",subtitle:"الوصف",statusL:"الحالة",color:"اللون",undo:"تراجع",deleted:"اتحذف",restored:"رجع",mood:"المزاج",energy:"الطاقة",e_high:"عالية",e_mid:"وسط",e_low:"منخفضة",daySummary:"ملخّص اليوم",doneT:"اتعمل",pastEntries:"مدوّنات سابقة",yesterday:"إمبارح",notifs:"إشعارات المتصفّح",notifOnMsg:"الإشعارات مفعّلة ✓",notifBlocked:"المتصفّح رافض الإشعارات",profileT:"الملف",you:"أنت",kBookmark:"علامة",kReference:"مرجع",hoursT:"ساعات"},
+  contextRecovered:"تم استرجاع السياق",resumeYourWork:"استكمل شغلك",sessionSummary:"ملخّص الجلسة",accomplishments:"اللي اتعمل",continueLeft:"كمّل من حيث وقفت",sessionNotes:"ملاحظات الجلسة",recentCommits:"آخر Commits",recentDecisions:"آخر القرارات",blockersT:"العوائق",relevantDocs:"مستندات ذات صلة",reconstructed:function(n){return "اتجمّع من "+n+" إشارات · تحدّث الآن"},todaysFocus:"تركيز النهاردة",aiSuggestions:"اقتراحات الذكاء",estimate:"تقدير",pHigh:"عالي",pMed:"متوسط",pLow:"منخفض",dueToday:"النهاردة",dueTomorrow:"بكرة",due:"موعد",knowledge:"المعرفة",courses:"الكورسات",bookmarks:"العلامات",promptLib:"مكتبة البرومبت",servers:"السيرفرات",repositories:"المستودعات",timeline:"الخط الزمني",aiAssistant:"المساعد",askContinuum:"اسأل Continuum",askPh:"اسأل عن شغلك…",pinned:"مثبّت",workspaceSec:"مساحة العمل",systemSec:"النظام",logDecision:"سجّل قرار",addCommit:"أضف Commit",addBlocker:"أضف عائق",reason:"السبب",addBookmark:"أضف علامة",addCourse:"أضف كورس",addPrompt:"أضف برومبت",addServer:"أضف سيرفر",addRepo:"أضف مستودع",url:"الرابط",provider:"المصدر",items:"عناصر",noItems:"لسه فاضي.",priority:"الأولوية",mobileView:"موبايل",desktopView:"سطح المكتب",contextHealth:"صحّة السياق",contextHealthSub:"جاهزيتك ترجع لشغلك في ثانية",inFlow:"شغّال",openTasks:"مهام مفتوحة",focusWk:"تركيز/أسبوع",learning:"التعلّم",sessionHeat:"سخونة الجلسات",dayStreak:"يوم متتابع",select:"تحديد",selDone:"تم",byPrio:"الأولوية",byDue:"الموعد",byNew:"الأحدث",selected:"محدّد",complete:"إكمال",delSelQ:"تحذف المحدّد؟",focusMode:"وضع التركيز",start:"ابدأ",pause:"إيقاف",reset:"تصفير",exit:"خروج",aiInsights:"رؤى الذكاء",insTop:"أكتر مشروع نشط",insBlk:"عوائق مفتوحة",insFocus:"تركيز الأسبوع",inboxT:"الوارد",inboxSub:"استرجاع السياق ورؤى وتذكيرات",contextRecovery:"استرجاع السياق",reminders:"تذكيرات",inboxRaw:"ملتقَطات",inboxEmpty:"الوارد فاضي ✓",pin:"تثبيت",account:"الحساب",signIn:"دخول",signUp:"حساب جديد",signOut:"تسجيل خروج",email:"الإيميل",password:"كلمة السر",syncOff:"المزامنة السحابية مش مفعّلة — بص على FIREBASE_SETUP.md",syncHint:"الدخول بيحمّل نسختك السحابية على الجهاز ده.",synced:"اتزامن ✓",signedIn:"أهلاً بيك ✓",signedOut:"خرجت",checkEmail:"بص إيميلك لتأكيد الحساب",syncStatus:"الحالة",cloudGuest:"محلي (بدون حساب)",editTask:"تعديل المهمة",editProject:"تعديل المشروع",version:"الإصدار",subtitle:"الوصف",statusL:"الحالة",color:"اللون",undo:"تراجع",deleted:"اتحذف",restored:"رجع",mood:"المزاج",energy:"الطاقة",e_high:"عالية",e_mid:"وسط",e_low:"منخفضة",daySummary:"ملخّص اليوم",doneT:"اتعمل",pastEntries:"مدوّنات سابقة",yesterday:"إمبارح",notifs:"إشعارات المتصفّح",notifOnMsg:"الإشعارات مفعّلة ✓",notifBlocked:"المتصفّح رافض الإشعارات",work:"الشغل",workSub:"كل السايتس والريبوز اللي اشتغلت عليها",addSite:"ضيف سايت",editSite:"تعديل سايت",workEmpty:"لسه مفيش سايتس — ضيف أول واحد",siteName:"اسم السايت",liveUrl:"لينك مباشر (Live)",deployUrl:"لينك الديبلوي",repoUrl:"لينك الريبو (GitHub)",firebaseUrl:"لينك Firebase / Console",edit:"تعديل",copy:"نسخ",copied:"اتنسخ",currentL:"الدرس الحالي",totalL:"الإجمالي",details:"تفاصيل",openLink:"افتح اللينك",profileT:"الملف",you:"أنت",kBookmark:"علامة",kReference:"مرجع",hoursT:"ساعات"},
  en:{app:"Continuum",home:"Home",projects:"Projects",tasks:"Tasks",journal:"Journal",settings:"Settings",
   gMorning:"Good morning",gAfternoon:"Good afternoon",gEvening:"Good evening",
   inflight:function(n){return n+" project"+(n==1?"":"s")+" in flight"},
@@ -49,12 +49,12 @@ var I18N={
   allTasks:"All",activeOnly:"To do",relNow:"now",relMin:"m",relHour:"h",relYesterday:"yesterday",relDay:"d",
   welcome:"Welcome 👋",demoNote:"This is a demo project — delete it and start yours.",of:"of",
   quick:"Quick",advanced:"Advanced",simpleTasks:"Simple tasks",fullSystem:"Full system",navigate:"Navigate",searchLabel:"Search",qToday:"Today",qTasks:"Tasks",quickAdd:"Quick add a task…",modeHint:"Switch mode here",
-  contextRecovered:"Context recovered",resumeYourWork:"Resume your work",sessionSummary:"Session summary",accomplishments:"What you did",continueLeft:"Continue where you left off",sessionNotes:"Open session notes",recentCommits:"Recent commits",recentDecisions:"Recent decisions",blockersT:"Blockers",relevantDocs:"Relevant docs",reconstructed:function(n){return "Reconstructed from "+n+" signals · updated just now"},todaysFocus:"Today's focus",aiSuggestions:"AI suggestions",estimate:"estimate",pHigh:"HIGH",pMed:"MED",pLow:"LOW",dueToday:"Today",dueTomorrow:"Tomorrow",due:"due",knowledge:"Knowledge",courses:"Courses",bookmarks:"Bookmarks",promptLib:"Prompt Library",servers:"Servers",repositories:"Repositories",timeline:"Timeline",aiAssistant:"AI Assistant",askContinuum:"Ask Continuum",askPh:"Ask about your work…",pinned:"Pinned",workspaceSec:"Workspace",systemSec:"System",logDecision:"Log decision",addCommit:"Add commit",addBlocker:"Add blocker",reason:"Reason",addBookmark:"Add bookmark",addCourse:"Add course",addPrompt:"Add prompt",addServer:"Add server",addRepo:"Add repository",url:"URL",provider:"Provider",items:"items",noItems:"Nothing here yet.",priority:"Priority",mobileView:"Mobile",desktopView:"Desktop",contextHealth:"Context Health",contextHealthSub:"How ready you are to jump back in",inFlow:"In flow",openTasks:"Open tasks",focusWk:"Focus/wk",learning:"Learning",sessionHeat:"Session heat",dayStreak:"day streak",select:"Select",selDone:"Done",byPrio:"Priority",byDue:"Due",byNew:"Newest",selected:"selected",complete:"Complete",delSelQ:"Delete selected tasks?",focusMode:"Focus mode",start:"Start",pause:"Pause",reset:"Reset",exit:"Exit",aiInsights:"AI insights",insTop:"Most active project",insBlk:"Open blockers",insFocus:"Focus this week",inboxT:"Inbox",inboxSub:"Context recovery, insights & reminders",contextRecovery:"Context recovery",reminders:"Reminders",inboxRaw:"Captures",inboxEmpty:"Inbox is clear ✓",pin:"Pin",account:"Account",signIn:"Sign in",signUp:"Sign up",signOut:"Sign out",email:"Email",password:"Password",syncOff:"Cloud sync not set up — see FIREBASE_SETUP.md",syncHint:"Signing in loads your cloud copy onto this device.",synced:"Synced ✓",signedIn:"Welcome ✓",signedOut:"Signed out",checkEmail:"Check your email to confirm",syncStatus:"Status",cloudGuest:"Local (no account)",editTask:"Edit task",editProject:"Edit project",version:"Version",subtitle:"Subtitle",statusL:"Status",color:"Color",undo:"Undo",deleted:"Deleted",restored:"Restored",mood:"Mood",energy:"Energy",e_high:"High",e_mid:"Mid",e_low:"Low",daySummary:"Day summary",doneT:"Done",pastEntries:"Past entries",yesterday:"Yesterday",notifs:"Browser notifications",notifOnMsg:"Notifications on ✓",notifBlocked:"Browser blocked notifications",profileT:"Profile",you:"You",kBookmark:"Bookmark",kReference:"Reference",hoursT:"Hours"}
+  contextRecovered:"Context recovered",resumeYourWork:"Resume your work",sessionSummary:"Session summary",accomplishments:"What you did",continueLeft:"Continue where you left off",sessionNotes:"Open session notes",recentCommits:"Recent commits",recentDecisions:"Recent decisions",blockersT:"Blockers",relevantDocs:"Relevant docs",reconstructed:function(n){return "Reconstructed from "+n+" signals · updated just now"},todaysFocus:"Today's focus",aiSuggestions:"AI suggestions",estimate:"estimate",pHigh:"HIGH",pMed:"MED",pLow:"LOW",dueToday:"Today",dueTomorrow:"Tomorrow",due:"due",knowledge:"Knowledge",courses:"Courses",bookmarks:"Bookmarks",promptLib:"Prompt Library",servers:"Servers",repositories:"Repositories",timeline:"Timeline",aiAssistant:"AI Assistant",askContinuum:"Ask Continuum",askPh:"Ask about your work…",pinned:"Pinned",workspaceSec:"Workspace",systemSec:"System",logDecision:"Log decision",addCommit:"Add commit",addBlocker:"Add blocker",reason:"Reason",addBookmark:"Add bookmark",addCourse:"Add course",addPrompt:"Add prompt",addServer:"Add server",addRepo:"Add repository",url:"URL",provider:"Provider",items:"items",noItems:"Nothing here yet.",priority:"Priority",mobileView:"Mobile",desktopView:"Desktop",contextHealth:"Context Health",contextHealthSub:"How ready you are to jump back in",inFlow:"In flow",openTasks:"Open tasks",focusWk:"Focus/wk",learning:"Learning",sessionHeat:"Session heat",dayStreak:"day streak",select:"Select",selDone:"Done",byPrio:"Priority",byDue:"Due",byNew:"Newest",selected:"selected",complete:"Complete",delSelQ:"Delete selected tasks?",focusMode:"Focus mode",start:"Start",pause:"Pause",reset:"Reset",exit:"Exit",aiInsights:"AI insights",insTop:"Most active project",insBlk:"Open blockers",insFocus:"Focus this week",inboxT:"Inbox",inboxSub:"Context recovery, insights & reminders",contextRecovery:"Context recovery",reminders:"Reminders",inboxRaw:"Captures",inboxEmpty:"Inbox is clear ✓",pin:"Pin",account:"Account",signIn:"Sign in",signUp:"Sign up",signOut:"Sign out",email:"Email",password:"Password",syncOff:"Cloud sync not set up — see FIREBASE_SETUP.md",syncHint:"Signing in loads your cloud copy onto this device.",synced:"Synced ✓",signedIn:"Welcome ✓",signedOut:"Signed out",checkEmail:"Check your email to confirm",syncStatus:"Status",cloudGuest:"Local (no account)",editTask:"Edit task",editProject:"Edit project",version:"Version",subtitle:"Subtitle",statusL:"Status",color:"Color",undo:"Undo",deleted:"Deleted",restored:"Restored",mood:"Mood",energy:"Energy",e_high:"High",e_mid:"Mid",e_low:"Low",daySummary:"Day summary",doneT:"Done",pastEntries:"Past entries",yesterday:"Yesterday",notifs:"Browser notifications",notifOnMsg:"Notifications on ✓",notifBlocked:"Browser blocked notifications",work:"Work",workSub:"All sites and repos you have worked on",addSite:"Add site",editSite:"Edit site",workEmpty:"No sites yet, add your first",siteName:"Site name",liveUrl:"Live URL",deployUrl:"Deploy URL",repoUrl:"Repo URL (GitHub)",firebaseUrl:"Firebase / Console URL",edit:"Edit",copy:"Copy",copied:"Copied",currentL:"Current lesson",totalL:"Total",details:"Details",openLink:"Open link",profileT:"Profile",you:"You",kBookmark:"Bookmark",kReference:"Reference",hoursT:"Hours"}
 };
 
 /* ---------------- state ---------------- */
 var KEY="continuum:v1";
-var S=load();
+var S=load();S.sites=S.sites||[];S._deleted=S._deleted||{};
 if(!S.mode)S.mode="quick";
 ["projects","tasks","notes","bookmarks","courses","prompts","servers","repos","decisions"].forEach(function(k){if(!Array.isArray(S[k]))S[k]=[]});
 if(!S.journal)S.journal={};
@@ -66,52 +66,9 @@ function load(){
 function save(){try{S._localAt=Date.now();localStorage.setItem(KEY,JSON.stringify(S));}catch(e){} if(window.CxSync&&CxSync.loggedIn&&CxSync.loggedIn())CxSync.pushDebounced(cleanState);}
 function seed(){
   var lang=(navigator.language||"ar").indexOf("ar")===0?"ar":"en";
-  var now=Date.now(),min=60000,hr=3600000,day=86400000;
-  var atlas=uid(),lumen=uid(),orbit=uid(),cinder=uid();
   return {
-    lang:lang, theme:"dark", mode:"advanced", view:"home", activePid:null, back:"home",
-    projects:[
-      {id:atlas,name:"Atlas",icon:"◈",color:"#7B7BF0",pinned:true,version:"v0.4",subtitle:"Query planner rewrite",
-       status:"active",stage:"Query planner rewrite",nextAction:"Wire tracing spans through the aggregation worker",
-       repo:"atlas-core",lastWorkedAt:now-12*min,createdAt:now-20*day,
-       blockers:["Retry storm on Kafka consumer group"],
-       commits:[{hash:"a3f21c",msg:"wip: extract mergeShard()",at:now-38*min},
-                {hash:"9e02b1",msg:"test: replay fixture at 40k/s",at:now-2*hr},
-                {hash:"77c910",msg:"trace: add span around consumer poll",at:now-1*day}],
-       sessions:[{id:uid(),startedAt:now-40*min,endedAt:now-12*min,
-         summary:"You were debugging tail latency on the aggregation worker. Traced a lock contention on the merge buffer; wrote 3 notes and opened PR #482. Left off mid-refactor of mergeShard().",
-         accomplishments:["Reproduced the p99 spike locally with the 40k/s replay fixture","Isolated it to a mutex around the shard merge buffer","Drafted a lock-free ring buffer approach in scratch note"],
-         nextStep:"Wire tracing spans through the aggregation worker"}]},
-      {id:lumen,name:"Lumen",icon:"◈",color:"#3FBE86",pinned:true,status:"active",stage:"Overlays",
-       nextAction:"Draft motion spec for overlays",lastWorkedAt:now-1*day,createdAt:now-15*day,blockers:[],commits:[],
-       sessions:[{id:uid(),startedAt:now-1*day-hr,endedAt:now-1*day,summary:"Prototyped the overlay transition system.",accomplishments:["Spring curve feels right at 280ms"],nextStep:"Draft motion spec for overlays"}]},
-      {id:orbit,name:"Orbit",icon:"◈",color:"#E2A43A",pinned:true,status:"paused",stage:"Planning",
-       nextAction:"Define sync protocol",lastWorkedAt:now-3*day,createdAt:now-10*day,blockers:[],commits:[],sessions:[]},
-      {id:cinder,name:"Cinder",icon:"◈",color:"#F26761",pinned:false,status:"active",stage:"",
-       nextAction:"",lastWorkedAt:now-4*day,createdAt:now-30*day,blockers:[],commits:[],sessions:[]}
-    ],
-    decisions:[
-      {id:uid(),text:"Switch merge buffer to lock-free ring — pending benchmark",reason:"p99 dominated by mutex contention",projectId:atlas,status:"pending",at:now-2*hr},
-      {id:uid(),text:"Adopt OpenTelemetry over custom spans",reason:"standard tooling, less maintenance",projectId:atlas,status:"decided",at:now-1*day}
-    ],
-    tasks:[
-      {id:uid(),title:"Wire tracing spans through aggregation worker",projectId:atlas,done:false,isNext:true,priority:"high",due:startOfDay(now),estimate:80,createdAt:now,priority_n:1},
-      {id:uid(),title:"Benchmark lock-free ring buffer",projectId:atlas,done:false,isNext:false,priority:"high",due:startOfDay(now)+day,estimate:60,createdAt:now,priority_n:2},
-      {id:uid(),title:"Draft motion spec for overlays",projectId:lumen,done:false,isNext:false,priority:"med",due:startOfDay(now)+3*day,estimate:40,createdAt:now,priority_n:3}
-    ],
-    notes:[
-      {id:uid(),title:"Kafka retry semantics — internal RFC 042",body:"RFC 042 covers retry/backoff semantics for the Kafka consumer group.",projectId:atlas,createdAt:now-2*day,updatedAt:now-2*day},
-      {id:uid(),title:"ClickHouse merge tree tuning",body:"Merge tree settings for the aggregation store.",projectId:atlas,createdAt:now-3*day,updatedAt:now-3*day},
-      {id:uid(),title:"Lock-free ring buffer (Vyukov)",body:"Vyukov MPMC bounded queue notes.",projectId:atlas,createdAt:now-1*day,updatedAt:now-1*day},
-      {id:uid(),title:"Ring buffer sizing",body:"Vyukov MPMC sizing tradeoffs and cache-line padding.",projectId:atlas,createdAt:now-1*day,updatedAt:now-20*hr},
-      {id:uid(),title:"Backpressure via Vyukov queue",body:"Using a Vyukov MPMC queue for backpressure on the consumer.",projectId:atlas,createdAt:now-1*day,updatedAt:now-18*hr}
-    ],
-    bookmarks:[{id:uid(),title:"1024cores — Vyukov MPMC queue",url:"https://www.1024cores.net",kind:"link",topic:"concurrency",projectId:atlas,createdAt:now-5*day}],
-    courses:[{id:uid(),title:"Distributed Systems (MIT 6.824)",provider:"MIT",total:20,current:9,progress:45,createdAt:now-30*day}],
-    prompts:[{id:uid(),title:"Explain a stack trace",model:"Claude",category:"Coding",body:"Explain this stack trace step by step and suggest the root cause: {trace}",createdAt:now-10*day}],
-    servers:[{id:uid(),name:"prod-01",host:"10.0.0.4",ports:"22, 443, 9092",notes:"Kafka + ClickHouse. Deploy: make ship.",createdAt:now-40*day}],
-    repos:[{id:uid(),name:"atlas-core",branch:"feature/query-planner",url:"github.com/acme/atlas-core",projectId:atlas,createdAt:now-40*day}],
-    inbox:[], journal:{}
+    lang:lang, theme:"dark", mode:"advanced", uiView:"mobile", view:"home",
+    projects:[], tasks:[], notes:[], bookmarks:[], courses:[], prompts:[], servers:[], repos:[], sites:[], decisions:[], inbox:[], journal:{}, _deleted:{}
   };
 }
 function startOfDay(ts){var d=new Date(ts);d.setHours(0,0,0,0);return d.getTime()}
@@ -159,7 +116,8 @@ var IC={
  bell:'<path d="M18 8a6 6 0 1 0-12 0c0 7-3 8-3 8h18s-3-1-3-8"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/>',
  smartphone:'<rect x="7" y="2" width="10" height="20" rx="2.5"/><path d="M11 18h2"/>',
  monitor:'<rect x="2" y="3" width="20" height="13" rx="2"/><path d="M8 21h8M12 16v5"/>',
- user:'<circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6.5 8-6.5s8 2.5 8 6.5"/>'
+ user:'<circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6.5 8-6.5s8 2.5 8 6.5"/>',
+ globe:'<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 2.5 15 0 18M12 3c-2.5 2.5-2.5 15 0 18"/>'
 };
 function svg(p,cls){return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="'+(cls||"")+'">'+p+'</svg>'}
 var LOGO='<svg class="mk" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="13" stroke="var(--accent)" stroke-width="3" stroke-dasharray="58 20" stroke-linecap="round"/></svg>';
@@ -273,7 +231,7 @@ function mergeStates(local,remote){
   var out={},lNew=(local._localAt||0)>=(remote._localAt||0),tm={},mm,id,key;
   [local._deleted||local.deleted||{},remote.deleted||remote._deleted||{}].forEach(function(m){for(id in m){if(!tm[id]||m[id]>tm[id])tm[id]=m[id];}});
   ["lang","theme","mode"].forEach(function(p){var v=lNew?local[p]:remote[p];if(v==null)v=(local[p]!=null?local[p]:remote[p]);out[p]=v;});
-  ["projects","tasks","notes","bookmarks","courses","prompts","servers","repos","decisions","inbox"].forEach(function(c){out[c]=mergeColl(local[c],remote[c],tm);});
+  ["projects","tasks","notes","bookmarks","courses","prompts","servers","repos","sites","decisions","inbox"].forEach(function(c){out[c]=mergeColl(local[c],remote[c],tm);});
   out.journal={};var lj=local.journal||{},rj=remote.journal||{};for(key in lj)out.journal[key]=lj[key];for(key in rj){var rt=(rj[key]&&rj[key].updatedAt)||0,ltt=(lj[key]&&lj[key].updatedAt)||0;if(!out.journal[key]||rt>ltt)out.journal[key]=rj[key];}
   out._deleted=tm;out.deleted=tm;
   out._localAt=Math.max(local._localAt||0,remote._localAt||0);
@@ -290,6 +248,55 @@ function toastAction(msg,label,fn){
 function dueBucket(ts){if(!ts)return"none";var t=startOfDay(Date.now()),d=startOfDay(ts),day=86400000;return d===t?"today":d===t+day?"tomorrow":"none";}
 function inboxCount(){var due=S.tasks.filter(function(t){return !t.done&&t.due&&startOfDay(t.due)<=startOfDay(Date.now())}).length;return (S.inbox?S.inbox.length:0)+aiSuggestions().length+due;}
 function delBtn(type,id){return '<button class="delx" data-a="delItem" data-t="'+type+'" data-id="'+id+'" title="'+T("delete")+'">✕</button>';}
+function editBtn(type,id){return '<button class="delx" data-a="editItem" data-t="'+type+'" data-id="'+id+'" title="'+T("edit")+'">✎</button>';}
+function copyBtn(text){if(!text)return"";return '<button class="delx" data-a="copy" data-text="'+esc(text)+'" title="'+T("copy")+'">⧉</button>';}
+function fld(idv,label,v){return '<div class="field"><label>'+label+'</label><input id="'+idv+'" value="'+esc(v||"")+'"></div>';}
+function fldArea(idv,label,v){return '<div class="field"><label>'+label+'</label><textarea id="'+idv+'" style="width:100%;background:var(--bg-elevated);border:1px solid var(--border);border-radius:10px;padding:10px;color:var(--c-ink-900);outline:none;min-height:72px;resize:vertical;line-height:1.6;font-size:14px">'+esc(v||"")+'</textarea></div>';}
+function sheetCourse(id){
+  var c=S.courses.find(function(x){return x.id===id});if(!c)return;
+  var pct=c.total?Math.round((c.current||0)/c.total*100):(c.progress||0);
+  openSheet('<h3>'+esc(c.title)+'</h3>'+
+    (c.provider?'<div class="ic-s" style="margin:-4px 0 10px">'+esc(c.provider)+'</div>':'')+
+    '<div class="prog"><i style="width:'+pct+'%"></i></div><div class="ic-s" style="margin:6px 0 14px">'+pct+'% '+T("complete")+'</div>'+
+    fld("csTitle2",T("noteTitle"),c.title)+fld("csProv2",T("provider"),c.provider)+
+    fld("csCur",T("currentL"),c.current||0)+fld("csTot",T("totalL"),c.total||0)+
+    fldArea("csDet",T("details"),c.details)+fld("csUrl2",T("url"),c.url)+
+    '<div class="sheet-actions"><button class="btn btn-ghost" data-a="delItem" data-t="courses" data-id="'+id+'" style="flex:0;color:var(--danger)">'+T("delete")+'</button><button class="btn btn-primary" data-a="doCourse2" data-id="'+id+'">'+T("save")+'</button></div>');
+}
+function linkChip(type,url){if(!url)return"";var map={live:["Live","🌐","#3FBE86"],deploy:["Deploy","▲","#7B7BF0"],repo:["Repo","⎇","#E2A43A"],firebase:["Firebase","🔥","#F26761"]};var m=map[type]||["Link","↗","#8888aa"];var href=/^https?:\/\//.test(url)?url:("https://"+url);return '<a class="linkchip" href="'+esc(href)+'" target="_blank" rel="noopener" style="--lc:'+m[2]+'"><span class="lc-ic">'+m[1]+'</span>'+m[0]+'</a>';}
+function vWork(){
+  var h='<div class="greet">'+T("work")+'</div><div class="sub">'+T("workSub")+'</div>';
+  h+='<button class="btn btn-ghost btn-block" data-a="newSite" style="margin-bottom:12px">'+svg(IC.plus)+' '+T("addSite")+'</button>';
+  if(!S.sites||!S.sites.length)return h+empty(T("workEmpty"),"🌐");
+  S.sites.slice().sort(function(a,b){return (b.updatedAt||b.createdAt)-(a.updatedAt||a.createdAt)}).forEach(function(w){
+    h+='<div class="card site-card"><div class="row between"><div style="font-weight:700;color:var(--c-ink-900);font-size:15px">'+esc(w.name)+'</div><div class="row" style="gap:4px">'+editBtn("sites",w.id)+delBtn("sites",w.id)+'</div></div>'+
+      (w.note?'<div class="ic-s" style="margin-top:4px">'+esc(w.note)+'</div>':'')+
+      '<div class="linkchips">'+linkChip("live",w.live)+linkChip("deploy",w.deploy)+linkChip("repo",w.repo)+linkChip("firebase",w.firebase)+'</div></div>';
+  });
+  return h;
+}
+function sheetSite(id){
+  var w=id?(S.sites.find(function(x){return x.id===id})||{}):{};
+  openSheet('<h3>'+(id?T("editSite"):T("addSite"))+'</h3>'+
+    fld("stName",T("siteName"),w.name)+fld("stNote",T("subtitle"),w.note)+
+    fld("stLive",T("liveUrl"),w.live)+fld("stDeploy",T("deployUrl"),w.deploy)+
+    fld("stRepo",T("repoUrl"),w.repo)+fld("stFire",T("firebaseUrl"),w.firebase)+
+    '<div class="sheet-actions">'+(id?'<button class="btn btn-ghost" data-a="delItem" data-t="sites" data-id="'+id+'" style="flex:0;color:var(--danger)">'+T("delete")+'</button>':'')+'<button class="btn btn-primary" data-a="doSite" data-id="'+(id||"")+'">'+T("save")+'</button></div>');
+  setTimeout(function(){var e=document.getElementById("stName");if(e)e.focus()},250);
+}
+var EDIT_FIELDS={
+  bookmarks:[["title","noteTitle"],["url","url"]],
+  courses:[["title","noteTitle"],["provider","provider"],["total","estimate"]],
+  prompts:[["title","noteTitle"],["model","Model"],["body","Prompt"]],
+  servers:[["name","noteTitle"],["host","Host"],["ports","Ports"],["notes","noteBody"]],
+  repos:[["name","noteTitle"],["branch","Branch"],["url","url"]]
+};
+function sheetEditItem(type,id){
+  var it=(S[type]||[]).find(function(x){return x.id===id});if(!it)return;
+  var spec=EDIT_FIELDS[type]||[];
+  openSheet('<h3>'+T("edit")+'</h3>'+spec.map(function(f,i){var lbl=T(f[1])||f[1];return fld("ei_"+i,lbl,it[f[0]]==null?"":String(it[f[0]]));}).join("")+
+    '<div class="sheet-actions"><button class="btn btn-ghost" data-a="delItem" data-t="'+type+'" data-id="'+id+'" style="flex:0;color:var(--danger)">'+T("delete")+'</button><button class="btn btn-primary" data-a="doEditItem" data-t="'+type+'" data-id="'+id+'">'+T("save")+'</button></div>');
+}
 function sheetEditTask(id){
   var t=S.tasks.find(function(x){return x.id===id});if(!t)return;
   openSheet('<h3>'+T("editTask")+'</h3>'+
@@ -319,13 +326,13 @@ function cleanState(){var o={},k;for(k in S){if(!Object.prototype.hasOwnProperty
 function syncSig(st){
   function coll(a){return (a||[]).slice().sort(function(x,y){return (x.id<y.id?-1:x.id>y.id?1:0)}).map(function(i){return i.id+":"+itemTime(i)});}
   var o={l:st.lang,t:st.theme,m:st.mode,j:{},d:st.deleted||st._deleted||{}},jj=st.journal||{};
-  ["projects","tasks","notes","bookmarks","courses","prompts","servers","repos","decisions","inbox"].forEach(function(c){o[c]=coll(st[c]);});
+  ["projects","tasks","notes","bookmarks","courses","prompts","servers","repos","sites","decisions","inbox"].forEach(function(c){o[c]=coll(st[c]);});
   Object.keys(jj).sort().forEach(function(k){o.j[k]=(jj[k]&&jj[k].updatedAt)||1;});
   return JSON.stringify(o);
 }
 function applyState(merged,doPush){
   if(!merged)return;
-  ["lang","theme","mode","projects","tasks","notes","bookmarks","courses","prompts","servers","repos","decisions","inbox","journal"].forEach(function(k){if(merged[k]!==undefined)S[k]=merged[k];});
+  ["lang","theme","mode","projects","tasks","notes","bookmarks","courses","prompts","servers","repos","sites","decisions","inbox","journal"].forEach(function(k){if(merged[k]!==undefined)S[k]=merged[k];});
   S._deleted=merged._deleted||merged.deleted||{};S._localAt=merged._localAt||Date.now();
   if(!S.mode)S.mode="advanced";
   ["projects","tasks","notes","bookmarks","courses","prompts","servers","repos","decisions"].forEach(function(kk){if(!Array.isArray(S[kk]))S[kk]=[]});
@@ -368,6 +375,7 @@ function renderDrawer(){
     '</div>';
   if(adv){
     body+='<div class="dsec">'+T("workspaceSec")+'</div>'+link("home",IC.home,"home")+link("projects",IC.folder,"projects")+link("tasks",IC.check,"tasks")+link("journal",IC.cal,"journal")+link("timeline",IC.clock,"timeline");
+    body+='<div class="dsec">'+T("work")+'</div>'+link("work",IC.globe,"work");
     body+='<div class="dsec">'+T("knowledge")+'</div>'+link("knowledge",IC.book,"knowledge")+link("courses",IC.cap,"courses")+link("bookmarks",IC.mark,"bookmarks")+link("prompts",IC.spark,"promptLib");
     body+='<div class="dsec">'+T("systemSec")+'</div>'+link("servers",IC.server,"servers")+link("repos",IC.git,"repositories")+link("assistant",IC.spark,"aiAssistant")+link("inbox",IC.bell,"inboxT")+link("profile",IC.user,"profileT")+link("search",IC.search,"searchLabel")+link("settings",IC.settings,"settings");
     var pins=S.projects.filter(function(p){return p.pinned});
@@ -418,7 +426,7 @@ function renderNav(){
 function renderMain(){
   var m=document.getElementById("main");
   var v=S.view;
-  m.innerHTML=({qtoday:vQuickToday,qtasks:vQuickTasks,home:vHome,projects:vProjects,project:vProject,tasks:vTasks,journal:vJournal,search:vSearch,settings:vSettings,timeline:vTimeline,knowledge:vKnowledge,bookmarks:vBookmarks,courses:vCourses,prompts:vPrompts,servers:vServers,repos:vRepos,assistant:vAssistant,focus:vFocus,inbox:vInbox,profile:vProfile}[v]||vQuickToday)();
+  m.innerHTML=({qtoday:vQuickToday,qtasks:vQuickTasks,home:vHome,projects:vProjects,project:vProject,tasks:vTasks,journal:vJournal,search:vSearch,settings:vSettings,timeline:vTimeline,knowledge:vKnowledge,bookmarks:vBookmarks,courses:vCourses,prompts:vPrompts,servers:vServers,repos:vRepos,work:vWork,assistant:vAssistant,focus:vFocus,inbox:vInbox,profile:vProfile}[v]||vQuickToday)();
   m.scrollTop=0;
 }
 
@@ -806,7 +814,7 @@ function vBookmarks(){
     if(sel){var on=selIds.indexOf(b.id)>=0;
       h+='<div class="item '+(on?"selon":"")+'" data-a="pick" data-id="'+b.id+'"><button class="pickbox '+(on?"on":"")+'">'+(on?svg(IC.check):"")+'</button><div class="body"><div class="t">'+esc(b.title)+'</div><div class="m">'+esc(b.url||b.topic||"")+'</div></div></div>';
     }else{
-      h+='<div class="item"><div class="ico">🔖</div><div class="body"><div class="t">'+esc(b.title)+'</div><div class="m">'+esc(b.url||b.topic||"")+'</div></div></div>';
+      h+='<div class="item"><div class="ico">🔖</div><div class="body tap" data-a="openBk" data-id="'+b.id+'"><div class="t">'+esc(b.title)+'</div><div class="m">'+esc(b.url||b.topic||"")+'</div></div><div class="row" style="gap:4px">'+copyBtn(b.url||"")+editBtn("bookmarks",b.id)+delBtn("bookmarks",b.id)+'</div></div>';
     }
   });
   return h;
@@ -815,26 +823,26 @@ function vCourses(){
   var h='<div class="greet">'+T("courses")+'</div><div style="height:8px"></div><button class="btn btn-ghost btn-block" data-a="newCourse" style="margin-bottom:12px">'+svg(IC.plus)+' '+T("addCourse")+'</button>';
   if(!S.courses.length)return h+empty(T("noItems"),"🎓");
   S.courses.forEach(function(c){var pr=c.total?Math.round((c.current||0)/c.total*100):(c.progress||0);
-    h+='<div class="card"><div class="row between"><div style="font-weight:600;color:var(--c-ink-900)">'+esc(c.title)+'</div><div class="st">'+pr+'%</div>'+delBtn("courses",c.id)+'</div>'+(c.provider?'<div class="m" style="font-family:var(--mono);font-size:12px;color:var(--c-ink-500);margin-top:2px">'+esc(c.provider)+(c.total?' · '+(c.current||0)+'/'+c.total:'')+'</div>':'')+'<div class="prog"><i style="width:'+pr+'%"></i></div></div>'});
+    h+='<div class="card tap" data-a="openCourse" data-id="'+c.id+'"><div class="row between"><div style="font-weight:600;color:var(--c-ink-900)">'+esc(c.title)+'</div><div class="st">'+pr+'%</div>'+delBtn("courses",c.id)+'</div>'+(c.provider?'<div class="m" style="font-family:var(--mono);font-size:12px;color:var(--c-ink-500);margin-top:2px">'+esc(c.provider)+(c.total?' · '+(c.current||0)+'/'+c.total:'')+'</div>':'')+'<div class="prog"><i style="width:'+pr+'%"></i></div></div>'});
   return h;
 }
 function vPrompts(){
   var h='<div class="greet">'+T("promptLib")+'</div><div style="height:8px"></div><button class="btn btn-ghost btn-block" data-a="newPrompt" style="margin-bottom:12px">'+svg(IC.plus)+' '+T("addPrompt")+'</button>';
   if(!S.prompts.length)return h+empty(T("noItems"),"✦");
-  S.prompts.forEach(function(p){h+='<div class="card"><div class="row between"><div style="font-weight:600;color:var(--c-ink-900)">'+esc(p.title)+'</div><div class="st">'+esc(p.model||"")+'</div>'+delBtn("prompts",p.id)+'</div><div style="font-size:13px;color:var(--c-ink-500);margin-top:6px;font-family:var(--mono)">'+esc(p.body||"")+'</div></div>'});
+  S.prompts.forEach(function(p){h+='<div class="card"><div class="row between"><div style="font-weight:600;color:var(--c-ink-900)">'+esc(p.title)+'</div><div class="st">'+esc(p.model||"")+'</div>'+copyBtn(p.body||"")+editBtn("prompts",p.id)+delBtn("prompts",p.id)+'</div><div style="font-size:13px;color:var(--c-ink-500);margin-top:6px;font-family:var(--mono)">'+esc(p.body||"")+'</div></div>'});
   return h;
 }
 function vServers(){
   var h='<div class="greet">'+T("servers")+'</div><div style="height:8px"></div><button class="btn btn-ghost btn-block" data-a="newServer" style="margin-bottom:12px">'+svg(IC.plus)+' '+T("addServer")+'</button>';
   if(!S.servers.length)return h+empty(T("noItems"),"🖧");
-  S.servers.forEach(function(s){h+='<div class="card"><div class="row between"><div style="font-weight:600;color:var(--c-ink-900)">'+esc(s.name)+'</div>'+delBtn("servers",s.id)+'</div><div class="m" style="font-family:var(--mono);font-size:12px;color:var(--c-ink-500);margin-top:2px">'+esc(s.host||"")+(s.ports?' · '+esc(s.ports):'')+'</div>'+(s.notes?'<div style="font-size:13px;color:var(--c-ink-500);margin-top:6px">'+esc(s.notes)+'</div>':'')+'</div>'});
+  S.servers.forEach(function(s){h+='<div class="card"><div class="row between"><div style="font-weight:600;color:var(--c-ink-900)">'+esc(s.name)+'</div><div class="row" style="gap:4px">'+copyBtn(s.host||"")+editBtn("servers",s.id)+delBtn("servers",s.id)+'</div></div><div class="m" style="font-family:var(--mono);font-size:12px;color:var(--c-ink-500);margin-top:2px">'+esc(s.host||"")+(s.ports?' · '+esc(s.ports):'')+'</div>'+(s.notes?'<div style="font-size:13px;color:var(--c-ink-500);margin-top:6px">'+esc(s.notes)+'</div>':'')+'</div>'});
   return h;
 }
 function vRepos(){
   var h='<div class="greet">'+T("repositories")+'</div><div style="height:8px"></div><button class="btn btn-ghost btn-block" data-a="newRepo" style="margin-bottom:12px">'+svg(IC.plus)+' '+T("addRepo")+'</button>';
   if(!S.repos.length)return h+empty(T("noItems"),"⎇");
   S.repos.forEach(function(r){var pr=project(r.projectId),cms=pr?(pr.commits||[]):[];
-    h+='<div class="card"><div class="row between"><div style="font-weight:600;color:var(--c-ink-900)">'+esc(r.name)+'</div><div class="st mono2">'+esc(r.branch||"")+'</div>'+delBtn("repos",r.id)+'</div>'+(r.url?'<div class="m" style="font-family:var(--mono);font-size:12px;color:var(--c-ink-500);margin-top:2px">'+esc(r.url)+'</div>':'')+cms.slice(0,3).map(function(c){return '<div class="sig" style="margin-top:6px"><span class="mono2">'+esc(c.hash)+'</span><span class="sigt">'+esc(c.msg)+'</span><span class="sigw">'+rel(c.at)+'</span></div>'}).join("")+'</div>'});
+    h+='<div class="card"><div class="row between"><div style="font-weight:600;color:var(--c-ink-900)">'+esc(r.name)+'</div><div class="st mono2">'+esc(r.branch||"")+'</div><div class="row" style="gap:4px">'+copyBtn(r.url||"")+editBtn("repos",r.id)+delBtn("repos",r.id)+'</div></div>'+(r.url?'<div class="m" style="font-family:var(--mono);font-size:12px;color:var(--c-ink-500);margin-top:2px">'+esc(r.url)+'</div>':'')+cms.slice(0,3).map(function(c){return '<div class="sig" style="margin-top:6px"><span class="mono2">'+esc(c.hash)+'</span><span class="sigt">'+esc(c.msg)+'</span><span class="sigw">'+rel(c.at)+'</span></div>'}).join("")+'</div>'});
   return h;
 }
 function vAssistant(){
@@ -944,7 +952,7 @@ var TT=document.getElementById("toast"),ttimer;
 function toast(msg){TT.textContent=msg;TT.classList.add("show");clearTimeout(ttimer);ttimer=setTimeout(function(){TT.classList.remove("show")},1600)}
 
 /* ---------------- actions ---------------- */
-var FILE={home:"index.html",projects:"projects.html",project:"project.html",tasks:"tasks.html",journal:"journal.html",timeline:"timeline.html",knowledge:"knowledge.html",bookmarks:"bookmarks.html",courses:"courses.html",prompts:"prompts.html",servers:"servers.html",repos:"repos.html",assistant:"assistant.html",search:"search.html",settings:"settings.html",focus:"focus.html",inbox:"inbox.html",profile:"profile.html",qtoday:"index.html",qtasks:"tasks.html"};
+var FILE={home:"index.html",projects:"projects.html",project:"project.html",tasks:"tasks.html",journal:"journal.html",timeline:"timeline.html",knowledge:"knowledge.html",bookmarks:"bookmarks.html",courses:"courses.html",prompts:"prompts.html",servers:"servers.html",repos:"repos.html",work:"work.html",assistant:"assistant.html",search:"search.html",settings:"settings.html",focus:"focus.html",inbox:"inbox.html",profile:"profile.html",qtoday:"index.html",qtasks:"tasks.html"};
 function nav(view,id){var f=FILE[view]||"index.html";location.href=f+(view==="project"&&id?("?id="+encodeURIComponent(id)):"");}
 function go(view){nav(view)}
 function open(id){nav("project",id)}
@@ -1026,6 +1034,14 @@ document.addEventListener("click",function(e){
       S._sel=false;S._selIds=[];save();render();toastAction(T("deleted"),T("undo"),undoLast);}else{S._sel=false;save();render();}break;}
     case"bulkPin":{(S._selIds||[]).forEach(function(pid){var p=project(pid);if(p)p.pinned=!p.pinned});S._sel=false;S._selIds=[];save();render();break;}
     case"pfilter":S._pfilter=el.getAttribute("data-f");save();render();break;
+    case"newSite":sheetSite(null);break;
+    case"doSite":{var o={name:val("stName")||"—",note:val("stNote"),live:val("stLive"),deploy:val("stDeploy"),repo:val("stRepo"),firebase:val("stFire")};var w=id?S.sites.find(function(x){return x.id===id}):null;if(w){w.name=o.name;w.note=o.note;w.live=o.live;w.deploy=o.deploy;w.repo=o.repo;w.firebase=o.firebase;w.updatedAt=Date.now();}else{S.sites.unshift({id:uid(),name:o.name,note:o.note,live:o.live,deploy:o.deploy,repo:o.repo,firebase:o.firebase,createdAt:Date.now(),updatedAt:Date.now()});}save();closeSheet();render();break;}
+    case"editItem":{var ty=el.getAttribute("data-t");if(ty==="sites")sheetSite(id);else sheetEditItem(ty,id);break;}
+    case"doEditItem":{var ty=el.getAttribute("data-t");var it=(S[ty]||[]).find(function(x){return x.id===id});if(!it){closeSheet();break;}var spec=EDIT_FIELDS[ty]||[];spec.forEach(function(f,i){var v=val("ei_"+i);if(f[0]==="total")v=parseInt(v)||0;it[f[0]]=v;});it.updatedAt=Date.now();save();closeSheet();render();break;}
+    case"openCourse":sheetCourse(id);break;
+    case"doCourse2":{var c=S.courses.find(function(x){return x.id===id});if(!c){closeSheet();break;}c.title=val("csTitle2")||c.title;c.provider=val("csProv2");c.current=parseInt(val("csCur"))||0;c.total=parseInt(val("csTot"))||0;c.details=val("csDet");c.url=val("csUrl2");c.progress=c.total?Math.round(c.current/c.total*100):0;c.updatedAt=Date.now();save();closeSheet();render();break;}
+    case"openBk":{var bk=S.bookmarks.find(function(x){return x.id===id});if(bk&&bk.url){var u=/^https?:\/\//.test(bk.url)?bk.url:("https://"+bk.url);try{window.open(u,"_blank","noopener");}catch(e){}}break;}
+    case"copy":{var tx=el.getAttribute("data-text")||"";if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(tx).then(function(){toast(T("copied"))},function(){toast(T("copied"))});}else{try{var ta=document.createElement("textarea");ta.value=tx;document.body.appendChild(ta);ta.select();document.execCommand("copy");document.body.removeChild(ta);toast(T("copied"));}catch(e){}}break;}
     case"addNote":sheetNote(id,null);break;
     case"openNote":{var n=S.notes.find(function(x){return x.id===id});sheetNote(n.projectId,id);break;}
     case"doNote":{var pid=el.getAttribute("data-pid"),ti=document.getElementById("ntTitle").value.trim(),bo=document.getElementById("ntBody").value.trim();
@@ -1052,7 +1068,7 @@ document.addEventListener("click",function(e){
     case"signIn":{var em=val("authEmail"),pw=val("authPass");if(!em||!pw)return;CxSync.signIn(em,pw).then(function(r){toast(r&&r.error?(r.error.message||"error"):T("signedIn"))}).catch(function(){toast("error")});break;}
     case"signUp":{var em=val("authEmail"),pw=val("authPass");if(!em||!pw)return;CxSync.signUp(em,pw).then(function(r){toast(r&&r.error?(r.error.message||"error"):T("checkEmail"))}).catch(function(){toast("error")});break;}
     case"signOut":{CxSync.signOut().then(function(){toast(T("signedOut"));render();});break;}
-    case"clear":{if(confirm(T("clearQ"))){S=seed();save();location.href="index.html";}break;}
+    case"clear":{if(confirm(T("clearQ"))){var _del=S._deleted||{};["projects","tasks","notes","bookmarks","courses","prompts","servers","repos","sites","decisions","inbox"].forEach(function(c){(S[c]||[]).forEach(function(x){if(x&&x.id)_del[x.id]=Date.now();})});S=seed();S._deleted=_del;save();location.href="index.html";}break;}
   }
 });
 // status select change
