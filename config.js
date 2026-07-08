@@ -1,14 +1,22 @@
-/* Continuum cloud config — FIREBASE.
-   Paste your Firebase Web App config to enable accounts + sync.
-   Leave the fields EMPTY to run in local-only "guest" mode (no cloud).
-   Get it from: Firebase console > Project settings > Your apps > Web app > SDK setup > Config.
-   See FIREBASE_SETUP.md for the full setup. */
-window.CONTINUUM_CONFIG = {
-  firebase: {
-    apiKey: "",
-    authDomain: "",     // e.g. "your-app.firebaseapp.com"
-    projectId: "",      // e.g. "your-app"
-    appId: ""           // e.g. "1:123...:web:abc..."
-    // storageBucket / messagingSenderId are optional for auth+firestore
-  }
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyDeNZRKHNY7YQYnrLM_gag9Z8c86KKk3IU",
+  authDomain: "sakan-md.firebaseapp.com",
+  databaseURL: "https://sakan-md-default-rtdb.firebaseio.com",
+  projectId: "sakan-md",
+  storageBucket: "sakan-md.firebasestorage.app",
+  messagingSenderId: "546752458858",
+  appId: "1:546752458858:web:13f1532e3afcb99e305a13",
+  measurementId: "G-HG3Y3FLRQL"
 };
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
