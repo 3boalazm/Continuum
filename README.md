@@ -1,43 +1,27 @@
-# Continuum — App (daily-use build)
+# Continuum — Memory OS (multi-page build)
 
-تطبيق فعلي للاستخدام اليومي مبني على قلب Continuum: دورة **Capture → Work → Snapshot → Resume**.
-واجهة موبايل مألوفة (bottom tabs + زر التقاط + bottom sheets)، بيدعم **العربي / RTL** والإنجليزي،
-وبيحفظ كل بياناتك **محليًا على جهازك** (localStorage) — يشتغل أوفلاين ومن غير أي سيرفر.
+تطبيق ويب بدون build step. البيانات محفوظة محليًا (localStorage) على نفس الجهاز/المتصفح.
 
-A real daily-use app: familiar mobile UI, Arabic/RTL + English, all data stored locally on-device. No backend.
+## البنية (كل تابة = صفحة منفصلة)
+- `app.css` — كل الستايلات المشتركة (glass, ambient, animations…)
+- `app.js` — كل المنطق المشترك (state, i18n, render, actions, particles)
+- صفحات لكل تابة: `index.html` (الرئيسية) · `projects.html` · `project.html?id=…` · `tasks.html` · `journal.html` · `timeline.html` · `knowledge.html` · `bookmarks.html` · `courses.html` · `prompts.html` · `servers.html` · `repos.html` · `assistant.html` · `search.html` · `settings.html`
+- `fonts/` — خط Thmanyah Serif Display (5 أوزان)
 
+كل صفحة بتـ `window.__PAGE__` وبتحمّل `app.css` + `app.js`. التنقّل = روابط حقيقية بين الصفحات، والحالة بتفضل محفوظة في localStorage.
 
-## وضعان (تبدّل بينهم من الدرج الجانبي ☰)
-- **سريع** — شاشة واحدة بسيطة: كارت "استكمل" + إضافة مهمة سريعة + قائمة المهام. للاستخدام اليومي الخفيف.
-- **متقدّم** — النظام الكامل: مشاريع بلوحات، جلسات/لقطات، ملاحظات، يومية، بحث، إعدادات.
-افتح الدرج من زر ☰ (أو من شارة الوضع فوق) وبدّل بينهم في أي وقت. الاختيار بيتحفظ.
+## الوضعين
+- **سريع / متقدّم** (من السايدبار) — بيغيّروا التنقّل والمحتوى.
+- **Mobile / Desktop** (من السايدبار) — على الديسكتوب السايدبار بيتثبّت والهوم بيبقى عمودين.
 
-## اللي بيعمله
-- **الرئيسية**: كروت "استكمل من هنا" (Resume) لأحدث المشاريع + الوارد + الخطوات الجاية.
-- **المشاريع**: أنشئ مشروع، افتحه → حالة/تقدّم، الخطوة الجاية، مهام، ملاحظات، جلسات.
-- **Snapshot**: قبل ما تسيب المشروع، سجّل "عملت إيه / الخطوة الجاية" → يرجعلك السياق لما ترجع.
-- **المهام**: كل المهام أو المطلوب فقط، مع علامة "الخطوة الجاية".
-- **اليومية**: بتتكتب شبه أوتوماتيك من جلسات اليوم + ملاحظة يومية.
-- **بحث** في كل حاجة، **إعدادات** (لغة، مظهر، تصدير/مسح البيانات).
+## خيارات التحديد (Tasks)
+- فلترة (نشط/الكل) + ترتيب (أولوية/موعد/الأحدث).
+- **وضع تحديد** (زر Select) → checkboxes → إجراءات جماعية: إكمال / حذف.
 
-## Deploy to Vercel
+## التشغيل محليًا
+افتح `index.html` مباشرة في المتصفّح (كل الصفحات relative).
 
-**Drag & drop:** افتح https://vercel.com/new واسحب فولدر `continuum-app` → Deploy. (static، من غير build).
+## الديبلوي
+اسحب **الفولدر كامل** (بكل الملفات والخطوط) على `vercel.com/new` — لأن الصفحات بتشير لـ `app.css`/`app.js`/`fonts/` بمسارات relative، فلازم يتنشروا مع بعض.
 
-**CLI:**
-```bash
-npm i -g vercel
-cd continuum-app
-vercel --prod
-```
-Framework preset: **Other** — سيب build & output فاضيين.
-
-## Local
-```bash
-python3 -m http.server 8000   # http://localhost:8000
-```
-
-## ملاحظات
-- ملف واحد `index.html` (HTML+CSS+JS)، صفر dependencies (غير خطوط Google).
-- البيانات في `localStorage` تحت مفتاح `continuum:v1` — التصدير من الإعدادات بيعمل نسخة JSON.
-- لو عايز مزامنة بين أجهزة أو تشفير، دي طبقة تانية (شوف `20_Technical_Architecture` في الـ docs).
+> ملاحظة: الذكاء (Suggestions / Ask) heuristics محلية، مش موديل حقيقي. مفيش مزامنة بين الأجهزة (localStorage بس).
