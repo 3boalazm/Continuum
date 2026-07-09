@@ -1,6 +1,6 @@
 /* Continuum service worker — offline app shell + faster loads.
    Bump CACHE when assets change to invalidate old caches. */
-var CACHE = "continuum-v3";
+var CACHE = "continuum-v4";
 var ASSETS = [
   "./", "./index.html", "./projects.html", "./project.html", "./tasks.html",
   "./journal.html", "./timeline.html", "./knowledge.html", "./bookmarks.html",
@@ -9,6 +9,7 @@ var ASSETS = [
   "./inbox.html", "./profile.html", "./focus.html",
   "./app.css", "./app.js", "./config.js", "./sync.js", "./manifest.json",
   "./icon-192.png", "./icon-512.png", "./icon-512-maskable.png",
+  "./favicon.svg", "./favicon-32.png", "./favicon-48.png",
   "./fonts/thmanyahserifdisplay-Light.woff2",
   "./fonts/thmanyahserifdisplay-Regular.woff2",
   "./fonts/thmanyahserifdisplay-Medium.woff2",

@@ -634,3 +634,9 @@
   .ai-thinking .dots i:nth-child(2){animation-delay:.15s}
   .ai-thinking .dots i:nth-child(3){animation-delay:.3s}
   @keyframes aidot{0%,60%,100%{opacity:.25;transform:translateY(0)}30%{opacity:1;transform:translateY(-3px)}}
+
+  /* ============ FOCUS: pomodoro modes + phase ============ */
+  .focus-modes{display:inline-flex;gap:4px;padding:4px;border-radius:12px;background:rgba(255,255,255,.05);border:1px solid var(--border);margin-bottom:14px}
+  .focus-modes button{padding:7px 14px;border-radius:9px;font-size:13px;font-weight:600;color:var(--c-ink-500);transition:.15s}
+  .focus-modes button.on{background:var(--ws);color:#fff;box-shadow:0 4px 14px var(--ws-soft)}
+  .focus-phase{font-family:var(--mono);font-size:13px;color:var(--ws);letter-spacing:.05em;margin-top:6px;min-height:18px}
