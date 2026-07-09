@@ -1,6 +1,6 @@
 /* Continuum service worker — offline app shell + faster loads.
    Bump CACHE when assets change to invalidate old caches. */
-var CACHE = "continuum-v2";
+var CACHE = "continuum-v3";
 var ASSETS = [
   "./", "./index.html", "./projects.html", "./project.html", "./tasks.html",
   "./journal.html", "./timeline.html", "./knowledge.html", "./bookmarks.html",
@@ -19,10 +19,7 @@ var ASSETS = [
 self.addEventListener("install", function (e) {
   self.skipWaiting();
   e.waitUntil(caches.open(CACHE).then(function (c) {
-    // add individually so one 404 doesn't fail the whole install
-    return Promise.all(ASSETS.map(function (u) {
-      return c.add(u).catch(function () {});
-    }));
+    return Promise.all(ASSETS.map(function (u) { return c.add(u).catch(function () {}); }));
   }));
 });
 
@@ -32,26 +29,37 @@ self.addEventListener("activate", function (e) {
   }).then(function () { return self.clients.claim(); }));
 });
 
+// A redirected response can't be returned for a navigation (redirect mode != "follow").
+// Rebuild it into a plain Response so navigations never error.
+function unredirect(res) {
+  if (!res || !res.redirected) return Promise.resolve(res);
+  return res.blob().then(function (body) {
+    return new Response(body, { status: res.status, statusText: res.statusText, headers: res.headers });
+  });
+}
+
 self.addEventListener("fetch", function (e) {
   var req = e.request;
   if (req.method !== "GET") return;
   var url = new URL(req.url);
 
-  // Same-origin app assets -> cache-first, then network (and refresh cache)
+  // Same-origin app assets -> cache-first, then network (rebuilt if redirected)
   if (url.origin === location.origin) {
     e.respondWith(
       caches.match(req).then(function (cached) {
-        var net = fetch(req).then(function (res) {
-          if (res && res.status === 200 && res.type === "basic") {
-            var copy = res.clone();
-            caches.open(CACHE).then(function (c) { c.put(req, copy); });
-          }
-          return res;
-        }).catch(function () { return cached; });
-        return cached || net;
-      }).catch(function () {
-        // offline navigation fallback
-        if (req.mode === "navigate") return caches.match("./index.html");
+        if (cached) return cached;
+        return fetch(req).then(function (res) {
+          return unredirect(res).then(function (fixed) {
+            if (fixed && fixed.status === 200 && (fixed.type === "basic" || res.redirected)) {
+              try { var copy = fixed.clone(); caches.open(CACHE).then(function (c) { c.put(req, copy); }); } catch (x) {}
+            }
+            return fixed;
+          });
+        }).catch(function () {
+          return caches.match(req).then(function (c) {
+            return c || caches.match("./index.html");
+          });
+        });
       })
     );
     return;
@@ -62,8 +70,7 @@ self.addEventListener("fetch", function (e) {
     e.respondWith(
       caches.match(req).then(function (cached) {
         var net = fetch(req).then(function (res) {
-          var copy = res.clone();
-          caches.open(CACHE).then(function (c) { c.put(req, copy); });
+          try { var copy = res.clone(); caches.open(CACHE).then(function (c) { c.put(req, copy); }); } catch (x) {}
           return res;
         }).catch(function () { return cached; });
         return cached || net;
@@ -72,5 +79,5 @@ self.addEventListener("fetch", function (e) {
     return;
   }
 
-  // Everything else (Firestore data / Auth APIs) -> straight to network (never cache dynamic data)
+  // Everything else (Firestore data / Auth / Anthropic API) -> straight to network
 });
