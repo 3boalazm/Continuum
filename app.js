@@ -429,22 +429,23 @@ function aiCard(){
 function closeDrawerX(){var db=document.getElementById("drawerBack");if(!db)return;if(history.state&&history.state.drawer){try{history.back();return;}catch(e){}}db.classList.remove("open");}
 function syncStatusText(st){return st==="online"?T("syncOnline"):st==="syncing"?T("syncSyncing"):st==="error"?T("syncErrShort"):"—";}
 function captureSchemaText(){
-  return 'Return ONLY this JSON shape, no markdown fences, no commentary:\n'+
+  return 'رجّع الـ JSON بالشكل ده بالظبط، من غير أي markdown fences ومن غير أي شرح أو تعليق:\n'+
   '{"action":"create|update","matchProjectId":"id or null","matchedName":"name or null","matchConfidence":"exact|fuzzy|none",'+
   '"project":{"name":"","subtitle":"","status":"active|paused|done",'+
   '"phases":[{"name":"","status":"done|current|upcoming","percent":0}],'+
   '"percentComplete":0,"nextAction":"","blockers":[""],"ideas":[""],'+
   '"decisions":[{"text":"","reason":"","status":"decided|pending"}],'+
-  '"links":{"live":"","repo":"","deploy":"","firebase":""}}}';
+  '"links":{"live":"","repo":"","deploy":"","firebase":""}}}\n'+
+  '(أسماء الحقول وقيم enum زي create/update/done/current/upcoming/decided/pending لازم تفضل بالإنجليزي بالظبط زي ما هي فوق — دي مش نص، دي مفاتيح تقنية بيقرا بيها التطبيق.)';
 }
 function captureSystemPrompt(scopedId){
-  var base="You are the Project Intake Parser for Continuum, a personal memory-OS app. Convert the user free-form project description into STRICT JSON matching the schema below. Keep all text VALUES in the same language/dialect the user wrote them in, do not translate. Never invent facts not implied by the text; use empty arrays or strings when unknown.\n\n"+captureSchemaText();
+  var base="إنت \"Project Intake Parser\" لتطبيق Continuum، وهو تطبيق شخصي لإدارة الذاكرة والمشاريع (Memory OS). مهمتك تحوّل وصف المستخدم الحر عن مشروعه لـ JSON مطابق تمامًا للشكل تحت. خلّي كل القيم النصية بنفس اللغة أو اللهجة اللي كتب بيها المستخدم بالظبط، من غير ما تترجمها. متخترعش أي حقيقة مش مذكورة في النص؛ استخدم مصفوفات أو نصوص فاضية لو حاجة مش معروفة.\n\n"+captureSchemaText();
   if(scopedId){
     var sp=project(scopedId);
-    return base+"\n\nThis capture is SCOPED to an existing project: \""+(sp?sp.name:"")+"\" (id: "+scopedId+"). Always set action=update and matchProjectId=\""+scopedId+"\" and matchConfidence=exact regardless of the text.";
+    return base+"\n\nالالتقاط ده مخصّص لمشروع موجود بالفعل: \""+(sp?sp.name:"")+"\" (id: "+scopedId+"). خلّي دايمًا action=update و matchProjectId=\""+scopedId+"\" و matchConfidence=exact مهما كان النص اللي هيتكتب.";
   }
-  var list=S.projects.map(function(pp){return pp.id+": "+pp.name;}).join("\n")||"(no existing projects yet)";
-  return base+"\n\nEXISTING PROJECTS (id: name):\n"+list+"\n\nSet action=create if this clearly does not match any existing project; action=update with the correct matchProjectId if it does. Set matchConfidence honestly, exact only if certain.";
+  var list=S.projects.map(function(pp){return pp.id+": "+pp.name;}).join("\n")||"(مفيش مشاريع موجودة لحد دلوقتي)";
+  return base+"\n\nالمشاريع الموجودة حاليًا (id: الاسم):\n"+list+"\n\nحدّد action=create لو واضح إن ده مش مطابق لأي مشروع من الموجودين؛ وحدّد action=update مع الـ matchProjectId الصح لو فعلًا مطابق لمشروع موجود. حدّد matchConfidence بصدق — exact بس لو متأكد فعلًا، غير كده fuzzy أو none.";
 }
 function parseSnapshotJSON(raw){
   var t=(raw||"").trim().replace(/^```json/i,"").replace(/^```/,"").replace(/```\s*$/,"").trim();
