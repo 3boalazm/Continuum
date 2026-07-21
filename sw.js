@@ -1,8 +1,8 @@
 /* Continuum service worker — offline app shell + faster loads.
    Bump CACHE when assets change to invalidate old caches. */
-var CACHE = "continuum-v8";
+var CACHE = "continuum-v9";
 var ASSETS = [
-  "./", "./index.html", "./projects.html", "./project.html", "./tasks.html",
+  "./", "./index.html", "./projects.html", "./project.html", "./companies.html", "./company.html", "./tasks.html",
   "./journal.html", "./timeline.html", "./knowledge.html", "./bookmarks.html",
   "./courses.html", "./prompts.html", "./servers.html", "./repos.html",
   "./work.html", "./assistant.html", "./search.html", "./settings.html",
