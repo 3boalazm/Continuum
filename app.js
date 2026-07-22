@@ -1512,7 +1512,8 @@ function sheetImportSnapshot(scopedId){
     if(canAI){
       body+='<button class="btn btn-primary btn-block" data-a="doCaptureAI" data-id="'+idAttr+'" style="margin-top:10px">✦ '+T("generate")+'</button>';
     }else{
-      body+='<div class="ic-s" style="margin-top:10px">'+T("aiOffHint")+'</div>';
+      body+='<button class="btn btn-primary btn-block" data-a="go" data-v="profile" style="margin-top:10px">✦ '+T("aiSettings")+'</button>'+
+        '<div class="ic-s" style="margin-top:8px">'+T("aiOffHint")+'</div>';
     }
   }else{
     body+='<textarea id="capJson" class="cap-textarea mono" placeholder=\'{"action":"create",...}\'>'+esc(SH._capJson||"")+'</textarea>'+
@@ -2374,7 +2375,8 @@ function sheetCompanyIntake(scopedId){
     if(canAI){
       body+='<button class="btn btn-primary btn-block" data-a="doCoCapAI" data-id="'+idAttr+'" style="margin-top:10px">✦ '+T("generate")+'</button>';
     }else{
-      body+='<div class="ic-s" style="margin-top:10px">'+T("aiOffHint")+'</div>';
+      body+='<button class="btn btn-primary btn-block" data-a="go" data-v="profile" style="margin-top:10px">✦ '+T("aiSettings")+'</button>'+
+        '<div class="ic-s" style="margin-top:8px">'+T("aiOffHint")+'</div>';
     }
   }else{
     body+='<textarea id="coCapJson" class="cap-textarea mono" placeholder=\'{"action":"create",...}\'>'+esc(SH._coCapJson||"")+'</textarea>'+
