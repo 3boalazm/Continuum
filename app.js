@@ -25,7 +25,7 @@ var I18N={
   allTasks:"كل المهام",activeOnly:"المطلوب",relNow:"الآن",relMin:"د",relHour:"س",relYesterday:"أمس",relDay:"يوم",
   welcome:"أهلاً 👋",demoNote:"ده مشروع تجريبي — امسحه وابدأ بتاعك.",of:"من",
   quick:"سريع",advanced:"متقدّم",simpleTasks:"مهام بسيطة",fullSystem:"النظام الكامل",navigate:"تنقّل",searchLabel:"بحث",qToday:"النهاردة",qTasks:"المهام",quickAdd:"أضف مهمة سريعة…",modeHint:"بدّل الوضع من هنا",
-  contextRecovered:"تم استرجاع السياق",resumeYourWork:"استكمل شغلك",sessionSummary:"ملخّص الجلسة",accomplishments:"اللي اتعمل",continueLeft:"كمّل من حيث وقفت",sessionNotes:"ملاحظات الجلسة",recentCommits:"آخر Commits",recentDecisions:"آخر القرارات",blockersT:"العوائق",relevantDocs:"مستندات ذات صلة",reconstructed:function(n){return "اتجمّع من "+n+" إشارات · تحدّث الآن"},todaysFocus:"تركيز النهاردة",aiSuggestions:"اقتراحات الذكاء",estimate:"تقدير",pHigh:"عالي",pMed:"متوسط",pLow:"منخفض",dueToday:"النهاردة",dueTomorrow:"بكرة",due:"موعد",knowledge:"المعرفة",courses:"الكورسات",bookmarks:"العلامات",promptLib:"مكتبة البرومبت",servers:"السيرفرات",repositories:"المستودعات",timeline:"الخط الزمني",aiAssistant:"المساعد",askContinuum:"اسأل Continuum",askPh:"اسأل عن شغلك…",pinned:"مثبّت",workspaceSec:"مساحة العمل",systemSec:"النظام",logDecision:"سجّل قرار",addCommit:"أضف Commit",addBlocker:"أضف عائق",reason:"السبب",addBookmark:"أضف علامة",addCourse:"أضف كورس",addPrompt:"أضف برومبت",addServer:"أضف سيرفر",addRepo:"أضف مستودع",url:"الرابط",provider:"المصدر",items:"عناصر",noItems:"لسه فاضي.",priority:"الأولوية",mobileView:"موبايل",desktopView:"سطح المكتب",contextHealth:"صحّة السياق",contextHealthSub:"جاهزيتك ترجع لشغلك في ثانية",inFlow:"شغّال",openTasks:"مهام مفتوحة",focusWk:"تركيز/أسبوع",learning:"التعلّم",sessionHeat:"سخونة الجلسات",dayStreak:"يوم متتابع",select:"تحديد",selDone:"تم",byPrio:"الأولوية",byDue:"الموعد",byNew:"الأحدث",selected:"محدّد",complete:"إكمال",delSelQ:"تحذف المحدّد؟",focusMode:"وضع التركيز",start:"ابدأ",pause:"إيقاف",reset:"تصفير",exit:"خروج",aiInsights:"رؤى الذكاء",insTop:"أكتر مشروع نشط",insBlk:"عوائق مفتوحة",insFocus:"تركيز الأسبوع",inboxT:"الوارد",inboxSub:"استرجاع السياق ورؤى وتذكيرات",contextRecovery:"استرجاع السياق",reminders:"تذكيرات",inboxRaw:"ملتقَطات",inboxEmpty:"الوارد فاضي ✓",pin:"تثبيت",account:"الحساب",signIn:"دخول",signUp:"حساب جديد",signOut:"تسجيل خروج",email:"الإيميل",password:"كلمة السر",syncOff:"المزامنة السحابية مش مفعّلة — بص على FIREBASE_SETUP.md",syncHint:"الدخول بيحمّل نسختك السحابية على الجهاز ده.",synced:"اتزامن ✓",signedIn:"أهلاً بيك ✓",signedOut:"خرجت",checkEmail:"بص إيميلك لتأكيد الحساب",syncStatus:"الحالة",cloudGuest:"محلي (بدون حساب)",editTask:"تعديل المهمة",editProject:"تعديل المشروع",version:"الإصدار",subtitle:"الوصف",statusL:"الحالة",color:"اللون",undo:"تراجع",deleted:"اتحذف",restored:"رجع",mood:"المزاج",energy:"الطاقة",e_high:"عالية",e_mid:"وسط",e_low:"منخفضة",daySummary:"ملخّص اليوم",doneT:"اتعمل",pastEntries:"مدوّنات سابقة",yesterday:"إمبارح",notifs:"إشعارات المتصفّح",notifOnMsg:"الإشعارات مفعّلة ✓",notifBlocked:"المتصفّح رافض الإشعارات",work:"الشغل",workSub:"كل السايتس والريبوز اللي اشتغلت عليها",addSite:"ضيف سايت",editSite:"تعديل سايت",workEmpty:"لسه مفيش سايتس — ضيف أول واحد",siteName:"اسم السايت",liveUrl:"لينك مباشر (Live)",deployUrl:"لينك الديبلوي",repoUrl:"لينك الريبو (GitHub)",firebaseUrl:"لينك Firebase / Console",edit:"تعديل",copy:"نسخ",copied:"اتنسخ",currentL:"الدرس الحالي",totalL:"الإجمالي",details:"تفاصيل",openLink:"افتح اللينك",results:"نتيجة",welcomeSub:"خلّينا نبدأ — التطبيق هيفتكرلك كل حاجة.",welcomeTitle:"التطبيق بيفتكر، إنت مش لازم تفتكر",welcomeLine:"التقط أفكارك، اشتغل، والتطبيق يرجّعك لسياقك في ثانية.",loop_capture:"التقاط",loop_link:"ربط",loop_work:"شغل",loop_snapshot:"لقطة",loop_resume:"استئناف",captureL:"التقاط",getStarted:"يلا نبدأ",aiSettings:"الذكاء الاصطناعي",aiProviderNote:"اختر المزوّد (Anthropic أو Groq). مفتاحك بيتخزّن في المتصفّح بس ومابيتزامنش سحابيًا.",aiKey:"مفتاح الـ API",aiProvider:"المزوّد",close:"قفل",syncErr:"في مشكلة في المزامنة — هيحاول تاني",aiNetErr:"تعذّر الاتصال بالموديل (ممكن CORS أو النت). جرّب مزوّد تاني أو بعدين.",syncOnline:"متزامن ✓",syncSyncing:"بيزامن…",syncErrShort:"خطأ — هيعيد",importSnapshot:"استيراد سناپشوت",updateViaCapture:"تحديث بالالتقاط",describeAI:"اكتب بحرية",pasteJson:"الصق JSON",captureFreePh:"اكتب تفاصيل المشروع بحرية… الفيز الحالي، اللي خلصته بالمية، العوائق، اللينكات، أي أفكار",generate:"توليد",importNow:"استيراد",captureParseErr:"الرد مش JSON صالح — جرّب تاني",confirmMatch:"تأكيد المطابقة",looksLike:"شكله بيطابق",noGuess:"مش متأكد من التطابق — اختار يدوي",pickProject:"المشروع",newProjectOpt:"＋ مشروع جديد",confirmImport:"تأكيد",created:"اتعمل",updated:"اتحدّث",reorder:"ترتيب",reorderDone:"تم الترتيب",linkedBadge:"مرتبط",notesPage:"الملاحظات",installApp:"ثبّت التطبيق",installIosHint:"لتثبيت Continuum على الآيفون: دوس زر المشاركة في سفاري، وبعدين اختار \u00abإضافة إلى الشاشة الرئيسية\u00bb.",aiModel:"الموديل",aiSaved:"اتحفظ ✓",aiCleared:"اتمسح",aiEnabled:"الـ AI مفعّل ✓",aiThinking:"بيفكّر",aiOffHint:"فعّل الـ AI الحقيقي من الإعدادات (Profile) عشان إجابات أذكى.",aiErrHint:"في مشكلة في النداء — اتأكد من المفتاح والموديل.",timerMode:"مؤقّت",phWork:"شغل",phBreak:"راحة",calendar:"التقويم",addCal:"أضف للتقويم",profileT:"الملف",you:"أنت",kBookmark:"علامة",kReference:"مرجع",hoursT:"ساعات",companiesNav:"الشركات",companiesSub:"من أول تواصل لحد التسليم",newCompany:"شركة جديدة",companyName:"اسم الشركة",companiesEmpty:"لسه مفيش شركات — دوس + عشان تضيف أول واحدة",searchCoPh:"دوّر بالاسم، المجال، الدولة…",allLabel:"الكل",secOverview:"نظرة عامة",secIntel:"الاستكشاف",secAudit:"التدقيق",secDM:"أصحاب القرار",secOutreach:"التواصل",secProposal:"العرض",secDelivery:"التنفيذ",website:"الموقع",industry:"المجال",country:"الدولة",companySnapshot:"لمحة عن الشركة",productsServices:"المنتجات والخدمات",market:"السوق",competitors:"المنافسين",techStack:"التِك ستاك",researchSources:"مصادر البحث",masterAudit:"التدقيق الشامل",execSnapshot:"ملخص تنفيذي",topProblems:"أهم المشاكل",quickWins:"مكاسب سريعة",opportunities:"الفرص",roleFld:"الاسم / المنصب",linkedin:"لينكدإن",painPoints:"نقاط الألم",personalizedMsg:"رسالة مخصّصة",outreachStatus:"حالة التواصل",roleMarketing:"التسويق",roleSales:"المبيعات",roleProduct:"المنتج",roleTech:"التكنولوجيا",video:"فيديو",calls:"مكالمات",followUps:"متابعات",meetingNotes:"ملاحظات الاجتماع",scope:"نطاق العمل",pricing:"التسعير",propTimeline:"الجدول الزمني",deliverables:"المخرجات",proposalStatus:"حالة العرض",discovery:"الاكتشاف",brand:"الهوية البصرية",devPhase:"التطوير",launch:"الإطلاق",caseStudy:"دراسة حالة",csLead:"عميل محتمل",csResearch:"بحث",csAudit:"تدقيق",csOutreach:"تواصل",csMeeting:"اجتماع",csProposal:"عرض سعر",csWon:"اتكسبت",csLost:"اترفضت",csCompleted:"خلصت",pCritical:"حرج",osNotStarted:"لسه ما بدأناش",osContacted:"اتواصلنا",osReplied:"ردّ",osMeetingSet:"حددنا اجتماع",osNoResponse:"مفيش رد",prDraft:"مسوّدة",prSent:"اترسلت",prReview:"تحت المراجعة",prAccepted:"اتقبلت",prDeclined:"اترفضت"},
+  contextRecovered:"تم استرجاع السياق",resumeYourWork:"استكمل شغلك",sessionSummary:"ملخّص الجلسة",accomplishments:"اللي اتعمل",continueLeft:"كمّل من حيث وقفت",sessionNotes:"ملاحظات الجلسة",recentCommits:"آخر Commits",recentDecisions:"آخر القرارات",blockersT:"العوائق",relevantDocs:"مستندات ذات صلة",reconstructed:function(n){return "اتجمّع من "+n+" إشارات · تحدّث الآن"},todaysFocus:"تركيز النهاردة",aiSuggestions:"اقتراحات الذكاء",estimate:"تقدير",pHigh:"عالي",pMed:"متوسط",pLow:"منخفض",dueToday:"النهاردة",dueTomorrow:"بكرة",due:"موعد",knowledge:"المعرفة",courses:"الكورسات",bookmarks:"العلامات",promptLib:"مكتبة البرومبت",servers:"السيرفرات",repositories:"المستودعات",timeline:"الخط الزمني",aiAssistant:"المساعد",askContinuum:"اسأل Continuum",askPh:"اسأل عن شغلك…",pinned:"مثبّت",workspaceSec:"مساحة العمل",systemSec:"النظام",logDecision:"سجّل قرار",addCommit:"أضف Commit",addBlocker:"أضف عائق",reason:"السبب",addBookmark:"أضف علامة",addCourse:"أضف كورس",addPrompt:"أضف برومبت",addServer:"أضف سيرفر",addRepo:"أضف مستودع",url:"الرابط",provider:"المصدر",items:"عناصر",noItems:"لسه فاضي.",priority:"الأولوية",mobileView:"موبايل",desktopView:"سطح المكتب",contextHealth:"صحّة السياق",contextHealthSub:"جاهزيتك ترجع لشغلك في ثانية",inFlow:"شغّال",openTasks:"مهام مفتوحة",focusWk:"تركيز/أسبوع",learning:"التعلّم",sessionHeat:"سخونة الجلسات",dayStreak:"يوم متتابع",select:"تحديد",selDone:"تم",byPrio:"الأولوية",byDue:"الموعد",byNew:"الأحدث",selected:"محدّد",complete:"إكمال",delSelQ:"تحذف المحدّد؟",focusMode:"وضع التركيز",start:"ابدأ",pause:"إيقاف",reset:"تصفير",exit:"خروج",aiInsights:"رؤى الذكاء",insTop:"أكتر مشروع نشط",insBlk:"عوائق مفتوحة",insFocus:"تركيز الأسبوع",inboxT:"الوارد",inboxSub:"استرجاع السياق ورؤى وتذكيرات",contextRecovery:"استرجاع السياق",reminders:"تذكيرات",inboxRaw:"ملتقَطات",inboxEmpty:"الوارد فاضي ✓",pin:"تثبيت",account:"الحساب",signIn:"دخول",signUp:"حساب جديد",signOut:"تسجيل خروج",email:"الإيميل",password:"كلمة السر",syncOff:"المزامنة السحابية مش مفعّلة — بص على FIREBASE_SETUP.md",syncHint:"الدخول بيحمّل نسختك السحابية على الجهاز ده.",synced:"اتزامن ✓",signedIn:"أهلاً بيك ✓",signedOut:"خرجت",checkEmail:"بص إيميلك لتأكيد الحساب",syncStatus:"الحالة",cloudGuest:"محلي (بدون حساب)",editTask:"تعديل المهمة",editProject:"تعديل المشروع",version:"الإصدار",subtitle:"الوصف",statusL:"الحالة",color:"اللون",undo:"تراجع",deleted:"اتحذف",restored:"رجع",mood:"المزاج",energy:"الطاقة",e_high:"عالية",e_mid:"وسط",e_low:"منخفضة",daySummary:"ملخّص اليوم",doneT:"اتعمل",pastEntries:"مدوّنات سابقة",yesterday:"إمبارح",notifs:"إشعارات المتصفّح",notifOnMsg:"الإشعارات مفعّلة ✓",notifBlocked:"المتصفّح رافض الإشعارات",work:"الشغل",workSub:"كل السايتس والريبوز اللي اشتغلت عليها",addSite:"ضيف سايت",editSite:"تعديل سايت",workEmpty:"لسه مفيش سايتس — ضيف أول واحد",siteName:"اسم السايت",liveUrl:"لينك مباشر (Live)",deployUrl:"لينك الديبلوي",repoUrl:"لينك الريبو (GitHub)",firebaseUrl:"لينك Firebase / Console",edit:"تعديل",copy:"نسخ",copied:"اتنسخ",currentL:"الدرس الحالي",totalL:"الإجمالي",details:"تفاصيل",openLink:"افتح اللينك",results:"نتيجة",welcomeSub:"خلّينا نبدأ — التطبيق هيفتكرلك كل حاجة.",welcomeTitle:"التطبيق بيفتكر، إنت مش لازم تفتكر",welcomeLine:"التقط أفكارك، اشتغل، والتطبيق يرجّعك لسياقك في ثانية.",loop_capture:"التقاط",loop_link:"ربط",loop_work:"شغل",loop_snapshot:"لقطة",loop_resume:"استئناف",captureL:"التقاط",getStarted:"يلا نبدأ",aiSettings:"الذكاء الاصطناعي",aiProviderNote:"اختر المزوّد (Anthropic أو Groq). مفتاحك بيتخزّن في المتصفّح بس ومابيتزامنش سحابيًا.",aiKey:"مفتاح الـ API",aiProvider:"المزوّد",close:"قفل",syncErr:"في مشكلة في المزامنة — هيحاول تاني",aiNetErr:"تعذّر الاتصال بالموديل (ممكن CORS أو النت). جرّب مزوّد تاني أو بعدين.",syncOnline:"متزامن ✓",syncSyncing:"بيزامن…",syncErrShort:"خطأ — هيعيد",importSnapshot:"استيراد سناپشوت",updateViaCapture:"تحديث بالالتقاط",describeAI:"اكتب بحرية",pasteJson:"الصق JSON",captureFreePh:"اكتب تفاصيل المشروع بحرية… الفيز الحالي، اللي خلصته بالمية، العوائق، اللينكات، أي أفكار",generate:"توليد",importNow:"استيراد",captureParseErr:"الرد مش JSON صالح — جرّب تاني",confirmMatch:"تأكيد المطابقة",looksLike:"شكله بيطابق",noGuess:"مش متأكد من التطابق — اختار يدوي",pickProject:"المشروع",newProjectOpt:"＋ مشروع جديد",confirmImport:"تأكيد",created:"اتعمل",updated:"اتحدّث",reorder:"ترتيب",reorderDone:"تم الترتيب",linkedBadge:"مرتبط",notesPage:"الملاحظات",installApp:"ثبّت التطبيق",installIosHint:"لتثبيت Continuum على الآيفون: دوس زر المشاركة في سفاري، وبعدين اختار \u00abإضافة إلى الشاشة الرئيسية\u00bb.",aiModel:"الموديل",aiSaved:"اتحفظ ✓",aiCleared:"اتمسح",aiEnabled:"الـ AI مفعّل ✓",aiThinking:"بيفكّر",aiOffHint:"فعّل الـ AI الحقيقي من الإعدادات (Profile) عشان إجابات أذكى.",aiErrHint:"في مشكلة في النداء — اتأكد من المفتاح والموديل.",timerMode:"مؤقّت",phWork:"شغل",phBreak:"راحة",calendar:"التقويم",addCal:"أضف للتقويم",profileT:"الملف",you:"أنت",kBookmark:"علامة",kReference:"مرجع",hoursT:"ساعات",companiesNav:"الشركات",companiesSub:"من أول تواصل لحد التسليم",newCompany:"شركة جديدة",companyName:"اسم الشركة",companiesEmpty:"لسه مفيش شركات — دوس + عشان تضيف أول واحدة",searchCoPh:"دوّر بالاسم، المجال، الدولة…",allLabel:"الكل",secOverview:"نظرة عامة",secIntel:"الاستكشاف",secAudit:"التدقيق",secDM:"أصحاب القرار",secOutreach:"التواصل",secProposal:"العرض",secDelivery:"التنفيذ",website:"الموقع",industry:"المجال",country:"الدولة",companySnapshot:"لمحة عن الشركة",productsServices:"المنتجات والخدمات",market:"السوق",competitors:"المنافسين",techStack:"التِك ستاك",researchSources:"مصادر البحث",masterAudit:"التدقيق الشامل",execSnapshot:"ملخص تنفيذي",topProblems:"أهم المشاكل",quickWins:"مكاسب سريعة",opportunities:"الفرص",roleFld:"الاسم / المنصب",linkedin:"لينكدإن",painPoints:"نقاط الألم",personalizedMsg:"رسالة مخصّصة",outreachStatus:"حالة التواصل",roleMarketing:"التسويق",roleSales:"المبيعات",roleProduct:"المنتج",roleTech:"التكنولوجيا",video:"فيديو",calls:"مكالمات",followUps:"متابعات",meetingNotes:"ملاحظات الاجتماع",scope:"نطاق العمل",pricing:"التسعير",propTimeline:"الجدول الزمني",deliverables:"المخرجات",proposalStatus:"حالة العرض",discovery:"الاكتشاف",brand:"الهوية البصرية",devPhase:"التطوير",launch:"الإطلاق",caseStudy:"دراسة حالة",csLead:"عميل محتمل",csResearch:"بحث",csAudit:"تدقيق",csOutreach:"تواصل",csMeeting:"اجتماع",csProposal:"عرض سعر",csWon:"اتكسبت",csLost:"اترفضت",csCompleted:"خلصت",pCritical:"حرج",osNotStarted:"لسه ما بدأناش",osContacted:"اتواصلنا",osReplied:"ردّ",osMeetingSet:"حددنا اجتماع",osNoResponse:"مفيش رد",prDraft:"مسوّدة",prSent:"اترسلت",prReview:"تحت المراجعة",prAccepted:"اتقبلت",prDeclined:"اترفضت",commercialReadiness:"جاهزية الشراء",decisionComplexity:"تعقيد القرار",outreachProbability:"احتمالية نجاح التواصل",secSignals:"إشارات الشراء",signalLabel:"الإشارة",ratingLbl:"التقييم",researchCompany:"شركة بالبحث",startResearch:"ابدأ البحث",researching:"بيدوّر على المعلومات…",secResearch:"بحث حي",reRunResearch:"أعد البحث",researchNeedsAnthropic:"البحث الحي محتاج Anthropic كمزوّد — غيّره من الإعدادات",researchEmpty:"لسه مفيش بحث — دوس \"أعد البحث\"",secIntelDb:"قاعدة معرفة الشركة",rawResearch:"البحث الخام",structuring:"بينظّم البيانات…",intelDbEmpty:"لسه مفيش قاعدة بيانات — البحث هيبنيها تلقائي",secStrategicAudit:"التدقيق الاستراتيجي",runStrategicAudit:"شغّل التدقيق الاستراتيجي",reRunStrategicAudit:"أعد التدقيق",analyzingStrategy:"بيحلّل الاستراتيجية…",strategicAuditGate:"شغّل الـ Research الأول عشان تبقى فيه قاعدة بيانات نحللها",strategicAuditEmpty:"لسه مفيش تدقيق استراتيجي — دوس تشغيل",secCommercialStrategy:"استراتيجية تجارية",runCommercialStrategy:"شغّل الاستراتيجية التجارية",reRunCommercialStrategy:"أعد التوليد",buildingStrategy:"بيبني الاستراتيجية…",commercialStrategyGate:"شغّل التدقيق الاستراتيجي الأول",commercialStrategyEmpty:"لسه مفيش استراتيجية تجارية — دوس تشغيل",secEngagement:"باقة التعامل مع العميل",runEngagement:"جهّز الباقة",reRunEngagement:"أعد التجهيز",buildingEngagement:"بيجهّز الباقة…",engagementGate:"شغّل الاستراتيجية التجارية الأول",engagementEmpty:"لسه مفيش باقة — دوس تشغيل"},
  en:{app:"Continuum",home:"Home",projects:"Projects",tasks:"Tasks",journal:"Journal",settings:"Settings",
   gMorning:"Good morning",gAfternoon:"Good afternoon",gEvening:"Good evening",
   inflight:function(n){return n+" project"+(n==1?"":"s")+" in flight"},
@@ -49,7 +49,7 @@ var I18N={
   allTasks:"All",activeOnly:"To do",relNow:"now",relMin:"m",relHour:"h",relYesterday:"yesterday",relDay:"d",
   welcome:"Welcome 👋",demoNote:"This is a demo project — delete it and start yours.",of:"of",
   quick:"Quick",advanced:"Advanced",simpleTasks:"Simple tasks",fullSystem:"Full system",navigate:"Navigate",searchLabel:"Search",qToday:"Today",qTasks:"Tasks",quickAdd:"Quick add a task…",modeHint:"Switch mode here",
-  contextRecovered:"Context recovered",resumeYourWork:"Resume your work",sessionSummary:"Session summary",accomplishments:"What you did",continueLeft:"Continue where you left off",sessionNotes:"Open session notes",recentCommits:"Recent commits",recentDecisions:"Recent decisions",blockersT:"Blockers",relevantDocs:"Relevant docs",reconstructed:function(n){return "Reconstructed from "+n+" signals · updated just now"},todaysFocus:"Today's focus",aiSuggestions:"AI suggestions",estimate:"estimate",pHigh:"HIGH",pMed:"MED",pLow:"LOW",dueToday:"Today",dueTomorrow:"Tomorrow",due:"due",knowledge:"Knowledge",courses:"Courses",bookmarks:"Bookmarks",promptLib:"Prompt Library",servers:"Servers",repositories:"Repositories",timeline:"Timeline",aiAssistant:"AI Assistant",askContinuum:"Ask Continuum",askPh:"Ask about your work…",pinned:"Pinned",workspaceSec:"Workspace",systemSec:"System",logDecision:"Log decision",addCommit:"Add commit",addBlocker:"Add blocker",reason:"Reason",addBookmark:"Add bookmark",addCourse:"Add course",addPrompt:"Add prompt",addServer:"Add server",addRepo:"Add repository",url:"URL",provider:"Provider",items:"items",noItems:"Nothing here yet.",priority:"Priority",mobileView:"Mobile",desktopView:"Desktop",contextHealth:"Context Health",contextHealthSub:"How ready you are to jump back in",inFlow:"In flow",openTasks:"Open tasks",focusWk:"Focus/wk",learning:"Learning",sessionHeat:"Session heat",dayStreak:"day streak",select:"Select",selDone:"Done",byPrio:"Priority",byDue:"Due",byNew:"Newest",selected:"selected",complete:"Complete",delSelQ:"Delete selected tasks?",focusMode:"Focus mode",start:"Start",pause:"Pause",reset:"Reset",exit:"Exit",aiInsights:"AI insights",insTop:"Most active project",insBlk:"Open blockers",insFocus:"Focus this week",inboxT:"Inbox",inboxSub:"Context recovery, insights & reminders",contextRecovery:"Context recovery",reminders:"Reminders",inboxRaw:"Captures",inboxEmpty:"Inbox is clear ✓",pin:"Pin",account:"Account",signIn:"Sign in",signUp:"Sign up",signOut:"Sign out",email:"Email",password:"Password",syncOff:"Cloud sync not set up — see FIREBASE_SETUP.md",syncHint:"Signing in loads your cloud copy onto this device.",synced:"Synced ✓",signedIn:"Welcome ✓",signedOut:"Signed out",checkEmail:"Check your email to confirm",syncStatus:"Status",cloudGuest:"Local (no account)",editTask:"Edit task",editProject:"Edit project",version:"Version",subtitle:"Subtitle",statusL:"Status",color:"Color",undo:"Undo",deleted:"Deleted",restored:"Restored",mood:"Mood",energy:"Energy",e_high:"High",e_mid:"Mid",e_low:"Low",daySummary:"Day summary",doneT:"Done",pastEntries:"Past entries",yesterday:"Yesterday",notifs:"Browser notifications",notifOnMsg:"Notifications on ✓",notifBlocked:"Browser blocked notifications",work:"Work",workSub:"All sites and repos you have worked on",addSite:"Add site",editSite:"Edit site",workEmpty:"No sites yet, add your first",siteName:"Site name",liveUrl:"Live URL",deployUrl:"Deploy URL",repoUrl:"Repo URL (GitHub)",firebaseUrl:"Firebase / Console URL",edit:"Edit",copy:"Copy",copied:"Copied",currentL:"Current lesson",totalL:"Total",details:"Details",openLink:"Open link",results:"results",welcomeSub:"Get started. The app remembers everything for you.",welcomeTitle:"The app does the remembering for you",welcomeLine:"Capture your thoughts, do the work, and jump right back into context.",loop_capture:"Capture",loop_link:"Link",loop_work:"Work",loop_snapshot:"Snapshot",loop_resume:"Resume",captureL:"Capture",getStarted:"Get started",aiSettings:"AI",aiProviderNote:"Choose a provider (Anthropic or Groq). Your key is stored only in this browser and is never synced.",aiKey:"API key",aiProvider:"Provider",close:"Close",syncErr:"Sync problem, retrying",aiNetErr:"Could not reach the model (CORS or network). Try another provider or later.",syncOnline:"Synced",syncSyncing:"Syncing",syncErrShort:"Error, retrying",importSnapshot:"Import snapshot",updateViaCapture:"Update via capture",describeAI:"Describe freely",pasteJson:"Paste JSON",captureFreePh:"Describe the project freely, current phase, whats done percent, blockers, links, ideas",generate:"Generate",importNow:"Import",captureParseErr:"Response was not valid JSON, try again",confirmMatch:"Confirm match",looksLike:"Looks like",noGuess:"Not sure of the match, pick manually",pickProject:"Project",newProjectOpt:"New project",confirmImport:"Confirm",created:"Created",updated:"Updated",reorder:"Reorder",reorderDone:"Done ordering",linkedBadge:"Linked",notesPage:"Notes",installApp:"Install app",installIosHint:"To install Continuum on iPhone: tap the Share button in Safari, then choose \u00abAdd to Home Screen\u00bb.",aiModel:"Model",aiSaved:"Saved",aiCleared:"Cleared",aiEnabled:"AI enabled",aiThinking:"Thinking",aiOffHint:"Enable real AI in Profile settings for smarter answers.",aiErrHint:"Request failed — check your key and model.",timerMode:"Timer",phWork:"Focus",phBreak:"Break",calendar:"Calendar",addCal:"Add to calendar",profileT:"Profile",you:"You",kBookmark:"Bookmark",kReference:"Reference",hoursT:"Hours",companiesNav:"Companies",companiesSub:"From first contact to delivery",newCompany:"New Company",companyName:"Company name",companiesEmpty:"No companies yet — tap + to add your first",searchCoPh:"Search name, industry, country…",allLabel:"All",secOverview:"Overview",secIntel:"Intelligence",secAudit:"Audit",secDM:"Decision Makers",secOutreach:"Outreach",secProposal:"Proposal",secDelivery:"Delivery",website:"Website",industry:"Industry",country:"Country",companySnapshot:"Company snapshot",productsServices:"Products & services",market:"Market",competitors:"Competitors",techStack:"Tech stack",researchSources:"Research sources",masterAudit:"Master audit",execSnapshot:"Executive snapshot",topProblems:"Top problems",quickWins:"Quick wins",opportunities:"Opportunities",roleFld:"Name / Title",linkedin:"LinkedIn",painPoints:"Pain points",personalizedMsg:"Personalized messaging",outreachStatus:"Outreach status",roleMarketing:"Marketing",roleSales:"Sales",roleProduct:"Product",roleTech:"Technology",video:"Video",calls:"Calls",followUps:"Follow ups",meetingNotes:"Meeting notes",scope:"Scope",pricing:"Pricing",propTimeline:"Timeline",deliverables:"Deliverables",proposalStatus:"Proposal status",discovery:"Discovery",brand:"Brand",devPhase:"Development",launch:"Launch",caseStudy:"Case study",csLead:"Lead",csResearch:"Research",csAudit:"Audit",csOutreach:"Outreach",csMeeting:"Meeting",csProposal:"Proposal",csWon:"Won",csLost:"Lost",csCompleted:"Completed",pCritical:"CRITICAL",osNotStarted:"Not started",osContacted:"Contacted",osReplied:"Replied",osMeetingSet:"Meeting set",osNoResponse:"No response",prDraft:"Draft",prSent:"Sent",prReview:"Under review",prAccepted:"Accepted",prDeclined:"Declined"}
+  contextRecovered:"Context recovered",resumeYourWork:"Resume your work",sessionSummary:"Session summary",accomplishments:"What you did",continueLeft:"Continue where you left off",sessionNotes:"Open session notes",recentCommits:"Recent commits",recentDecisions:"Recent decisions",blockersT:"Blockers",relevantDocs:"Relevant docs",reconstructed:function(n){return "Reconstructed from "+n+" signals · updated just now"},todaysFocus:"Today's focus",aiSuggestions:"AI suggestions",estimate:"estimate",pHigh:"HIGH",pMed:"MED",pLow:"LOW",dueToday:"Today",dueTomorrow:"Tomorrow",due:"due",knowledge:"Knowledge",courses:"Courses",bookmarks:"Bookmarks",promptLib:"Prompt Library",servers:"Servers",repositories:"Repositories",timeline:"Timeline",aiAssistant:"AI Assistant",askContinuum:"Ask Continuum",askPh:"Ask about your work…",pinned:"Pinned",workspaceSec:"Workspace",systemSec:"System",logDecision:"Log decision",addCommit:"Add commit",addBlocker:"Add blocker",reason:"Reason",addBookmark:"Add bookmark",addCourse:"Add course",addPrompt:"Add prompt",addServer:"Add server",addRepo:"Add repository",url:"URL",provider:"Provider",items:"items",noItems:"Nothing here yet.",priority:"Priority",mobileView:"Mobile",desktopView:"Desktop",contextHealth:"Context Health",contextHealthSub:"How ready you are to jump back in",inFlow:"In flow",openTasks:"Open tasks",focusWk:"Focus/wk",learning:"Learning",sessionHeat:"Session heat",dayStreak:"day streak",select:"Select",selDone:"Done",byPrio:"Priority",byDue:"Due",byNew:"Newest",selected:"selected",complete:"Complete",delSelQ:"Delete selected tasks?",focusMode:"Focus mode",start:"Start",pause:"Pause",reset:"Reset",exit:"Exit",aiInsights:"AI insights",insTop:"Most active project",insBlk:"Open blockers",insFocus:"Focus this week",inboxT:"Inbox",inboxSub:"Context recovery, insights & reminders",contextRecovery:"Context recovery",reminders:"Reminders",inboxRaw:"Captures",inboxEmpty:"Inbox is clear ✓",pin:"Pin",account:"Account",signIn:"Sign in",signUp:"Sign up",signOut:"Sign out",email:"Email",password:"Password",syncOff:"Cloud sync not set up — see FIREBASE_SETUP.md",syncHint:"Signing in loads your cloud copy onto this device.",synced:"Synced ✓",signedIn:"Welcome ✓",signedOut:"Signed out",checkEmail:"Check your email to confirm",syncStatus:"Status",cloudGuest:"Local (no account)",editTask:"Edit task",editProject:"Edit project",version:"Version",subtitle:"Subtitle",statusL:"Status",color:"Color",undo:"Undo",deleted:"Deleted",restored:"Restored",mood:"Mood",energy:"Energy",e_high:"High",e_mid:"Mid",e_low:"Low",daySummary:"Day summary",doneT:"Done",pastEntries:"Past entries",yesterday:"Yesterday",notifs:"Browser notifications",notifOnMsg:"Notifications on ✓",notifBlocked:"Browser blocked notifications",work:"Work",workSub:"All sites and repos you have worked on",addSite:"Add site",editSite:"Edit site",workEmpty:"No sites yet, add your first",siteName:"Site name",liveUrl:"Live URL",deployUrl:"Deploy URL",repoUrl:"Repo URL (GitHub)",firebaseUrl:"Firebase / Console URL",edit:"Edit",copy:"Copy",copied:"Copied",currentL:"Current lesson",totalL:"Total",details:"Details",openLink:"Open link",results:"results",welcomeSub:"Get started. The app remembers everything for you.",welcomeTitle:"The app does the remembering for you",welcomeLine:"Capture your thoughts, do the work, and jump right back into context.",loop_capture:"Capture",loop_link:"Link",loop_work:"Work",loop_snapshot:"Snapshot",loop_resume:"Resume",captureL:"Capture",getStarted:"Get started",aiSettings:"AI",aiProviderNote:"Choose a provider (Anthropic or Groq). Your key is stored only in this browser and is never synced.",aiKey:"API key",aiProvider:"Provider",close:"Close",syncErr:"Sync problem, retrying",aiNetErr:"Could not reach the model (CORS or network). Try another provider or later.",syncOnline:"Synced",syncSyncing:"Syncing",syncErrShort:"Error, retrying",importSnapshot:"Import snapshot",updateViaCapture:"Update via capture",describeAI:"Describe freely",pasteJson:"Paste JSON",captureFreePh:"Describe the project freely, current phase, whats done percent, blockers, links, ideas",generate:"Generate",importNow:"Import",captureParseErr:"Response was not valid JSON, try again",confirmMatch:"Confirm match",looksLike:"Looks like",noGuess:"Not sure of the match, pick manually",pickProject:"Project",newProjectOpt:"New project",confirmImport:"Confirm",created:"Created",updated:"Updated",reorder:"Reorder",reorderDone:"Done ordering",linkedBadge:"Linked",notesPage:"Notes",installApp:"Install app",installIosHint:"To install Continuum on iPhone: tap the Share button in Safari, then choose \u00abAdd to Home Screen\u00bb.",aiModel:"Model",aiSaved:"Saved",aiCleared:"Cleared",aiEnabled:"AI enabled",aiThinking:"Thinking",aiOffHint:"Enable real AI in Profile settings for smarter answers.",aiErrHint:"Request failed — check your key and model.",timerMode:"Timer",phWork:"Focus",phBreak:"Break",calendar:"Calendar",addCal:"Add to calendar",profileT:"Profile",you:"You",kBookmark:"Bookmark",kReference:"Reference",hoursT:"Hours",companiesNav:"Companies",companiesSub:"From first contact to delivery",newCompany:"New Company",companyName:"Company name",companiesEmpty:"No companies yet — tap + to add your first",searchCoPh:"Search name, industry, country…",allLabel:"All",secOverview:"Overview",secIntel:"Intelligence",secAudit:"Audit",secDM:"Decision Makers",secOutreach:"Outreach",secProposal:"Proposal",secDelivery:"Delivery",website:"Website",industry:"Industry",country:"Country",companySnapshot:"Company snapshot",productsServices:"Products & services",market:"Market",competitors:"Competitors",techStack:"Tech stack",researchSources:"Research sources",masterAudit:"Master audit",execSnapshot:"Executive snapshot",topProblems:"Top problems",quickWins:"Quick wins",opportunities:"Opportunities",roleFld:"Name / Title",linkedin:"LinkedIn",painPoints:"Pain points",personalizedMsg:"Personalized messaging",outreachStatus:"Outreach status",roleMarketing:"Marketing",roleSales:"Sales",roleProduct:"Product",roleTech:"Technology",video:"Video",calls:"Calls",followUps:"Follow ups",meetingNotes:"Meeting notes",scope:"Scope",pricing:"Pricing",propTimeline:"Timeline",deliverables:"Deliverables",proposalStatus:"Proposal status",discovery:"Discovery",brand:"Brand",devPhase:"Development",launch:"Launch",caseStudy:"Case study",csLead:"Lead",csResearch:"Research",csAudit:"Audit",csOutreach:"Outreach",csMeeting:"Meeting",csProposal:"Proposal",csWon:"Won",csLost:"Lost",csCompleted:"Completed",pCritical:"CRITICAL",osNotStarted:"Not started",osContacted:"Contacted",osReplied:"Replied",osMeetingSet:"Meeting set",osNoResponse:"No response",prDraft:"Draft",prSent:"Sent",prReview:"Under review",prAccepted:"Accepted",prDeclined:"Declined",commercialReadiness:"Commercial readiness",decisionComplexity:"Decision complexity",outreachProbability:"Outreach probability",secSignals:"Buying signals",signalLabel:"Signal",ratingLbl:"Rating",researchCompany:"Research Company",startResearch:"Start research",researching:"Researching…",secResearch:"Live Research",reRunResearch:"Re-run research",researchNeedsAnthropic:"Live research needs Anthropic as the provider — switch it in Settings",researchEmpty:"No research yet — tap \"Re-run research\"",secIntelDb:"Company Intelligence Database",rawResearch:"Raw research",structuring:"Structuring…",intelDbEmpty:"No structured database yet — running research will build it automatically",secStrategicAudit:"Strategic Audit",runStrategicAudit:"Run Strategic Audit",reRunStrategicAudit:"Re-run audit",analyzingStrategy:"Analyzing strategy…",strategicAuditGate:"Run research first so there's a database to analyze",strategicAuditEmpty:"No strategic audit yet — tap run",secCommercialStrategy:"Commercial Strategy",runCommercialStrategy:"Run Commercial Strategy",reRunCommercialStrategy:"Regenerate",buildingStrategy:"Building strategy…",commercialStrategyGate:"Run the strategic audit first",commercialStrategyEmpty:"No commercial strategy yet — tap run",secEngagement:"Engagement Package",runEngagement:"Build Engagement Package",reRunEngagement:"Rebuild",buildingEngagement:"Building package…",engagementGate:"Run the commercial strategy first",engagementEmpty:"No engagement package yet — tap run"}
 };
 
 /* ---------------- state ---------------- */
@@ -59,6 +59,7 @@ if(!S.mode)S.mode="quick";
 ["projects","tasks","notes","bookmarks","courses","prompts","servers","repos","decisions","companies"].forEach(function(k){if(!Array.isArray(S[k]))S[k]=[]});
 if(!S.journal)S.journal={};
 S.projects.forEach(function(p){p.commits=p.commits||[];p.blockers=p.blockers||[];(p.sessions||[]).forEach(function(s){s.accomplishments=s.accomplishments||[]})});
+S.companies.forEach(function(c){c.ov=c.ov||{};if(c.ov.commercialReadiness===undefined)c.ov.commercialReadiness="";if(c.ov.decisionComplexity===undefined)c.ov.decisionComplexity="";if(c.ov.outreachProbability===undefined)c.ov.outreachProbability="";if(!Array.isArray(c.sig))c.sig=[{label:"",stars:""},{label:"",stars:""},{label:"",stars:""},{label:"",stars:""},{label:"",stars:""}];if(c.research===undefined)c.research="";if(c.intelDb===undefined)c.intelDb="";if(c.strategicAudit===undefined)c.strategicAudit="";if(c.commercialStrategy===undefined)c.commercialStrategy="";if(c.engagementPackage===undefined)c.engagementPackage="";c.kg=Object.assign(defaultKg(),c.kg||{});});
 function load(){
   try{var r=localStorage.getItem(KEY);if(r)return JSON.parse(r);}catch(e){}
   return seed();
@@ -79,24 +80,35 @@ function uid(){return Math.random().toString(36).slice(2,10)}
 function esc(s){return(s==null?"":String(s)).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
 function project(id){return S.projects.find(function(p){return p.id===id})}
 function company(id){return S.companies.find(function(c){return c.id===id})}
+function defaultKg(){return {ceo:"",cmo:"",vpMarketing:"",industry:"",competitors:[],products:[],pricing:"",problems:[],strengths:[],weaknesses:[],buyingSignals:[],hiring:[],funding:"",acquisition:"",techStack:[],cms:"",analytics:[],socialLinks:[],employees:"",locations:[],partners:[],certifications:[],awards:[],recentNews:[],useCases:[],caseStudies:[],keywords:[],painPoints:[],recommendedServices:[],estimatedDealSize:"",decisionMakers:[],priority:""};}
 function newCompanyObj(name){
   var now=Date.now();
   function dm(){return {role:"",linkedin:"",pain:"",msg:"",outStatus:"notStarted"}}
+  function sig(){return {label:"",stars:""}}
   return {
     id:uid(),createdAt:now,updatedAt:now,
-    ov:{name:name||"",website:"",industry:"",country:"",priority:"medium",status:"lead",next:""},
+    ov:{name:name||"",website:"",industry:"",country:"",priority:"medium",status:"lead",next:"",commercialReadiness:"",decisionComplexity:"",outreachProbability:""},
     int:{snapshot:"",products:"",market:"",competitors:"",tech:"",sources:""},
     aud:{master:"",exec:"",problems:"",wins:"",opportunities:""},
     dm:{ceo:dm(),cmo:dm(),cro:dm(),marketing:dm(),sales:dm(),product:dm(),tech:dm()},
+    sig:[sig(),sig(),sig(),sig(),sig()],
     out:{linkedin:"",email:"",video:"",calls:"",followups:"",notes:""},
     prop:{scope:"",pricing:"",timeline:"",deliverables:"",status:"draft"},
     del:{discovery:"",brand:"",website:"",dev:"",launch:"",caseStudy:""},
-    notes:""
+    notes:"",research:"",intelDb:"",strategicAudit:"",commercialStrategy:"",engagementPackage:"",
+    kg:defaultKg()
   };
 }
 function coFieldSet(inputId,val){
   var c=company(S.activeCid);if(!c)return;
   if(inputId==="co_notes"){c.notes=val;c.updatedAt=Date.now();save();return;}
+  if(inputId==="co_research"){c.research=val;c.updatedAt=Date.now();save();return;}
+  if(inputId==="co_intelDb"){c.intelDb=val;c.updatedAt=Date.now();save();return;}
+  if(inputId==="co_strategicAudit"){c.strategicAudit=val;c.updatedAt=Date.now();save();return;}
+  if(inputId==="co_commercialStrategy"){c.commercialStrategy=val;c.updatedAt=Date.now();save();return;}
+  if(inputId==="co_engagementPackage"){c.engagementPackage=val;c.updatedAt=Date.now();save();return;}
+  var msig=inputId.match(/^co_sig_(\d)_label$/);
+  if(msig){var si=+msig[1];if(c.sig&&c.sig[si]){c.sig[si].label=val;c.updatedAt=Date.now();save();}return;}
   var m=inputId.match(/^co_dm_([a-zA-Z]+)_([a-zA-Z]+)$/);
   if(m){if(c.dm[m[1]]){c.dm[m[1]][m[2]]=val;c.updatedAt=Date.now();save();}return;}
   var m2=inputId.match(/^co_([a-zA-Z]+)_([a-zA-Z]+)$/);
@@ -380,6 +392,7 @@ function applyState(merged,doPush){
   ["projects","tasks","notes","bookmarks","courses","prompts","servers","repos","decisions","companies"].forEach(function(kk){if(!Array.isArray(S[kk]))S[kk]=[]});
   if(!S.journal)S.journal={};
   S.projects.forEach(function(p){p.commits=p.commits||[];p.blockers=p.blockers||[];(p.sessions||[]).forEach(function(sx){sx.accomplishments=sx.accomplishments||[]})});
+  S.companies.forEach(function(c){c.ov=c.ov||{};if(c.ov.commercialReadiness===undefined)c.ov.commercialReadiness="";if(c.ov.decisionComplexity===undefined)c.ov.decisionComplexity="";if(c.ov.outreachProbability===undefined)c.ov.outreachProbability="";if(!Array.isArray(c.sig))c.sig=[{label:"",stars:""},{label:"",stars:""},{label:"",stars:""},{label:"",stars:""},{label:"",stars:""}];if(c.research===undefined)c.research="";if(c.intelDb===undefined)c.intelDb="";if(c.strategicAudit===undefined)c.strategicAudit="";if(c.commercialStrategy===undefined)c.commercialStrategy="";if(c.engagementPackage===undefined)c.engagementPackage="";c.kg=Object.assign(defaultKg(),c.kg||{});});
   if(doPush){save();}else{try{localStorage.setItem(KEY,JSON.stringify(S));}catch(e){}}
   render();
 }
@@ -408,27 +421,33 @@ function aiContext(){
   return L.join("\n")||"(no data yet)";
 }
 function aiDefaultModel(prov){return prov==="groq"?"llama-3.3-70b-versatile":"claude-3-5-sonnet-latest";}
-function aiChat(system,userText){
+function aiChat(system,userText,withSearch,maxTokens){
   var key=S._aiKey,prov=S._aiProvider||"anthropic",model=S._aiModel||aiDefaultModel(prov);
   if(!key)return Promise.reject(new Error("no key"));
+  if(withSearch&&prov!=="anthropic")return Promise.reject(new Error(T("researchNeedsAnthropic")));
   if(prov==="groq"){
     return fetch("https://api.groq.com/openai/v1/chat/completions",{
       method:"POST",
       headers:{"content-type":"application/json","authorization":"Bearer "+key},
-      body:JSON.stringify({model:model,max_tokens:1024,messages:[{role:"system",content:system},{role:"user",content:userText}]})
+      body:JSON.stringify({model:model,max_tokens:maxTokens||1024,messages:[{role:"system",content:system},{role:"user",content:userText}]})
     }).then(function(r){return r.json();}).then(function(d){
       if(d&&d.choices&&d.choices[0]&&d.choices[0].message)return d.choices[0].message.content;
       if(d&&d.error)throw new Error((d.error&&d.error.message)||"AI error");
       throw new Error("AI error");
     });
   }
+  var body={model:model,max_tokens:maxTokens||(withSearch?8000:1024),system:system,messages:[{role:"user",content:userText}]};
+  if(withSearch)body.tools=[{type:"web_search_20250305",name:"web_search"}];
   return fetch("https://api.anthropic.com/v1/messages",{
     method:"POST",
     headers:{"content-type":"application/json","x-api-key":key,"anthropic-version":"2023-06-01","anthropic-dangerous-direct-browser-access":"true"},
-    body:JSON.stringify({model:model,max_tokens:1024,system:system,messages:[{role:"user",content:userText}]})
+    body:JSON.stringify(body)
   }).then(function(r){return r.json();}).then(function(d){
-    if(d&&d.content&&d.content[0]&&d.content[0].text)return d.content[0].text;
     if(d&&d.error)throw new Error(d.error.message||"AI error");
+    if(d&&d.content&&d.content.length){
+      var txt=d.content.filter(function(b){return b.type==="text"}).map(function(b){return b.text}).join("\n\n");
+      if(txt)return txt;
+    }
     throw new Error("AI error");
   });
 }
@@ -443,6 +462,677 @@ function runAsk(q){
       S._aiLoading=false;var _m=(e&&e.message)||"error";if(/failed to fetch|networkerror|load failed|cors/i.test(_m))_m=T("aiNetErr");S._aiErr=_m;render();
     });
   }else{save();render();}
+}
+function researchSystemPrompt(name,website){
+  return `# ROLE
+
+You are an elite Corporate Intelligence Researcher.
+
+Your ONLY objective is to collect, organize, verify and structure every available piece of information about the target company.
+
+DO NOT audit.
+DO NOT critique.
+DO NOT recommend.
+DO NOT score.
+DO NOT redesign.
+
+Your job is to build the most complete intelligence package possible.
+
+Think like someone preparing a confidential CEO briefing before a consulting engagement.
+
+---
+
+# TARGET COMPANY
+
+Company: ${name}
+Website: ${website||"(not provided — find it)"}
+
+---
+
+# OUTPUT REQUIREMENTS
+
+Build a structured dossier using Markdown.
+
+Use headings, tables, and bullet lists so it is easy to scan.
+
+Avoid long paragraphs.
+
+---
+
+# SECTION 1 — Executive Snapshot
+Company Name, Tagline, Founded, Headquarters, Legal Entity, Ownership, Parent Company, Subsidiaries, Founder(s), CEO, Leadership Team, Employees, Countries Served, Offices, Mission, Vision, Core Products, Core Industries, Business Model, Revenue Model, Estimated ARR (if available), Estimated Company Size, Estimated Customer Count, Estimated Enterprise Customers, Technology Category, Market Category, ICP, Target Personas, Competitive Position, One Paragraph Summary.
+
+# SECTION 2 — Company Timeline
+Founding, funding rounds, major launches, acquisitions, leadership changes, partnerships, awards, major product releases, market expansions, rebranding, legal events. Present as a chronological table.
+
+# SECTION 3 — Products
+For every product: Purpose, Target users, Core features, Differentiators, Pricing, Deployment, Supported platforms, Integrations, Architecture (if known).
+
+# SECTION 4 — Industry Coverage
+Which industries, which company sizes (SMB, Mid Market, Enterprise, Government, Healthcare, Financial, Manufacturing, Retail, etc).
+
+# SECTION 5 — Technology Stack
+Frontend, Backend, Infrastructure, Cloud, Hosting, Analytics, Marketing Stack, Tracking, CRM, Support, CMS, AI Models, Security, Third Party Services, Developer Tools, Known APIs, Integrations.
+
+# SECTION 6 — Website Architecture
+Sitemap and navigation hierarchy: landing pages, resources, blog, pricing, solutions, industries.
+
+# SECTION 7 — Design System Snapshot
+Brand, logo, typography, color palette, illustration style, photography, UI style, components, spacing, accessibility, dark mode, animations, design maturity observations (no critique).
+
+# SECTION 8 — Marketing
+SEO, content marketing, social media, newsletter, lead magnets, events, webinars, podcasts, case studies, whitepapers, videos, communities, advertising, PR, partnerships.
+
+# SECTION 9 — Sales Motion
+Inbound, outbound, PLG, sales led, partner led, marketplace, channel sales, affiliate, customer success, onboarding, free trial, demo, POC, enterprise sales.
+
+# SECTION 10 — Customers
+Named customers, enterprise logos, testimonials, reviews, case studies, success stories, industries, geography, customer segmentation.
+
+# SECTION 11 — Pricing
+Pricing model, plans, enterprise, usage pricing, seat pricing, free trial, free tier, discounts, implementation, professional services.
+
+# SECTION 12 — Funding
+Investors, funding rounds, valuation, acquisitions, parent company, financial news, growth/hiring/expansion signals.
+
+# SECTION 13 — Hiring
+Open positions, departments hiring, locations, leadership/AI/product/marketing/sales/engineering/growth hiring.
+
+# SECTION 14 — Partnerships
+Technology, cloud, channel, resellers, implementation, strategic, academic, government.
+
+# SECTION 15 — Competitors
+Direct competitors, indirect competitors, enterprise competitors, emerging startups, comparison table, market positioning.
+
+# SECTION 16 — Public Reputation
+Awards, analyst reports (Gartner, Forrester, IDC), news coverage, community sentiment (Glassdoor, G2, Capterra, Reddit, YouTube).
+
+# SECTION 17 — Security
+Compliance (SOC, ISO, HIPAA, GDPR, CCPA), data residency, security pages, trust center.
+
+# SECTION 18 — AI
+AI features, AI positioning, LLMs used, automation, GenAI, machine learning, agents, AI roadmap.
+
+# SECTION 19 — Digital Assets
+Website, landing pages, social accounts, YouTube, LinkedIn, GitHub, help center, knowledge base, documentation, status page, developer portal, API docs.
+
+# SECTION 20 — Intelligence Summary
+Summarize business, market, technology, growth, sales, product, leadership, brand, customers in concise executive bullets.
+
+---
+
+# RULES
+
+Use only verifiable information. Separate Facts from Inference. Mark unknown information explicitly as "Unknown". Never invent numbers. Prefer official sources. Cross-reference multiple sources whenever possible. Include a source link next to claims whenever available.
+
+No recommendations. No audit. No scoring. No consulting advice. No redesign ideas. Only collect intelligence.
+
+The output should become the master knowledge base used by later AI agents for Strategy, Audit, Positioning, CRO, Sales, Branding, GTM and Consulting.`;
+}
+function intelligenceEngineSystemPrompt(){
+  return `# ROLE
+
+You are Continuum Intelligence Engine.
+
+Your task is NOT to audit or critique the company.
+
+Your task is to transform an unstructured research report into a structured intelligence database.
+
+Think like the indexing engine behind Palantir, Notion AI and Bloomberg.
+
+Every piece of information should become reusable structured knowledge.
+
+Never recommend.
+Never redesign.
+Never score.
+Never audit.
+
+Only extract, organize and normalize.
+
+---
+
+# INPUT
+
+You will receive a complete research report generated from live web research.
+
+Treat that report as the source of truth.
+
+Do not remove information. Do not summarize away important details. Extract everything possible.
+
+---
+
+# OUTPUT
+
+Build the following structured database. Return Markdown. Use tables, callouts, and lists. Avoid long paragraphs. Do not use Mermaid or any diagram code blocks — use tables and nested lists instead, since the reader cannot render diagrams.
+
+# 1. Executive Snapshot
+Company, Website, Tagline, Founded, Headquarters, Employees, Countries, CEO, Leadership, Ownership, Parent Company, Business Model, Revenue Model, Target Market, Core Products, Core Industries, One Paragraph Summary.
+
+# 2. Business Profile
+Mission, Vision, Core Value Proposition, Positioning, Category, Primary ICP, Buyer Personas, Company Size Focus, Regions Served, Competitive Position.
+
+# 3. Products
+For every product: Name, Purpose, Problem Solved, Target User, Core Features, Pricing, Deployment, Integrations, AI Features, Links.
+
+# 4. Market Intelligence
+Industry, Market Category, Market Size, Growth Drivers, Market Trends, Emerging Technologies, Threats, Opportunities.
+
+# 5. Technology Intelligence
+Frontend, Backend, Cloud, Hosting, Infrastructure, AI Models, Analytics, CRM, Marketing Stack, Security Stack, Developer Stack, Integrations.
+
+# 6. Leadership
+Founder, CEO, Executives, Departments, Decision Makers, Hiring Leaders, Public Profiles.
+
+# 7. Financial Intelligence
+Funding, Investors, Acquisitions, Parent Company, Revenue Estimates, Growth Indicators, Expansion Signals, Hiring Signals.
+
+# 8. Product Portfolio
+List every product, group them, describe relationships as a nested list (no diagram).
+
+# 9. Customers
+Named Customers, Industries, Regions, Enterprise Accounts, Testimonials, Case Studies, Reviews.
+
+# 10. Competitors
+Direct, Indirect, Enterprise, Emerging — as a comparison table.
+
+# 11. Partnerships
+Technology, Cloud, Channel, Strategic, Government, Academic, Implementation.
+
+# 12. Digital Presence
+Website, LinkedIn, GitHub, YouTube, Help Center, API Docs, Knowledge Base, Status Page, Developer Portal, Social Media.
+
+# 13. Marketing Assets
+Blog, Case Studies, Events, Whitepapers, Lead Magnets, Videos, Webinars, Newsletter, Communities.
+
+# 14. Sales Motion
+Inbound, Outbound, PLG, Sales-led, Partner-led, Demo, Trial, POC, Enterprise Sales.
+
+# 15. Hiring Intelligence
+Open Roles, Hiring Departments, Expansion Areas, Leadership Hiring, Engineering, AI, Sales, Marketing.
+
+# 16. Security
+SOC, ISO, HIPAA, GDPR, CCPA, Data Residency, Trust Center, Compliance.
+
+# 17. AI Capabilities
+AI Features, GenAI, Automation, Agents, LLMs, Machine Learning, AI Positioning, Roadmap Signals.
+
+# 18. Buying Signals
+Extract every signal that may indicate the company could buy consulting services (funding, hiring, expansion, rebranding, acquisition, leadership changes, product launches, website redesign, marketing changes, enterprise push, international expansion). List every signal with Date, Evidence, Business Impact, Confidence — as a table.
+
+# 19. Research Timeline
+Generate a chronological timeline table from all research (Date, Event, Source).
+
+# 20. Research Sources
+List every source referenced, categorized as Official / Analyst / Community / Review Sites / News / Documentation.
+
+# 21. Research Gaps
+Identify information that could not be found. Mark it as Unknown. Never invent data.
+
+---
+
+# RULES
+
+Everything must remain factual. Never audit. Never criticize. Never recommend. Never redesign. Never estimate unless explicitly stated in the source report.
+
+Separate FACT, INFERENCE and UNKNOWN explicitly when a claim isn't a plain sourced fact.
+
+The final result should become the permanent Company Intelligence Database used by later Continuum AI modules (Strategic Audit, Commercial Readiness, Decision Complexity, Consulting Opportunity, Outreach, Proposal Generation, Project Planning). Maximize structure and machine readability.`;
+}
+function strategicAuditSystemPrompt(){
+  return `You are Continuum's Executive Strategy Engine.
+
+You are NOT a researcher.
+You already have a structured intelligence database about this company (provided in the user message).
+
+Your task is to think like:
+
+• McKinsey Partner
+• Bain Growth Consultant
+• BCG Strategy Consultant
+• Former VP Marketing
+• Former CRO
+• Enterprise SaaS Advisor
+• Brand Strategist
+• UX Consultant
+• Revenue Operations Consultant
+
+Use ONLY the provided Intelligence Database.
+
+Never invent facts.
+
+If information is missing, explicitly say: "Insufficient public evidence."
+
+=================================================
+GOAL
+=================================================
+
+Produce a complete executive strategic audit.
+
+Don't summarize. Think critically. Identify hidden problems. Explain WHY they matter commercially. Prioritize business impact over design opinions. Everything should be written for CEO level.
+
+=================================================
+OUTPUT
+=================================================
+
+# Executive Strategic Audit
+
+## 1. Business Positioning
+Evaluate: positioning clarity, ICP alignment, category definition, differentiation, premium perception, messaging consistency, competitive positioning, biggest positioning risk, biggest opportunity.
+
+## 2. Messaging
+Evaluate: headline strength, value proposition, clarity, emotional impact, jargon, proof, objections, trust, CTA language, missing messages.
+
+## 3. Brand System
+Evaluate: identity maturity, consistency, trust, enterprise readiness, visual hierarchy, scalability, brand perception, hidden weaknesses.
+
+## 4. UX
+Audit: homepage, navigation, information architecture, decision fatigue, conversion friction, trust leaks, accessibility, speed assumptions, content hierarchy.
+
+## 5. Conversion
+Evaluate: CTA, lead magnets, demo flow, pricing, forms, sales friction, proof, funnels, missing assets, conversion leaks.
+
+## 6. Enterprise Sales Perspective
+Pretend you are VP Sales. List: top objections, enterprise blockers, procurement concerns, security concerns, pricing concerns. Would you approve a 6-figure deal? Explain.
+
+## 7. Executive Blind Spots
+What does leadership probably NOT see? What internal assumptions are dangerous? Where is strategy drifting? What is the hidden risk?
+
+## 8. Localization
+Evaluate: international readiness, Arabic readiness, regional GTM, localization maturity, market expansion blockers.
+
+## 9. Growth Opportunities
+Rank opportunities, high ROI first. Explain business impact. Estimate implementation effort.
+
+## 10. Consulting Opportunities
+Rank all consulting services Continuum could sell. For every service provide: business impact, expected ROI, difficulty, estimated effort, priority.
+
+## 11. Outreach Angle
+Write a personalized outreach message. Use real observations. Avoid generic sales language.
+
+## 12. Priority Scores
+Give scores out of 10 for: Brand, Messaging, UX, Trust, Conversion, Enterprise Readiness, Localization, Growth Potential. Explain every score. Present as a table.
+
+## 13. CEO Summary
+Write a board-level executive summary. Include: top 3 risks, top 3 opportunities, recommended priorities, 24 month outlook. If you were CEO, what would you do first?
+
+=================================================
+FORMAT
+=================================================
+
+Professional markdown. Tables where useful. Clear hierarchy. No emojis. No filler. Every recommendation must include business reasoning. Every problem must explain revenue impact.`;
+}
+function runStrategicAudit(id){
+  var c=company(id);if(!c)return;
+  if(!c.intelDb){S._auditErr=T("strategicAuditGate");S._auditErrId=id;render();return;}
+  if(!aiConfigured()){S._auditErr=T("aiOffHint");S._auditErrId=id;render();return;}
+  S._auditing=id;S._auditErr="";S._auditErrId=null;render();
+  aiChat(strategicAuditSystemPrompt(),"INTELLIGENCE DATABASE:\n\n"+c.intelDb,false,8000)
+    .then(function(txt){
+      S._auditing=null;
+      var cc=company(id);if(cc){cc.strategicAudit=txt;cc.updatedAt=Date.now();save();runKnowledgeExtraction(id);}
+      render();
+    }).catch(function(e){
+      S._auditing=null;
+      var m=(e&&e.message)||"error";if(/failed to fetch|networkerror|load failed|cors/i.test(m))m=T("aiNetErr");
+      S._auditErr=m;S._auditErrId=id;render();
+    });
+}
+function commercialStrategySystemPrompt(){
+  return `You are the Commercial Strategy Engine inside Continuum.
+
+You have already received a complete strategic audit (provided in the user message).
+
+DO NOT repeat the audit. DO NOT rewrite the findings.
+
+Your job is to convert that audit into an actionable sales strategy.
+
+You are now acting as:
+
+- Enterprise Sales Director
+- Brand Consultant
+- CRO Consultant
+- CEO Advisor
+- GTM Strategist
+- B2B Account Executive
+
+Your output must be practical. Every recommendation must be tied directly to business impact.
+
+==================================================
+OUTPUT
+==================================================
+
+Return Markdown.
+
+# 1. Executive Snapshot
+One page. Include: company maturity, biggest commercial opportunity, biggest risk, why they would buy now, estimated project size, recommended first offer.
+
+# 2. Commercial Readiness
+Score from 1-10. Explain exactly why. Evaluate: funding, expansion, hiring, recent launches, product maturity, website maturity, marketing maturity, sales maturity, brand maturity, urgency, budget likelihood.
+
+# 3. Decision Complexity
+Score from 1-10. Explain: founder-led, marketing, brand, sales, product, engineering, procurement, legal, finance, executive approval. Estimate: number of stakeholders, estimated sales cycle, main blockers, how to reduce friction.
+
+# 4. Buying Signals
+List every buying signal discovered (hiring, funding, acquisition, rebranding, website redesign, expansion, new positioning, new product, leadership changes, events, partnerships, analyst reports, awards, technology shift). For every signal explain: why it matters, how recent, how it affects outreach, priority.
+
+# 5. Risks of Inaction
+Separate into: Revenue Risk, Brand Risk, Marketing Risk, Sales Risk, Conversion Risk, SEO Risk, Recruitment Risk, Operational Risk, Competitive Risk, Customer Risk. Each risk should include severity, business impact, recommendation.
+
+# 6. Estimated Consulting Opportunities
+Generate consulting packages. For every package include: problem, deliverables, business outcome, expected ROI, estimated duration, difficulty, estimated value. Sort by highest ROI.
+
+# 7. Service Priority Matrix
+Return a table. Columns: Service, Business Impact, ROI, Difficulty, Timeline, Strategic Importance, Priority.
+
+# 8. Sales Entry Strategy
+Recommend: best department, best decision maker, best first contact, best champion, best executive sponsor, best sequence (Cold Email, LinkedIn, Referral, Loom, Audit PDF, Workshop). Which should happen first.
+
+# 9. Outreach Personalization
+Write: LinkedIn opener, Cold Email, Loom script, 10-minute call opener, Follow-up #1, Follow-up #2, Follow-up #3, and persona-specific versions for CEO, CMO, VP Marketing, Head of Brand, Sales Director.
+
+# 10. Objection Handling
+Predict objections: Budget, Timing, Resources, Agency, Internal team, Already working [with someone], No priority, Not interested. For each: likely wording, hidden concern, best response.
+
+# 11. Estimated Project Value
+Break into phases. Columns: Phase, Scope, Estimated weeks, Estimated value, Upsell opportunity, Retainer opportunity, Expected lifetime value.
+
+# 12. 90-Day Engagement Roadmap
+Week-by-week, Week 1 through Week 12. Deliverables, milestones, client meetings, quick wins.
+
+# 13. Win Probability
+Estimate: chance of getting first meeting, chance of proposal, chance of closing. Reasons, weaknesses, strengths, how to improve probability.
+
+# 14. Opportunity Scorecard
+Return scores from 1-10 for: Commercial Readiness, Decision Complexity, Urgency, Brand Problems, Website Problems, Messaging Problems, Sales Problems, Marketing Problems, Buying Signals, Budget Probability, Consulting Fit, Retainer Potential, Expansion Potential, Strategic Value.
+
+# 15. Final Recommendation
+Should this company enter the active sales pipeline? Choose one: Priority A, Priority B, Priority C, Reject. Explain why.
+
+==================================================
+RULES
+==================================================
+
+Do NOT repeat the Strategic Audit. Reference it. Focus only on sales strategy. Think like a consultant trying to close a six-figure engagement. Every recommendation must have business reasoning. Avoid generic consulting advice. Prioritize practical execution.
+
+Return clean Markdown. No JSON. No Mermaid. No placeholders.`;
+}
+function runCommercialStrategy(id){
+  var c=company(id);if(!c)return;
+  if(!c.strategicAudit){S._strategyErr=T("commercialStrategyGate");S._strategyErrId=id;render();return;}
+  if(!aiConfigured()){S._strategyErr=T("aiOffHint");S._strategyErrId=id;render();return;}
+  S._strategizing=id;S._strategyErr="";S._strategyErrId=null;render();
+  aiChat(commercialStrategySystemPrompt(),"STRATEGIC AUDIT:\n\n"+c.strategicAudit,false,8000)
+    .then(function(txt){
+      S._strategizing=null;
+      var cc=company(id);if(cc){cc.commercialStrategy=txt;cc.updatedAt=Date.now();save();runKnowledgeExtraction(id);}
+      render();
+    }).catch(function(e){
+      S._strategizing=null;
+      var m=(e&&e.message)||"error";if(/failed to fetch|networkerror|load failed|cors/i.test(m))m=T("aiNetErr");
+      S._strategyErr=m;S._strategyErrId=id;render();
+    });
+}
+function engagementPackageSystemPrompt(){
+  return `You are the Engagement & Proposal Engine inside Continuum.
+
+You have access to the full analysis already completed: Live Research, Intelligence Database, Strategic Audit, and Commercial Strategy (the most recent of these, Commercial Strategy, is provided in the user message).
+
+Your responsibility is NOT analysis. Analysis is already complete.
+
+Your responsibility is to convert all previous work into a complete client engagement package.
+
+Think like:
+
+• CEO
+• Enterprise Sales Director
+• Management Consultant
+• Brand Consultant
+• Proposal Writer
+• Solution Architect
+• Client Success Director
+
+Everything you generate should be immediately usable with the client.
+
+==================================================
+OUTPUT
+==================================================
+
+Return clean Markdown.
+
+==================================================
+1. Executive Engagement Summary
+==================================================
+Summarize: current situation, business pain, opportunity, why now, expected business impact, recommended engagement, estimated value.
+
+==================================================
+2. Discovery Workshop Plan
+==================================================
+Prepare a complete discovery workshop. Include: objectives, participants, agenda, timeline, questions, expected deliverables, success criteria.
+
+==================================================
+3. Discovery Questions
+==================================================
+Generate questions for: CEO, CMO, Sales, Marketing, Product, Engineering, Customer Success, Finance, Operations, Legal, Procurement. Group them. Prioritize them.
+
+==================================================
+4. Proposal Structure
+==================================================
+Generate a complete proposal outline. Include: executive summary, current state, challenges, business goals, our approach, methodology, deliverables, timeline, pricing, ROI, next steps.
+
+==================================================
+5. Scope of Work
+==================================================
+Generate: objectives, deliverables, activities, responsibilities, out of scope, acceptance criteria.
+
+==================================================
+6. Phased Engagement
+==================================================
+Split into phases (e.g. Phase 1 Quick Wins, Phase 2 Positioning, Phase 3 Website, Phase 4 Sales Enablement, Phase 5 Growth). Each phase should include deliverables, duration, expected results.
+
+==================================================
+7. Deliverables
+==================================================
+Create detailed deliverables (e.g. Messaging Framework, Website Audit, Homepage Wireframe, Landing Pages, Brand Positioning, Brand Architecture, Design System, Sales Deck, Case Studies, Proposal Templates, ROI Calculator, LinkedIn Strategy, SEO Roadmap, Analytics Dashboard).
+
+==================================================
+8. Pricing Strategy
+==================================================
+Generate Good / Better / Best. For each include: price, scope, deliverables, ideal client, business value.
+
+==================================================
+9. ROI Projection
+==================================================
+Estimate: lead quality, conversion, sales cycle, CAC, pipeline, revenue impact, brand impact, marketing efficiency.
+
+==================================================
+10. Project Timeline
+==================================================
+Week-by-week. Include milestones, meetings, deliverables, dependencies, risks.
+
+==================================================
+11. Risk Management
+==================================================
+Predict: project risks, stakeholder risks, approval risks, technical risks, communication risks, timeline risks, budget risks. Include mitigation.
+
+==================================================
+12. Stakeholder Map
+==================================================
+Build: decision maker, champion, economic buyer, technical buyer, influencers, blockers. How to win each one.
+
+==================================================
+13. Objection Playbook
+==================================================
+Generate: likely objection, hidden concern, recommended response, supporting proof.
+
+==================================================
+14. Meeting Assets
+==================================================
+Generate: meeting agenda, opening script, closing script, follow-up email, meeting notes template, action items template.
+
+==================================================
+15. Proposal Presentation
+==================================================
+Generate a 10-slide executive presentation outline. Each slide should include: title, key message, talking points, suggested visual.
+
+==================================================
+16. Follow-up Campaign
+==================================================
+Generate a cadence: immediate follow-up, 3 days, 1 week, 2 weeks, 1 month — across LinkedIn, Email, Loom, Phone.
+
+==================================================
+17. Closing Strategy
+==================================================
+Recommend: best closing approach, negotiation strategy, discount strategy, pilot strategy, retainer strategy, expansion strategy.
+
+==================================================
+18. Long-Term Account Plan
+==================================================
+Generate: 90 days, 6 months, 12 months, expansion opportunities, cross-sell, upsell, renewal, referral.
+
+==================================================
+19. Success Metrics
+==================================================
+KPIs: business KPIs, marketing KPIs, sales KPIs, brand KPIs, project KPIs.
+
+==================================================
+20. Final Executive Recommendation
+==================================================
+Summarize: why this engagement will succeed, critical success factors, immediate next action, estimated project value, confidence level.
+
+==================================================
+RULES
+==================================================
+
+Do NOT repeat previous analysis. Do NOT rewrite the audit. Assume the analysis is already approved.
+
+Everything must be implementation-ready. Every recommendation should produce measurable business value. Avoid generic consulting advice.
+
+Return Markdown only. No JSON. No Mermaid. No placeholders.
+
+Think like a Big Four consulting partner preparing a six-figure engagement.`;
+}
+function runEngagementPackage(id){
+  var c=company(id);if(!c)return;
+  if(!c.commercialStrategy){S._engageErr=T("engagementGate");S._engageErrId=id;render();return;}
+  if(!aiConfigured()){S._engageErr=T("aiOffHint");S._engageErrId=id;render();return;}
+  S._engaging=id;S._engageErr="";S._engageErrId=null;render();
+  aiChat(engagementPackageSystemPrompt(),"COMMERCIAL STRATEGY:\n\n"+c.commercialStrategy,false,8000)
+    .then(function(txt){
+      S._engaging=null;
+      var cc=company(id);if(cc){cc.engagementPackage=txt;cc.updatedAt=Date.now();save();runKnowledgeExtraction(id);}
+      render();
+    }).catch(function(e){
+      S._engaging=null;
+      var m=(e&&e.message)||"error";if(/failed to fetch|networkerror|load failed|cors/i.test(m))m=T("aiNetErr");
+      S._engageErr=m;S._engageErrId=id;render();
+    });
+}
+function pipelineContext(c){
+  var parts=[];
+  if(c.research)parts.push("RAW RESEARCH:\n"+c.research);
+  if(c.intelDb)parts.push("INTELLIGENCE DATABASE:\n"+c.intelDb);
+  if(c.strategicAudit)parts.push("STRATEGIC AUDIT:\n"+c.strategicAudit);
+  if(c.commercialStrategy)parts.push("COMMERCIAL STRATEGY:\n"+c.commercialStrategy);
+  if(c.engagementPackage)parts.push("ENGAGEMENT PACKAGE:\n"+c.engagementPackage);
+  return parts.join("\n\n---\n\n");
+}
+function extractionSystemPrompt(){
+  return `You are the Knowledge Extraction Engine inside Continuum.
+
+You are internal infrastructure, not a user-facing feature. Nobody reads your prose — only your JSON is used.
+
+Your ONLY job is to read everything known so far about a company (Live Research, Intelligence Database, Strategic Audit, Commercial Strategy, and/or Engagement Package — whichever sections are provided) and extract it into ONE strict JSON object.
+
+Do not analyze. Do not recommend anything new. Do not invent facts — only extract what is actually stated or clearly implied in the provided text.
+
+If a field cannot be determined from the text, use "" for a text field or [] for a list field. Never guess, never fabricate, never leave a key out.
+
+Return ONLY the JSON object. No markdown code fences. No commentary before or after. No explanation.
+
+Return exactly this shape (types matter — text fields are strings, the rest are arrays of short strings):
+{"ceo":"","cmo":"","vpMarketing":"","industry":"","competitors":[],"products":[],"pricing":"","problems":[],"strengths":[],"weaknesses":[],"buyingSignals":[],"hiring":[],"funding":"","acquisition":"","techStack":[],"cms":"","analytics":[],"socialLinks":[],"employees":"","locations":[],"partners":[],"certifications":[],"awards":[],"recentNews":[],"useCases":[],"caseStudies":[],"keywords":[],"painPoints":[],"recommendedServices":[],"estimatedDealSize":"","decisionMakers":[],"priority":""}`;
+}
+function parseKgJSON(raw){
+  var t=(raw||"").trim().replace(/^```json/i,"").replace(/^```/,"").replace(/```\s*$/,"").trim();
+  var d=JSON.parse(t);
+  var base=defaultKg();
+  Object.keys(base).forEach(function(k){
+    if(Array.isArray(base[k]))d[k]=Array.isArray(d[k])?d[k]:[];
+    else d[k]=(typeof d[k]==="string")?d[k]:"";
+  });
+  return d;
+}
+function runKnowledgeExtraction(id){
+  var c=company(id);if(!c)return;
+  if(!aiConfigured())return;
+  var ctx=pipelineContext(c);if(!ctx)return;
+  aiChat(extractionSystemPrompt(),ctx,false,3000)
+    .then(function(raw){
+      var cc=company(id);if(!cc)return;
+      try{cc.kg=parseKgJSON(raw);cc.updatedAt=Date.now();save();if(S.activeCid===id)render();}
+      catch(e){/* silent: extraction is best-effort background enrichment, never surfaces errors to the user */}
+    }).catch(function(){/* silent, same reasoning */});
+}
+function runCompanyResearch(id){
+  var c=company(id);if(!c)return;
+  if(!aiConfigured()){S._researchErr=T("aiOffHint");S._researchErrId=id;render();return;}
+  S._researching=id;S._researchStage="research";S._researchErr="";S._researchErrId=null;render();
+  aiChat(researchSystemPrompt(c.ov.name,c.ov.website),"Research this company now using web search. Work through the sections in order and cite sources where you can.",true)
+    .then(function(raw){
+      var cc=company(id);if(cc){cc.research=raw;cc.updatedAt=Date.now();save();}
+      S._researchStage="structuring";render();
+      return aiChat(intelligenceEngineSystemPrompt(),"RESEARCH REPORT:\n\n"+raw,false,8000);
+    })
+    .then(function(structured){
+      S._researching=null;S._researchStage=null;
+      var cc2=company(id);if(cc2){cc2.intelDb=structured;cc2.updatedAt=Date.now();save();runKnowledgeExtraction(id);}
+      render();
+    }).catch(function(e){
+      S._researching=null;S._researchStage=null;
+      var m=(e&&e.message)||"error";if(/failed to fetch|networkerror|load failed|cors/i.test(m))m=T("aiNetErr");
+      S._researchErr=m;S._researchErrId=id;render();
+    });
+}
+function mdToHtml(md){
+  if(!md)return"";
+  var lines=String(md).split("\n"),out=[],inList=false,tbl=null,inCode=false,codeBuf=[];
+  function flushList(){if(inList){out.push("</ul>");inList=false;}}
+  function flushTbl(){if(tbl){out.push(tbl);tbl=null;}}
+  function flushCode(){if(codeBuf.length){out.push('<pre style="background:var(--bg-hover);border:1px solid var(--border);border-radius:8px;padding:10px 12px;overflow-x:auto;font-family:var(--mono);font-size:11.5px;white-space:pre-wrap;margin:8px 0">'+esc(codeBuf.join("\n"))+"</pre>");codeBuf=[];}}
+  function inline(s){
+    s=esc(s);
+    s=s.replace(/\*\*(.+?)\*\*/g,"<b>$1</b>").replace(/\*(.+?)\*/g,"<i>$1</i>");
+    s=s.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g,'<a href="$2" target="_blank" rel="noopener">$1</a>');
+    return s;
+  }
+  lines.forEach(function(raw){
+    var l=raw.trim();
+    if(/^```/.test(l)){
+      if(inCode){flushCode();inCode=false;}
+      else{flushList();flushTbl();inCode=true;}
+      return;
+    }
+    if(inCode){codeBuf.push(raw);return;}
+    if(/^\|.*\|$/.test(l)){
+      if(/^\|[\s:|-]+\|$/.test(l))return;
+      flushList();
+      var cells=l.slice(1,-1).split("|").map(function(x){return inline(x.trim());});
+      if(!tbl){tbl="<table class='md-tbl'><tr>"+cells.map(function(x){return "<th>"+x+"</th>";}).join("")+"</tr>";}
+      else{tbl+="<tr>"+cells.map(function(x){return "<td>"+x+"</td>";}).join("")+"</tr>";}
+      return;
+    }
+    flushTbl();
+    if(!l){flushList();return;}
+    var h=l.match(/^(#{1,4})\s+(.*)$/);
+    if(h){flushList();var lvl=h[1].length,sz=lvl===1?15:lvl===2?13.5:12.5;out.push('<div style="font-weight:700;font-size:'+sz+'px;color:var(--c-ink-900);margin:14px 0 6px">'+inline(h[2])+"</div>");return;}
+    if(/^(-{3,}|\*{3,})$/.test(l)){flushList();out.push('<div style="height:1px;background:var(--border);margin:10px 0"></div>');return;}
+    var li=l.match(/^[-*]\s+(.*)$/);
+    if(li){if(!inList){out.push("<ul style='margin:4px 0;padding-inline-start:18px'>");inList=true;}out.push("<li style='margin-bottom:3px'>"+inline(li[1])+"</li>");return;}
+    flushList();
+    out.push('<div style="margin-bottom:8px">'+inline(l)+"</div>");
+  });
+  flushList();flushTbl();flushCode();
+  return out.join("");
 }
 function aiCard(){
   var on=!!S._aiKey,prov=S._aiProvider||"anthropic";
@@ -827,7 +1517,7 @@ var CS_LABEL={lead:"csLead",research:"csResearch",audit:"csAudit",outreach:"csOu
 var CS_ORDER=["lead","research","audit","outreach","meeting","proposal","won","lost","completed"];
 var PR_LABEL={low:"pLow",medium:"pMed",high:"pHigh",critical:"pCritical"};
 function vCompanies(){
-  var h='<div class="greet" style="display:flex;align-items:center;justify-content:space-between"><span>'+T("companiesNav")+'</span><button class="btn btn-ghost btn-sm" data-a="newCompanySheet">'+svg(IC.plus,"")+' '+T("newCompany")+'</button></div>';
+  var h='<div class="greet" style="display:flex;align-items:center;justify-content:space-between"><span>'+T("companiesNav")+'</span><div class="row" style="gap:6px"><button class="btn btn-ghost btn-sm" data-a="researchCompanySheet">🔍 '+T("researchCompany")+'</button><button class="btn btn-ghost btn-sm" data-a="newCompanySheet">'+svg(IC.plus,"")+' '+T("newCompany")+'</button></div></div>';
   h+='<div class="sub">'+T("companiesSub")+'</div>';
   h+='<div class="field" style="margin-bottom:10px"><input id="coSearch" placeholder="'+T("searchCoPh")+'" value="'+esc(S._cq||"")+'"></div>';
   var filt=S._cstatus||"all";
@@ -859,12 +1549,78 @@ function vCompany(){
   h+='<div class="row" style="margin-top:10px;gap:8px;align-items:center"><span style="font-size:12px;color:var(--c-ink-500)">'+T("priority")+'</span><select data-a="coPriority" style="border:1px solid var(--border);background:var(--bg-elevated);border-radius:var(--r-sm);padding:5px 9px;color:var(--c-ink-700);font-size:13px">'+
      prios.map(function(p){return '<option value="'+p+'" '+((c.ov.priority||"medium")===p?"selected":"")+'>'+T(PR_LABEL[p])+'</option>'}).join("")+'</select></div>';
 
+  h+='<div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:14px">';
+  [["commercialReadiness"],["decisionComplexity"]].forEach(function(pair){
+    var k=pair[0],v=c.ov[k];
+    h+='<div class="scorecard"><div class="lbl">'+T(k)+'</div><select data-a="coScore" data-field="'+k+'"><option value="">—</option>'+
+      [0,1,2,3,4,5,6,7,8,9,10].map(function(n){return '<option value="'+n+'" '+(String(v)===String(n)?"selected":"")+'>'+n+'/10</option>'}).join("")+
+      '</select><div class="trackbar"><i style="width:'+(v?(+v*10):0)+'%"></i></div></div>';
+  });
+  var op=c.ov.outreachProbability;
+  h+='<div class="scorecard"><div class="lbl">'+T("outreachProbability")+'</div><select data-a="coScore" data-field="outreachProbability"><option value="">—</option>'+
+    [0,5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100].map(function(n){return '<option value="'+n+'" '+(String(op)===String(n)?"selected":"")+'>'+n+'%</option>'}).join("")+
+    '</select><div class="trackbar"><i style="width:'+(op?+op:0)+'%"></i></div></div>';
+  h+='</div>';
+
   h+='<div class="eyebrow">01 · '+T("secOverview")+'</div>';
   h+=fld("co_ov_name",T("companyName"),c.ov.name);
   h+=fld("co_ov_website",T("website"),c.ov.website);
   h+=fld("co_ov_industry",T("industry"),c.ov.industry);
   h+=fld("co_ov_country",T("country"),c.ov.country);
   h+=fld("co_ov_next",T("nextAction"),c.ov.next);
+
+  h+='<div class="eyebrow">'+T("secResearch")+'</div>';
+  var researching=(S._researching===c.id);
+  var stageLabel=researching?(S._researchStage==="structuring"?T("structuring"):T("researching")):("↻ "+T("reRunResearch"));
+  h+='<div class="row between" style="margin-bottom:10px;align-items:center"><span style="font-size:12px;color:var(--c-ink-500)">🔍 '+T("secResearch")+'</span>'+
+     '<button class="btn btn-ghost btn-sm" data-a="runResearch" data-id="'+c.id+'" '+(researching?"disabled":"")+'>'+stageLabel+'</button></div>';
+  if(S._researchErr&&S._researchErrId===c.id)h+='<div class="ic-s" style="color:var(--danger);margin-bottom:10px">'+esc(S._researchErr)+'</div>';
+
+  h+='<div style="font-size:11px;color:var(--c-ink-500);text-transform:uppercase;letter-spacing:.04em;margin-bottom:6px">🧠 '+T("secIntelDb")+'</div>';
+  if(c.intelDb){h+='<div class="card" style="margin-bottom:10px;line-height:1.55;border-left:3px solid var(--ai)">'+mdToHtml(c.intelDb)+'</div>';}
+  else if(!researching){h+='<div class="ic-s" style="color:var(--c-ink-500);margin-bottom:10px">'+T("intelDbEmpty")+'</div>';}
+  h+=fldArea("co_intelDb",T("secIntelDb"),c.intelDb);
+
+  h+='<div style="font-size:11px;color:var(--c-ink-500);text-transform:uppercase;letter-spacing:.04em;margin:14px 0 6px">'+T("rawResearch")+'</div>';
+  if(c.research){h+='<div class="card" style="margin-bottom:10px;line-height:1.55">'+mdToHtml(c.research)+'</div>';}
+  else if(!researching){h+='<div class="ic-s" style="color:var(--c-ink-500);margin-bottom:10px">'+T("researchEmpty")+'</div>';}
+  h+=fldArea("co_research",T("rawResearch"),c.research);
+
+  h+='<div class="eyebrow">'+T("secStrategicAudit")+'</div>';
+  var auditing=(S._auditing===c.id);
+  var hasIntel=!!c.intelDb;
+  var auditBtnLabel=auditing?T("analyzingStrategy"):(c.strategicAudit?"↻ "+T("reRunStrategicAudit"):T("runStrategicAudit"));
+  h+='<div class="row between" style="margin-bottom:10px;align-items:center"><span style="font-size:12px;color:var(--c-ink-500)">🎯 '+T("secStrategicAudit")+'</span>'+
+     (hasIntel?'<button class="btn btn-ghost btn-sm" data-a="runStrategicAudit" data-id="'+c.id+'" '+(auditing?"disabled":"")+'>'+auditBtnLabel+'</button>':'')+'</div>';
+  if(!hasIntel){h+='<div class="ic-s" style="color:var(--c-ink-500);margin-bottom:10px">'+T("strategicAuditGate")+'</div>';}
+  if(S._auditErr&&S._auditErrId===c.id)h+='<div class="ic-s" style="color:var(--danger);margin-bottom:10px">'+esc(S._auditErr)+'</div>';
+  if(c.strategicAudit){h+='<div class="card" style="margin-bottom:10px;line-height:1.55;border-left:3px solid var(--accent)">'+mdToHtml(c.strategicAudit)+'</div>';}
+  else if(hasIntel&&!auditing){h+='<div class="ic-s" style="color:var(--c-ink-500);margin-bottom:10px">'+T("strategicAuditEmpty")+'</div>';}
+  h+=fldArea("co_strategicAudit",T("secStrategicAudit"),c.strategicAudit);
+
+  h+='<div class="eyebrow">'+T("secCommercialStrategy")+'</div>';
+  var strategizing=(S._strategizing===c.id);
+  var hasAudit=!!c.strategicAudit;
+  var stratBtnLabel=strategizing?T("buildingStrategy"):(c.commercialStrategy?"↻ "+T("reRunCommercialStrategy"):T("runCommercialStrategy"));
+  h+='<div class="row between" style="margin-bottom:10px;align-items:center"><span style="font-size:12px;color:var(--c-ink-500)">💰 '+T("secCommercialStrategy")+'</span>'+
+     (hasAudit?'<button class="btn btn-ghost btn-sm" data-a="runCommercialStrategy" data-id="'+c.id+'" '+(strategizing?"disabled":"")+'>'+stratBtnLabel+'</button>':'')+'</div>';
+  if(!hasAudit){h+='<div class="ic-s" style="color:var(--c-ink-500);margin-bottom:10px">'+T("commercialStrategyGate")+'</div>';}
+  if(S._strategyErr&&S._strategyErrId===c.id)h+='<div class="ic-s" style="color:var(--danger);margin-bottom:10px">'+esc(S._strategyErr)+'</div>';
+  if(c.commercialStrategy){h+='<div class="card" style="margin-bottom:10px;line-height:1.55;border-left:3px solid var(--success)">'+mdToHtml(c.commercialStrategy)+'</div>';}
+  else if(hasAudit&&!strategizing){h+='<div class="ic-s" style="color:var(--c-ink-500);margin-bottom:10px">'+T("commercialStrategyEmpty")+'</div>';}
+  h+=fldArea("co_commercialStrategy",T("secCommercialStrategy"),c.commercialStrategy);
+
+  h+='<div class="eyebrow">'+T("secEngagement")+'</div>';
+  var engaging=(S._engaging===c.id);
+  var hasStrategy=!!c.commercialStrategy;
+  var engageBtnLabel=engaging?T("buildingEngagement"):(c.engagementPackage?"↻ "+T("reRunEngagement"):T("runEngagement"));
+  h+='<div class="row between" style="margin-bottom:10px;align-items:center"><span style="font-size:12px;color:var(--c-ink-500)">📋 '+T("secEngagement")+'</span>'+
+     (hasStrategy?'<button class="btn btn-ghost btn-sm" data-a="runEngagement" data-id="'+c.id+'" '+(engaging?"disabled":"")+'>'+engageBtnLabel+'</button>':'')+'</div>';
+  if(!hasStrategy){h+='<div class="ic-s" style="color:var(--c-ink-500);margin-bottom:10px">'+T("engagementGate")+'</div>';}
+  if(S._engageErr&&S._engageErrId===c.id)h+='<div class="ic-s" style="color:var(--danger);margin-bottom:10px">'+esc(S._engageErr)+'</div>';
+  if(c.engagementPackage){h+='<div class="card" style="margin-bottom:10px;line-height:1.55;border-left:3px solid var(--warning)">'+mdToHtml(c.engagementPackage)+'</div>';}
+  else if(hasStrategy&&!engaging){h+='<div class="ic-s" style="color:var(--c-ink-500);margin-bottom:10px">'+T("engagementEmpty")+'</div>';}
+  h+=fldArea("co_engagementPackage",T("secEngagement"),c.engagementPackage);
 
   h+='<div class="eyebrow">02 · '+T("secIntel")+'</div>';
   h+=fldArea("co_int_snapshot",T("companySnapshot"),c.int.snapshot);
@@ -875,11 +1631,17 @@ function vCompany(){
   h+=fldArea("co_int_sources",T("researchSources"),c.int.sources);
 
   h+='<div class="eyebrow">03 · '+T("secAudit")+'</div>';
-  h+=fldArea("co_aud_master",T("masterAudit"),c.aud.master);
-  h+=fldArea("co_aud_exec",T("execSnapshot"),c.aud.exec);
-  h+=fldArea("co_aud_problems",T("topProblems"),c.aud.problems);
-  h+=fldArea("co_aud_wins",T("quickWins"),c.aud.wins);
-  h+=fldArea("co_aud_opportunities",T("opportunities"),c.aud.opportunities);
+  h+='<div class="card" style="margin-bottom:10px">'+fldArea("co_aud_master",T("masterAudit"),c.aud.master)+fldArea("co_aud_exec",T("execSnapshot"),c.aud.exec)+'</div>';
+  h+='<div class="card" style="margin-bottom:10px;border-left:3px solid var(--danger)">'+fldArea("co_aud_problems",T("topProblems"),c.aud.problems)+'</div>';
+  h+='<div class="card" style="border-left:3px solid var(--success)">'+fldArea("co_aud_wins",T("quickWins"),c.aud.wins)+fldArea("co_aud_opportunities",T("opportunities"),c.aud.opportunities)+'</div>';
+
+  h+='<div class="eyebrow">'+T("secSignals")+'</div>';
+  (c.sig||[]).forEach(function(s,i){
+    h+='<div class="sigrow"><input id="co_sig_'+i+'_label" placeholder="'+esc(T("signalLabel")+" "+(i+1))+'" value="'+esc(s.label||"")+'">'+
+      '<select data-a="coSigStars" data-idx="'+i+'"><option value="">—</option>'+
+      [1,2,3,4,5].map(function(n){return '<option value="'+n+'" '+(String(s.stars)===String(n)?"selected":"")+'>'+"★".repeat(n)+"☆".repeat(5-n)+'</option>'}).join("")+
+      '</select></div>';
+  });
 
   h+='<div class="eyebrow">04 · '+T("secDM")+'</div>';
   var roles=[["ceo","CEO"],["cmo","CMO"],["cro","CRO"],["marketing",T("roleMarketing")],["sales",T("roleSales")],["product",T("roleProduct")],["tech",T("roleTech")]];
@@ -1347,6 +2109,13 @@ function sheetNewCompany(){
     '<div class="sheet-actions"><button class="btn btn-ghost" data-a="closeSheet">'+T("cancel")+'</button><button class="btn btn-primary" data-a="doNewCompany">'+T("create")+'</button></div>');
   setTimeout(function(){var e=document.getElementById("ncName");if(e)e.focus()},250);
 }
+function sheetResearchCompany(){
+  openSheet('<h3>'+T("researchCompany")+'</h3><div class="field"><label>'+T("companyName")+'</label><input id="rcName" placeholder="'+T("companyName")+'"></div>'+
+    '<div class="field"><label>'+T("website")+'</label><input id="rcWebsite" placeholder="https://…"></div>'+
+    (aiConfigured()&&(S._aiProvider||"anthropic")!=="anthropic"?'<div class="ic-s" style="color:var(--warning);margin-bottom:8px">'+T("researchNeedsAnthropic")+'</div>':"")+
+    '<div class="sheet-actions"><button class="btn btn-ghost" data-a="closeSheet">'+T("cancel")+'</button><button class="btn btn-primary" data-a="doResearchCompany">'+T("startResearch")+'</button></div>');
+  setTimeout(function(){var e=document.getElementById("rcName");if(e)e.focus()},250);
+}
 function sheetSnapshot(pid){
   openSheet('<h3>'+T("snapTitle")+'</h3>'+
     '<div class="field"><label>'+T("whatDone")+'</label><textarea id="snDone" placeholder="'+T("whatDone")+'"></textarea></div>'+
@@ -1392,6 +2161,12 @@ document.addEventListener("click",function(e){
     case"openCompany":openCompany(id);break;
     case"newCompanySheet":sheetNewCompany();break;
     case"doNewCompany":{var nm=val("ncName");if(!nm)return;var nc=newCompanyObj(nm);S.companies.unshift(nc);save();closeSheet();openCompany(nc.id);break;}
+    case"researchCompanySheet":sheetResearchCompany();break;
+    case"doResearchCompany":{var rnm=val("rcName");if(!rnm)return;var rweb=val("rcWebsite");var rc=newCompanyObj(rnm);rc.ov.website=rweb;S.companies.unshift(rc);save();closeSheet();location.href="company.html?id="+encodeURIComponent(rc.id)+"&research=1";break;}
+    case"runResearch":runCompanyResearch(id);break;
+    case"runStrategicAudit":runStrategicAudit(id);break;
+    case"runCommercialStrategy":runCommercialStrategy(id);break;
+    case"runEngagement":runEngagementPackage(id);break;
     case"addTask":sheetAddTask(id);break;
     case"doAddTask2":{var ti=val("tkTitle");if(!ti)return;var due=SH._due==="today"?startOfDay(Date.now()):SH._due==="tomorrow"?startOfDay(Date.now())+86400000:null;
       S.tasks.push({id:uid(),title:ti,projectId:id,done:false,isNext:false,priority:SH._prio||"med",due:due,estimate:0,createdAt:Date.now(),priority_n:S.tasks.length+1});save();closeSheet();render();break;}
@@ -1545,6 +2320,10 @@ document.addEventListener("change",function(e){
   if(cps){var cc3=company(S.activeCid);if(cc3){cc3.prop.status=cps.value;cc3.updatedAt=Date.now();save();render();}}
   var cds=e.target.closest('[data-a="coDmStatus"]');
   if(cds){var cc4=company(S.activeCid);if(cc4&&cc4.dm[cds.getAttribute("data-role")]){cc4.dm[cds.getAttribute("data-role")].outStatus=cds.value;cc4.updatedAt=Date.now();save();render();}}
+  var csc=e.target.closest('[data-a="coScore"]');
+  if(csc){var cc5=company(S.activeCid);if(cc5){cc5.ov[csc.getAttribute("data-field")]=csc.value;cc5.updatedAt=Date.now();save();render();}}
+  var css=e.target.closest('[data-a="coSigStars"]');
+  if(css){var cc6=company(S.activeCid);var si=+css.getAttribute("data-idx");if(cc6&&cc6.sig&&cc6.sig[si]){cc6.sig[si].stars=css.value;cc6.updatedAt=Date.now();save();render();}}
   var cf=e.target.closest('#coStatusFilter');
   if(cf){S._cstatus=cf.value;renderMain();}
 });
@@ -1587,7 +2366,7 @@ document.addEventListener("keydown",function(e){
 window.__PAGE__=window.__PAGE__||"home";
 S.view=window.__PAGE__;
 if(window.__PAGE__==="project"||window.__PAGE__==="focus"){try{var _pid=new URLSearchParams(location.search).get("id");if(_pid)S.activePid=_pid;}catch(e){}}
-if(window.__PAGE__==="company"){try{var _cid=new URLSearchParams(location.search).get("id");if(_cid)S.activeCid=_cid;}catch(e){}}
+if(window.__PAGE__==="company"){try{var _cid=new URLSearchParams(location.search).get("id");if(_cid)S.activeCid=_cid;if(_cid&&new URLSearchParams(location.search).get("research")==="1")setTimeout(function(){runCompanyResearch(_cid);},0);}catch(e){}}
 render();
 if(window.CxSync){
   var _subDone=false,_lastAuthUid=null;
