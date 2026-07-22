@@ -25,7 +25,7 @@ var I18N={
   allTasks:"كل المهام",activeOnly:"المطلوب",relNow:"الآن",relMin:"د",relHour:"س",relYesterday:"أمس",relDay:"يوم",
   welcome:"أهلاً 👋",demoNote:"ده مشروع تجريبي — امسحه وابدأ بتاعك.",of:"من",
   quick:"سريع",advanced:"متقدّم",simpleTasks:"مهام بسيطة",fullSystem:"النظام الكامل",navigate:"تنقّل",searchLabel:"بحث",qToday:"النهاردة",qTasks:"المهام",quickAdd:"أضف مهمة سريعة…",modeHint:"بدّل الوضع من هنا",
-  contextRecovered:"تم استرجاع السياق",resumeYourWork:"استكمل شغلك",sessionSummary:"ملخّص الجلسة",accomplishments:"اللي اتعمل",continueLeft:"كمّل من حيث وقفت",sessionNotes:"ملاحظات الجلسة",recentCommits:"آخر Commits",recentDecisions:"آخر القرارات",blockersT:"العوائق",relevantDocs:"مستندات ذات صلة",reconstructed:function(n){return "اتجمّع من "+n+" إشارات · تحدّث الآن"},todaysFocus:"تركيز النهاردة",aiSuggestions:"اقتراحات الذكاء",estimate:"تقدير",pHigh:"عالي",pMed:"متوسط",pLow:"منخفض",dueToday:"النهاردة",dueTomorrow:"بكرة",due:"موعد",knowledge:"المعرفة",courses:"الكورسات",bookmarks:"العلامات",promptLib:"مكتبة البرومبت",servers:"السيرفرات",repositories:"المستودعات",timeline:"الخط الزمني",aiAssistant:"المساعد",askContinuum:"اسأل Continuum",askPh:"اسأل عن شغلك…",pinned:"مثبّت",workspaceSec:"مساحة العمل",systemSec:"النظام",logDecision:"سجّل قرار",addCommit:"أضف Commit",addBlocker:"أضف عائق",reason:"السبب",addBookmark:"أضف علامة",addCourse:"أضف كورس",addPrompt:"أضف برومبت",addServer:"أضف سيرفر",addRepo:"أضف مستودع",url:"الرابط",provider:"المصدر",items:"عناصر",noItems:"لسه فاضي.",priority:"الأولوية",mobileView:"موبايل",desktopView:"سطح المكتب",contextHealth:"صحّة السياق",contextHealthSub:"جاهزيتك ترجع لشغلك في ثانية",inFlow:"شغّال",openTasks:"مهام مفتوحة",focusWk:"تركيز/أسبوع",learning:"التعلّم",sessionHeat:"سخونة الجلسات",dayStreak:"يوم متتابع",select:"تحديد",selDone:"تم",byPrio:"الأولوية",byDue:"الموعد",byNew:"الأحدث",selected:"محدّد",complete:"إكمال",delSelQ:"تحذف المحدّد؟",focusMode:"وضع التركيز",start:"ابدأ",pause:"إيقاف",reset:"تصفير",exit:"خروج",aiInsights:"رؤى الذكاء",insTop:"أكتر مشروع نشط",insBlk:"عوائق مفتوحة",insFocus:"تركيز الأسبوع",inboxT:"الوارد",inboxSub:"استرجاع السياق ورؤى وتذكيرات",contextRecovery:"استرجاع السياق",reminders:"تذكيرات",inboxRaw:"ملتقَطات",inboxEmpty:"الوارد فاضي ✓",pin:"تثبيت",account:"الحساب",signIn:"دخول",signUp:"حساب جديد",signOut:"تسجيل خروج",email:"الإيميل",password:"كلمة السر",syncOff:"المزامنة السحابية مش مفعّلة — بص على FIREBASE_SETUP.md",syncHint:"الدخول بيحمّل نسختك السحابية على الجهاز ده.",synced:"اتزامن ✓",signedIn:"أهلاً بيك ✓",signedOut:"خرجت",checkEmail:"بص إيميلك لتأكيد الحساب",syncStatus:"الحالة",cloudGuest:"محلي (بدون حساب)",editTask:"تعديل المهمة",editProject:"تعديل المشروع",version:"الإصدار",subtitle:"الوصف",statusL:"الحالة",color:"اللون",undo:"تراجع",deleted:"اتحذف",restored:"رجع",mood:"المزاج",energy:"الطاقة",e_high:"عالية",e_mid:"وسط",e_low:"منخفضة",daySummary:"ملخّص اليوم",doneT:"اتعمل",pastEntries:"مدوّنات سابقة",yesterday:"إمبارح",notifs:"إشعارات المتصفّح",notifOnMsg:"الإشعارات مفعّلة ✓",notifBlocked:"المتصفّح رافض الإشعارات",work:"الشغل",workSub:"كل السايتس والريبوز اللي اشتغلت عليها",addSite:"ضيف سايت",editSite:"تعديل سايت",workEmpty:"لسه مفيش سايتس — ضيف أول واحد",siteName:"اسم السايت",liveUrl:"لينك مباشر (Live)",deployUrl:"لينك الديبلوي",repoUrl:"لينك الريبو (GitHub)",firebaseUrl:"لينك Firebase / Console",edit:"تعديل",copy:"نسخ",copied:"اتنسخ",currentL:"الدرس الحالي",totalL:"الإجمالي",details:"تفاصيل",openLink:"افتح اللينك",results:"نتيجة",welcomeSub:"خلّينا نبدأ — التطبيق هيفتكرلك كل حاجة.",welcomeTitle:"التطبيق بيفتكر، إنت مش لازم تفتكر",welcomeLine:"التقط أفكارك، اشتغل، والتطبيق يرجّعك لسياقك في ثانية.",loop_capture:"التقاط",loop_link:"ربط",loop_work:"شغل",loop_snapshot:"لقطة",loop_resume:"استئناف",captureL:"التقاط",getStarted:"يلا نبدأ",aiSettings:"الذكاء الاصطناعي",aiProviderNote:"اختر المزوّد (Anthropic أو Groq). مفتاحك بيتخزّن في المتصفّح بس ومابيتزامنش سحابيًا.",aiKey:"مفتاح الـ API",aiProvider:"المزوّد",close:"قفل",syncErr:"في مشكلة في المزامنة — هيحاول تاني",aiNetErr:"تعذّر الاتصال بالموديل (ممكن CORS أو النت). جرّب مزوّد تاني أو بعدين.",syncOnline:"متزامن ✓",syncSyncing:"بيزامن…",syncErrShort:"خطأ — هيعيد",importSnapshot:"استيراد سناپشوت",updateViaCapture:"تحديث بالالتقاط",describeAI:"اكتب بحرية",pasteJson:"الصق JSON",captureFreePh:"اكتب تفاصيل المشروع بحرية… الفيز الحالي، اللي خلصته بالمية، العوائق، اللينكات، أي أفكار",generate:"توليد",importNow:"استيراد",captureParseErr:"الرد مش JSON صالح — جرّب تاني",confirmMatch:"تأكيد المطابقة",looksLike:"شكله بيطابق",noGuess:"مش متأكد من التطابق — اختار يدوي",pickProject:"المشروع",newProjectOpt:"＋ مشروع جديد",confirmImport:"تأكيد",created:"اتعمل",updated:"اتحدّث",reorder:"ترتيب",reorderDone:"تم الترتيب",linkedBadge:"مرتبط",notesPage:"الملاحظات",installApp:"ثبّت التطبيق",installIosHint:"لتثبيت Continuum على الآيفون: دوس زر المشاركة في سفاري، وبعدين اختار \u00abإضافة إلى الشاشة الرئيسية\u00bb.",aiModel:"الموديل",aiSaved:"اتحفظ ✓",aiCleared:"اتمسح",aiEnabled:"الـ AI مفعّل ✓",aiThinking:"بيفكّر",aiOffHint:"فعّل الـ AI الحقيقي من الإعدادات (Profile) عشان إجابات أذكى.",aiErrHint:"في مشكلة في النداء — اتأكد من المفتاح والموديل.",timerMode:"مؤقّت",phWork:"شغل",phBreak:"راحة",calendar:"التقويم",addCal:"أضف للتقويم",profileT:"الملف",you:"أنت",kBookmark:"علامة",kReference:"مرجع",hoursT:"ساعات",companiesNav:"الشركات",companiesSub:"من أول تواصل لحد التسليم",newCompany:"شركة جديدة",companyName:"اسم الشركة",companiesEmpty:"لسه مفيش شركات — دوس + عشان تضيف أول واحدة",searchCoPh:"دوّر بالاسم، المجال، الدولة…",allLabel:"الكل",secOverview:"نظرة عامة",secIntel:"الاستكشاف",secAudit:"التدقيق",secDM:"أصحاب القرار",secOutreach:"التواصل",secProposal:"العرض",secDelivery:"التنفيذ",website:"الموقع",industry:"المجال",country:"الدولة",companySnapshot:"لمحة عن الشركة",productsServices:"المنتجات والخدمات",market:"السوق",competitors:"المنافسين",techStack:"التِك ستاك",researchSources:"مصادر البحث",masterAudit:"التدقيق الشامل",execSnapshot:"ملخص تنفيذي",topProblems:"أهم المشاكل",quickWins:"مكاسب سريعة",opportunities:"الفرص",roleFld:"الاسم / المنصب",linkedin:"لينكدإن",painPoints:"نقاط الألم",personalizedMsg:"رسالة مخصّصة",outreachStatus:"حالة التواصل",roleMarketing:"التسويق",roleSales:"المبيعات",roleProduct:"المنتج",roleTech:"التكنولوجيا",video:"فيديو",calls:"مكالمات",followUps:"متابعات",meetingNotes:"ملاحظات الاجتماع",scope:"نطاق العمل",pricing:"التسعير",propTimeline:"الجدول الزمني",deliverables:"المخرجات",proposalStatus:"حالة العرض",discovery:"الاكتشاف",brand:"الهوية البصرية",devPhase:"التطوير",launch:"الإطلاق",caseStudy:"دراسة حالة",csLead:"عميل محتمل",csResearch:"بحث",csAudit:"تدقيق",csOutreach:"تواصل",csMeeting:"اجتماع",csProposal:"عرض سعر",csWon:"اتكسبت",csLost:"اترفضت",csCompleted:"خلصت",pCritical:"حرج",osNotStarted:"لسه ما بدأناش",osContacted:"اتواصلنا",osReplied:"ردّ",osMeetingSet:"حددنا اجتماع",osNoResponse:"مفيش رد",prDraft:"مسوّدة",prSent:"اترسلت",prReview:"تحت المراجعة",prAccepted:"اتقبلت",prDeclined:"اترفضت",commercialReadiness:"جاهزية الشراء",decisionComplexity:"تعقيد القرار",outreachProbability:"احتمالية نجاح التواصل",secSignals:"إشارات الشراء",signalLabel:"الإشارة",ratingLbl:"التقييم",researchCompany:"شركة بالبحث",startResearch:"ابدأ البحث",researching:"بيدوّر على المعلومات…",secResearch:"بحث حي",reRunResearch:"أعد البحث",researchNeedsAnthropic:"البحث الحي محتاج Anthropic كمزوّد — غيّره من الإعدادات",researchEmpty:"لسه مفيش بحث — دوس \"أعد البحث\"",secIntelDb:"قاعدة معرفة الشركة",rawResearch:"البحث الخام",structuring:"بينظّم البيانات…",intelDbEmpty:"لسه مفيش قاعدة بيانات — البحث هيبنيها تلقائي",secStrategicAudit:"التدقيق الاستراتيجي",runStrategicAudit:"شغّل التدقيق الاستراتيجي",reRunStrategicAudit:"أعد التدقيق",analyzingStrategy:"بيحلّل الاستراتيجية…",strategicAuditGate:"شغّل الـ Research الأول عشان تبقى فيه قاعدة بيانات نحللها",strategicAuditEmpty:"لسه مفيش تدقيق استراتيجي — دوس تشغيل",secCommercialStrategy:"استراتيجية تجارية",runCommercialStrategy:"شغّل الاستراتيجية التجارية",reRunCommercialStrategy:"أعد التوليد",buildingStrategy:"بيبني الاستراتيجية…",commercialStrategyGate:"شغّل التدقيق الاستراتيجي الأول",commercialStrategyEmpty:"لسه مفيش استراتيجية تجارية — دوس تشغيل",secEngagement:"باقة التعامل مع العميل",runEngagement:"جهّز الباقة",reRunEngagement:"أعد التجهيز",buildingEngagement:"بيجهّز الباقة…",engagementGate:"شغّل الاستراتيجية التجارية الأول",engagementEmpty:"لسه مفيش باقة — دوس تشغيل"},
+  contextRecovered:"تم استرجاع السياق",resumeYourWork:"استكمل شغلك",sessionSummary:"ملخّص الجلسة",accomplishments:"اللي اتعمل",continueLeft:"كمّل من حيث وقفت",sessionNotes:"ملاحظات الجلسة",recentCommits:"آخر Commits",recentDecisions:"آخر القرارات",blockersT:"العوائق",relevantDocs:"مستندات ذات صلة",reconstructed:function(n){return "اتجمّع من "+n+" إشارات · تحدّث الآن"},todaysFocus:"تركيز النهاردة",aiSuggestions:"اقتراحات الذكاء",estimate:"تقدير",pHigh:"عالي",pMed:"متوسط",pLow:"منخفض",dueToday:"النهاردة",dueTomorrow:"بكرة",due:"موعد",knowledge:"المعرفة",courses:"الكورسات",bookmarks:"العلامات",promptLib:"مكتبة البرومبت",servers:"السيرفرات",repositories:"المستودعات",timeline:"الخط الزمني",aiAssistant:"المساعد",askContinuum:"اسأل Continuum",askPh:"اسأل عن شغلك…",pinned:"مثبّت",workspaceSec:"مساحة العمل",systemSec:"النظام",logDecision:"سجّل قرار",addCommit:"أضف Commit",addBlocker:"أضف عائق",reason:"السبب",addBookmark:"أضف علامة",addCourse:"أضف كورس",addPrompt:"أضف برومبت",addServer:"أضف سيرفر",addRepo:"أضف مستودع",url:"الرابط",provider:"المصدر",items:"عناصر",noItems:"لسه فاضي.",priority:"الأولوية",mobileView:"موبايل",desktopView:"سطح المكتب",contextHealth:"صحّة السياق",contextHealthSub:"جاهزيتك ترجع لشغلك في ثانية",inFlow:"شغّال",openTasks:"مهام مفتوحة",focusWk:"تركيز/أسبوع",learning:"التعلّم",sessionHeat:"سخونة الجلسات",dayStreak:"يوم متتابع",select:"تحديد",selDone:"تم",byPrio:"الأولوية",byDue:"الموعد",byNew:"الأحدث",selected:"محدّد",complete:"إكمال",delSelQ:"تحذف المحدّد؟",focusMode:"وضع التركيز",start:"ابدأ",pause:"إيقاف",reset:"تصفير",exit:"خروج",aiInsights:"رؤى الذكاء",insTop:"أكتر مشروع نشط",insBlk:"عوائق مفتوحة",insFocus:"تركيز الأسبوع",inboxT:"الوارد",inboxSub:"استرجاع السياق ورؤى وتذكيرات",contextRecovery:"استرجاع السياق",reminders:"تذكيرات",inboxRaw:"ملتقَطات",inboxEmpty:"الوارد فاضي ✓",pin:"تثبيت",account:"الحساب",signIn:"دخول",signUp:"حساب جديد",signOut:"تسجيل خروج",email:"الإيميل",password:"كلمة السر",syncOff:"المزامنة السحابية مش مفعّلة — بص على FIREBASE_SETUP.md",syncHint:"الدخول بيحمّل نسختك السحابية على الجهاز ده.",synced:"اتزامن ✓",signedIn:"أهلاً بيك ✓",signedOut:"خرجت",checkEmail:"بص إيميلك لتأكيد الحساب",syncStatus:"الحالة",cloudGuest:"محلي (بدون حساب)",editTask:"تعديل المهمة",editProject:"تعديل المشروع",version:"الإصدار",subtitle:"الوصف",statusL:"الحالة",color:"اللون",undo:"تراجع",deleted:"اتحذف",restored:"رجع",mood:"المزاج",energy:"الطاقة",e_high:"عالية",e_mid:"وسط",e_low:"منخفضة",daySummary:"ملخّص اليوم",doneT:"اتعمل",pastEntries:"مدوّنات سابقة",yesterday:"إمبارح",notifs:"إشعارات المتصفّح",notifOnMsg:"الإشعارات مفعّلة ✓",notifBlocked:"المتصفّح رافض الإشعارات",work:"الشغل",workSub:"كل السايتس والريبوز اللي اشتغلت عليها",addSite:"ضيف سايت",editSite:"تعديل سايت",workEmpty:"لسه مفيش سايتس — ضيف أول واحد",siteName:"اسم السايت",liveUrl:"لينك مباشر (Live)",deployUrl:"لينك الديبلوي",repoUrl:"لينك الريبو (GitHub)",firebaseUrl:"لينك Firebase / Console",edit:"تعديل",copy:"نسخ",copied:"اتنسخ",currentL:"الدرس الحالي",totalL:"الإجمالي",details:"تفاصيل",openLink:"افتح اللينك",results:"نتيجة",welcomeSub:"خلّينا نبدأ — التطبيق هيفتكرلك كل حاجة.",welcomeTitle:"التطبيق بيفتكر، إنت مش لازم تفتكر",welcomeLine:"التقط أفكارك، اشتغل، والتطبيق يرجّعك لسياقك في ثانية.",loop_capture:"التقاط",loop_link:"ربط",loop_work:"شغل",loop_snapshot:"لقطة",loop_resume:"استئناف",captureL:"التقاط",getStarted:"يلا نبدأ",aiSettings:"الذكاء الاصطناعي",aiProviderNote:"اختر المزوّد (Anthropic أو Groq). مفتاحك بيتخزّن في المتصفّح بس ومابيتزامنش سحابيًا.",aiKey:"مفتاح الـ API",aiProvider:"المزوّد",close:"قفل",syncErr:"في مشكلة في المزامنة — هيحاول تاني",aiNetErr:"تعذّر الاتصال بالموديل (ممكن CORS أو النت). جرّب مزوّد تاني أو بعدين.",syncOnline:"متزامن ✓",syncSyncing:"بيزامن…",syncErrShort:"خطأ — هيعيد",importSnapshot:"استيراد سناپشوت",updateViaCapture:"تحديث بالالتقاط",describeAI:"اكتب بحرية",pasteJson:"الصق JSON",captureFreePh:"اكتب تفاصيل المشروع بحرية… الفيز الحالي، اللي خلصته بالمية، العوائق، اللينكات، أي أفكار",generate:"توليد",importNow:"استيراد",captureParseErr:"الرد مش JSON صالح — جرّب تاني",confirmMatch:"تأكيد المطابقة",looksLike:"شكله بيطابق",noGuess:"مش متأكد من التطابق — اختار يدوي",pickProject:"المشروع",newProjectOpt:"＋ مشروع جديد",confirmImport:"تأكيد",created:"اتعمل",updated:"اتحدّث",reorder:"ترتيب",reorderDone:"تم الترتيب",linkedBadge:"مرتبط",notesPage:"الملاحظات",installApp:"ثبّت التطبيق",installIosHint:"لتثبيت Continuum على الآيفون: دوس زر المشاركة في سفاري، وبعدين اختار \u00abإضافة إلى الشاشة الرئيسية\u00bb.",aiModel:"الموديل",aiSaved:"اتحفظ ✓",aiCleared:"اتمسح",aiEnabled:"الـ AI مفعّل ✓",aiThinking:"بيفكّر",aiOffHint:"فعّل الـ AI الحقيقي من الإعدادات (Profile) عشان إجابات أذكى.",aiErrHint:"في مشكلة في النداء — اتأكد من المفتاح والموديل.",timerMode:"مؤقّت",phWork:"شغل",phBreak:"راحة",calendar:"التقويم",addCal:"أضف للتقويم",profileT:"الملف",you:"أنت",kBookmark:"علامة",kReference:"مرجع",hoursT:"ساعات",companiesNav:"الشركات",companiesSub:"من أول تواصل لحد التسليم",newCompany:"شركة جديدة",companyName:"اسم الشركة",companiesEmpty:"لسه مفيش شركات — دوس + عشان تضيف أول واحدة",searchCoPh:"دوّر بالاسم، المجال، الدولة…",allLabel:"الكل",secOverview:"نظرة عامة",secIntel:"الاستكشاف",secAudit:"التدقيق",secDM:"أصحاب القرار",secOutreach:"التواصل",secProposal:"العرض",secDelivery:"التنفيذ",website:"الموقع",industry:"المجال",country:"الدولة",companySnapshot:"لمحة عن الشركة",productsServices:"المنتجات والخدمات",market:"السوق",competitors:"المنافسين",techStack:"التِك ستاك",researchSources:"مصادر البحث",masterAudit:"التدقيق الشامل",execSnapshot:"ملخص تنفيذي",topProblems:"أهم المشاكل",quickWins:"مكاسب سريعة",opportunities:"الفرص",roleFld:"الاسم / المنصب",linkedin:"لينكدإن",painPoints:"نقاط الألم",personalizedMsg:"رسالة مخصّصة",outreachStatus:"حالة التواصل",roleMarketing:"التسويق",roleSales:"المبيعات",roleProduct:"المنتج",roleTech:"التكنولوجيا",video:"فيديو",calls:"مكالمات",followUps:"متابعات",meetingNotes:"ملاحظات الاجتماع",scope:"نطاق العمل",pricing:"التسعير",propTimeline:"الجدول الزمني",deliverables:"المخرجات",proposalStatus:"حالة العرض",discovery:"الاكتشاف",brand:"الهوية البصرية",devPhase:"التطوير",launch:"الإطلاق",caseStudy:"دراسة حالة",csLead:"عميل محتمل",csResearch:"بحث",csAudit:"تدقيق",csOutreach:"تواصل",csMeeting:"اجتماع",csProposal:"عرض سعر",csWon:"اتكسبت",csLost:"اترفضت",csCompleted:"خلصت",pCritical:"حرج",osNotStarted:"لسه ما بدأناش",osContacted:"اتواصلنا",osReplied:"ردّ",osMeetingSet:"حددنا اجتماع",osNoResponse:"مفيش رد",prDraft:"مسوّدة",prSent:"اترسلت",prReview:"تحت المراجعة",prAccepted:"اتقبلت",prDeclined:"اترفضت",commercialReadiness:"جاهزية الشراء",decisionComplexity:"تعقيد القرار",outreachProbability:"احتمالية نجاح التواصل",secSignals:"إشارات الشراء",signalLabel:"الإشارة",ratingLbl:"التقييم",researchCompany:"شركة بالبحث",startResearch:"ابدأ البحث",researching:"بيدوّر على المعلومات…",secResearch:"بحث حي",reRunResearch:"أعد البحث",researchNeedsAnthropic:"البحث الحي محتاج Anthropic كمزوّد — غيّره من الإعدادات",researchEmpty:"لسه مفيش بحث — دوس \"أعد البحث\"",secIntelDb:"قاعدة معرفة الشركة",rawResearch:"البحث الخام",structuring:"بينظّم البيانات…",intelDbEmpty:"لسه مفيش قاعدة بيانات — البحث هيبنيها تلقائي",secStrategicAudit:"التدقيق الاستراتيجي",runStrategicAudit:"شغّل التدقيق الاستراتيجي",reRunStrategicAudit:"أعد التدقيق",analyzingStrategy:"بيحلّل الاستراتيجية…",strategicAuditGate:"شغّل الـ Research الأول عشان تبقى فيه قاعدة بيانات نحللها",strategicAuditEmpty:"لسه مفيش تدقيق استراتيجي — دوس تشغيل",secCommercialStrategy:"استراتيجية تجارية",runCommercialStrategy:"شغّل الاستراتيجية التجارية",reRunCommercialStrategy:"أعد التوليد",buildingStrategy:"بيبني الاستراتيجية…",commercialStrategyGate:"شغّل التدقيق الاستراتيجي الأول",commercialStrategyEmpty:"لسه مفيش استراتيجية تجارية — دوس تشغيل",secEngagement:"باقة التعامل مع العميل",runEngagement:"جهّز الباقة",reRunEngagement:"أعد التجهيز",buildingEngagement:"بيجهّز الباقة…",engagementGate:"شغّل الاستراتيجية التجارية الأول",engagementEmpty:"لسه مفيش باقة — دوس تشغيل",secSnapshot:"لمحة تنفيذية",researchCoverage:"نسبة اكتمال البيانات",strengthsLbl:"نقاط القوة",weaknessesLbl:"نقاط الضعف",threatsLbl:"التهديدات",leadership:"القيادة",missingInfo:"معلومات ناقصة",noKgYet:"لسه مفيش بيانات مستخرجة — هتتبني تلقائي مع تشغيل المراحل",employeesLbl:"عدد الموظفين",dealSize:"حجم الصفقة المتوقع",foundDm:"أصحاب قرار مكتشفين",importCompanySnapshot:"استيراد بيانات شركة",captureCoFreePh:"الصق أو اكتب بحرية أي معلومات عن الشركة… من موقعها، LinkedIn، تقارير، ملاحظات",pickCompany:"الشركة",newCompanyOpt:"＋ شركة جديدة"},
  en:{app:"Continuum",home:"Home",projects:"Projects",tasks:"Tasks",journal:"Journal",settings:"Settings",
   gMorning:"Good morning",gAfternoon:"Good afternoon",gEvening:"Good evening",
   inflight:function(n){return n+" project"+(n==1?"":"s")+" in flight"},
@@ -49,7 +49,7 @@ var I18N={
   allTasks:"All",activeOnly:"To do",relNow:"now",relMin:"m",relHour:"h",relYesterday:"yesterday",relDay:"d",
   welcome:"Welcome 👋",demoNote:"This is a demo project — delete it and start yours.",of:"of",
   quick:"Quick",advanced:"Advanced",simpleTasks:"Simple tasks",fullSystem:"Full system",navigate:"Navigate",searchLabel:"Search",qToday:"Today",qTasks:"Tasks",quickAdd:"Quick add a task…",modeHint:"Switch mode here",
-  contextRecovered:"Context recovered",resumeYourWork:"Resume your work",sessionSummary:"Session summary",accomplishments:"What you did",continueLeft:"Continue where you left off",sessionNotes:"Open session notes",recentCommits:"Recent commits",recentDecisions:"Recent decisions",blockersT:"Blockers",relevantDocs:"Relevant docs",reconstructed:function(n){return "Reconstructed from "+n+" signals · updated just now"},todaysFocus:"Today's focus",aiSuggestions:"AI suggestions",estimate:"estimate",pHigh:"HIGH",pMed:"MED",pLow:"LOW",dueToday:"Today",dueTomorrow:"Tomorrow",due:"due",knowledge:"Knowledge",courses:"Courses",bookmarks:"Bookmarks",promptLib:"Prompt Library",servers:"Servers",repositories:"Repositories",timeline:"Timeline",aiAssistant:"AI Assistant",askContinuum:"Ask Continuum",askPh:"Ask about your work…",pinned:"Pinned",workspaceSec:"Workspace",systemSec:"System",logDecision:"Log decision",addCommit:"Add commit",addBlocker:"Add blocker",reason:"Reason",addBookmark:"Add bookmark",addCourse:"Add course",addPrompt:"Add prompt",addServer:"Add server",addRepo:"Add repository",url:"URL",provider:"Provider",items:"items",noItems:"Nothing here yet.",priority:"Priority",mobileView:"Mobile",desktopView:"Desktop",contextHealth:"Context Health",contextHealthSub:"How ready you are to jump back in",inFlow:"In flow",openTasks:"Open tasks",focusWk:"Focus/wk",learning:"Learning",sessionHeat:"Session heat",dayStreak:"day streak",select:"Select",selDone:"Done",byPrio:"Priority",byDue:"Due",byNew:"Newest",selected:"selected",complete:"Complete",delSelQ:"Delete selected tasks?",focusMode:"Focus mode",start:"Start",pause:"Pause",reset:"Reset",exit:"Exit",aiInsights:"AI insights",insTop:"Most active project",insBlk:"Open blockers",insFocus:"Focus this week",inboxT:"Inbox",inboxSub:"Context recovery, insights & reminders",contextRecovery:"Context recovery",reminders:"Reminders",inboxRaw:"Captures",inboxEmpty:"Inbox is clear ✓",pin:"Pin",account:"Account",signIn:"Sign in",signUp:"Sign up",signOut:"Sign out",email:"Email",password:"Password",syncOff:"Cloud sync not set up — see FIREBASE_SETUP.md",syncHint:"Signing in loads your cloud copy onto this device.",synced:"Synced ✓",signedIn:"Welcome ✓",signedOut:"Signed out",checkEmail:"Check your email to confirm",syncStatus:"Status",cloudGuest:"Local (no account)",editTask:"Edit task",editProject:"Edit project",version:"Version",subtitle:"Subtitle",statusL:"Status",color:"Color",undo:"Undo",deleted:"Deleted",restored:"Restored",mood:"Mood",energy:"Energy",e_high:"High",e_mid:"Mid",e_low:"Low",daySummary:"Day summary",doneT:"Done",pastEntries:"Past entries",yesterday:"Yesterday",notifs:"Browser notifications",notifOnMsg:"Notifications on ✓",notifBlocked:"Browser blocked notifications",work:"Work",workSub:"All sites and repos you have worked on",addSite:"Add site",editSite:"Edit site",workEmpty:"No sites yet, add your first",siteName:"Site name",liveUrl:"Live URL",deployUrl:"Deploy URL",repoUrl:"Repo URL (GitHub)",firebaseUrl:"Firebase / Console URL",edit:"Edit",copy:"Copy",copied:"Copied",currentL:"Current lesson",totalL:"Total",details:"Details",openLink:"Open link",results:"results",welcomeSub:"Get started. The app remembers everything for you.",welcomeTitle:"The app does the remembering for you",welcomeLine:"Capture your thoughts, do the work, and jump right back into context.",loop_capture:"Capture",loop_link:"Link",loop_work:"Work",loop_snapshot:"Snapshot",loop_resume:"Resume",captureL:"Capture",getStarted:"Get started",aiSettings:"AI",aiProviderNote:"Choose a provider (Anthropic or Groq). Your key is stored only in this browser and is never synced.",aiKey:"API key",aiProvider:"Provider",close:"Close",syncErr:"Sync problem, retrying",aiNetErr:"Could not reach the model (CORS or network). Try another provider or later.",syncOnline:"Synced",syncSyncing:"Syncing",syncErrShort:"Error, retrying",importSnapshot:"Import snapshot",updateViaCapture:"Update via capture",describeAI:"Describe freely",pasteJson:"Paste JSON",captureFreePh:"Describe the project freely, current phase, whats done percent, blockers, links, ideas",generate:"Generate",importNow:"Import",captureParseErr:"Response was not valid JSON, try again",confirmMatch:"Confirm match",looksLike:"Looks like",noGuess:"Not sure of the match, pick manually",pickProject:"Project",newProjectOpt:"New project",confirmImport:"Confirm",created:"Created",updated:"Updated",reorder:"Reorder",reorderDone:"Done ordering",linkedBadge:"Linked",notesPage:"Notes",installApp:"Install app",installIosHint:"To install Continuum on iPhone: tap the Share button in Safari, then choose \u00abAdd to Home Screen\u00bb.",aiModel:"Model",aiSaved:"Saved",aiCleared:"Cleared",aiEnabled:"AI enabled",aiThinking:"Thinking",aiOffHint:"Enable real AI in Profile settings for smarter answers.",aiErrHint:"Request failed — check your key and model.",timerMode:"Timer",phWork:"Focus",phBreak:"Break",calendar:"Calendar",addCal:"Add to calendar",profileT:"Profile",you:"You",kBookmark:"Bookmark",kReference:"Reference",hoursT:"Hours",companiesNav:"Companies",companiesSub:"From first contact to delivery",newCompany:"New Company",companyName:"Company name",companiesEmpty:"No companies yet — tap + to add your first",searchCoPh:"Search name, industry, country…",allLabel:"All",secOverview:"Overview",secIntel:"Intelligence",secAudit:"Audit",secDM:"Decision Makers",secOutreach:"Outreach",secProposal:"Proposal",secDelivery:"Delivery",website:"Website",industry:"Industry",country:"Country",companySnapshot:"Company snapshot",productsServices:"Products & services",market:"Market",competitors:"Competitors",techStack:"Tech stack",researchSources:"Research sources",masterAudit:"Master audit",execSnapshot:"Executive snapshot",topProblems:"Top problems",quickWins:"Quick wins",opportunities:"Opportunities",roleFld:"Name / Title",linkedin:"LinkedIn",painPoints:"Pain points",personalizedMsg:"Personalized messaging",outreachStatus:"Outreach status",roleMarketing:"Marketing",roleSales:"Sales",roleProduct:"Product",roleTech:"Technology",video:"Video",calls:"Calls",followUps:"Follow ups",meetingNotes:"Meeting notes",scope:"Scope",pricing:"Pricing",propTimeline:"Timeline",deliverables:"Deliverables",proposalStatus:"Proposal status",discovery:"Discovery",brand:"Brand",devPhase:"Development",launch:"Launch",caseStudy:"Case study",csLead:"Lead",csResearch:"Research",csAudit:"Audit",csOutreach:"Outreach",csMeeting:"Meeting",csProposal:"Proposal",csWon:"Won",csLost:"Lost",csCompleted:"Completed",pCritical:"CRITICAL",osNotStarted:"Not started",osContacted:"Contacted",osReplied:"Replied",osMeetingSet:"Meeting set",osNoResponse:"No response",prDraft:"Draft",prSent:"Sent",prReview:"Under review",prAccepted:"Accepted",prDeclined:"Declined",commercialReadiness:"Commercial readiness",decisionComplexity:"Decision complexity",outreachProbability:"Outreach probability",secSignals:"Buying signals",signalLabel:"Signal",ratingLbl:"Rating",researchCompany:"Research Company",startResearch:"Start research",researching:"Researching…",secResearch:"Live Research",reRunResearch:"Re-run research",researchNeedsAnthropic:"Live research needs Anthropic as the provider — switch it in Settings",researchEmpty:"No research yet — tap \"Re-run research\"",secIntelDb:"Company Intelligence Database",rawResearch:"Raw research",structuring:"Structuring…",intelDbEmpty:"No structured database yet — running research will build it automatically",secStrategicAudit:"Strategic Audit",runStrategicAudit:"Run Strategic Audit",reRunStrategicAudit:"Re-run audit",analyzingStrategy:"Analyzing strategy…",strategicAuditGate:"Run research first so there's a database to analyze",strategicAuditEmpty:"No strategic audit yet — tap run",secCommercialStrategy:"Commercial Strategy",runCommercialStrategy:"Run Commercial Strategy",reRunCommercialStrategy:"Regenerate",buildingStrategy:"Building strategy…",commercialStrategyGate:"Run the strategic audit first",commercialStrategyEmpty:"No commercial strategy yet — tap run",secEngagement:"Engagement Package",runEngagement:"Build Engagement Package",reRunEngagement:"Rebuild",buildingEngagement:"Building package…",engagementGate:"Run the commercial strategy first",engagementEmpty:"No engagement package yet — tap run"}
+  contextRecovered:"Context recovered",resumeYourWork:"Resume your work",sessionSummary:"Session summary",accomplishments:"What you did",continueLeft:"Continue where you left off",sessionNotes:"Open session notes",recentCommits:"Recent commits",recentDecisions:"Recent decisions",blockersT:"Blockers",relevantDocs:"Relevant docs",reconstructed:function(n){return "Reconstructed from "+n+" signals · updated just now"},todaysFocus:"Today's focus",aiSuggestions:"AI suggestions",estimate:"estimate",pHigh:"HIGH",pMed:"MED",pLow:"LOW",dueToday:"Today",dueTomorrow:"Tomorrow",due:"due",knowledge:"Knowledge",courses:"Courses",bookmarks:"Bookmarks",promptLib:"Prompt Library",servers:"Servers",repositories:"Repositories",timeline:"Timeline",aiAssistant:"AI Assistant",askContinuum:"Ask Continuum",askPh:"Ask about your work…",pinned:"Pinned",workspaceSec:"Workspace",systemSec:"System",logDecision:"Log decision",addCommit:"Add commit",addBlocker:"Add blocker",reason:"Reason",addBookmark:"Add bookmark",addCourse:"Add course",addPrompt:"Add prompt",addServer:"Add server",addRepo:"Add repository",url:"URL",provider:"Provider",items:"items",noItems:"Nothing here yet.",priority:"Priority",mobileView:"Mobile",desktopView:"Desktop",contextHealth:"Context Health",contextHealthSub:"How ready you are to jump back in",inFlow:"In flow",openTasks:"Open tasks",focusWk:"Focus/wk",learning:"Learning",sessionHeat:"Session heat",dayStreak:"day streak",select:"Select",selDone:"Done",byPrio:"Priority",byDue:"Due",byNew:"Newest",selected:"selected",complete:"Complete",delSelQ:"Delete selected tasks?",focusMode:"Focus mode",start:"Start",pause:"Pause",reset:"Reset",exit:"Exit",aiInsights:"AI insights",insTop:"Most active project",insBlk:"Open blockers",insFocus:"Focus this week",inboxT:"Inbox",inboxSub:"Context recovery, insights & reminders",contextRecovery:"Context recovery",reminders:"Reminders",inboxRaw:"Captures",inboxEmpty:"Inbox is clear ✓",pin:"Pin",account:"Account",signIn:"Sign in",signUp:"Sign up",signOut:"Sign out",email:"Email",password:"Password",syncOff:"Cloud sync not set up — see FIREBASE_SETUP.md",syncHint:"Signing in loads your cloud copy onto this device.",synced:"Synced ✓",signedIn:"Welcome ✓",signedOut:"Signed out",checkEmail:"Check your email to confirm",syncStatus:"Status",cloudGuest:"Local (no account)",editTask:"Edit task",editProject:"Edit project",version:"Version",subtitle:"Subtitle",statusL:"Status",color:"Color",undo:"Undo",deleted:"Deleted",restored:"Restored",mood:"Mood",energy:"Energy",e_high:"High",e_mid:"Mid",e_low:"Low",daySummary:"Day summary",doneT:"Done",pastEntries:"Past entries",yesterday:"Yesterday",notifs:"Browser notifications",notifOnMsg:"Notifications on ✓",notifBlocked:"Browser blocked notifications",work:"Work",workSub:"All sites and repos you have worked on",addSite:"Add site",editSite:"Edit site",workEmpty:"No sites yet, add your first",siteName:"Site name",liveUrl:"Live URL",deployUrl:"Deploy URL",repoUrl:"Repo URL (GitHub)",firebaseUrl:"Firebase / Console URL",edit:"Edit",copy:"Copy",copied:"Copied",currentL:"Current lesson",totalL:"Total",details:"Details",openLink:"Open link",results:"results",welcomeSub:"Get started. The app remembers everything for you.",welcomeTitle:"The app does the remembering for you",welcomeLine:"Capture your thoughts, do the work, and jump right back into context.",loop_capture:"Capture",loop_link:"Link",loop_work:"Work",loop_snapshot:"Snapshot",loop_resume:"Resume",captureL:"Capture",getStarted:"Get started",aiSettings:"AI",aiProviderNote:"Choose a provider (Anthropic or Groq). Your key is stored only in this browser and is never synced.",aiKey:"API key",aiProvider:"Provider",close:"Close",syncErr:"Sync problem, retrying",aiNetErr:"Could not reach the model (CORS or network). Try another provider or later.",syncOnline:"Synced",syncSyncing:"Syncing",syncErrShort:"Error, retrying",importSnapshot:"Import snapshot",updateViaCapture:"Update via capture",describeAI:"Describe freely",pasteJson:"Paste JSON",captureFreePh:"Describe the project freely, current phase, whats done percent, blockers, links, ideas",generate:"Generate",importNow:"Import",captureParseErr:"Response was not valid JSON, try again",confirmMatch:"Confirm match",looksLike:"Looks like",noGuess:"Not sure of the match, pick manually",pickProject:"Project",newProjectOpt:"New project",confirmImport:"Confirm",created:"Created",updated:"Updated",reorder:"Reorder",reorderDone:"Done ordering",linkedBadge:"Linked",notesPage:"Notes",installApp:"Install app",installIosHint:"To install Continuum on iPhone: tap the Share button in Safari, then choose \u00abAdd to Home Screen\u00bb.",aiModel:"Model",aiSaved:"Saved",aiCleared:"Cleared",aiEnabled:"AI enabled",aiThinking:"Thinking",aiOffHint:"Enable real AI in Profile settings for smarter answers.",aiErrHint:"Request failed — check your key and model.",timerMode:"Timer",phWork:"Focus",phBreak:"Break",calendar:"Calendar",addCal:"Add to calendar",profileT:"Profile",you:"You",kBookmark:"Bookmark",kReference:"Reference",hoursT:"Hours",companiesNav:"Companies",companiesSub:"From first contact to delivery",newCompany:"New Company",companyName:"Company name",companiesEmpty:"No companies yet — tap + to add your first",searchCoPh:"Search name, industry, country…",allLabel:"All",secOverview:"Overview",secIntel:"Intelligence",secAudit:"Audit",secDM:"Decision Makers",secOutreach:"Outreach",secProposal:"Proposal",secDelivery:"Delivery",website:"Website",industry:"Industry",country:"Country",companySnapshot:"Company snapshot",productsServices:"Products & services",market:"Market",competitors:"Competitors",techStack:"Tech stack",researchSources:"Research sources",masterAudit:"Master audit",execSnapshot:"Executive snapshot",topProblems:"Top problems",quickWins:"Quick wins",opportunities:"Opportunities",roleFld:"Name / Title",linkedin:"LinkedIn",painPoints:"Pain points",personalizedMsg:"Personalized messaging",outreachStatus:"Outreach status",roleMarketing:"Marketing",roleSales:"Sales",roleProduct:"Product",roleTech:"Technology",video:"Video",calls:"Calls",followUps:"Follow ups",meetingNotes:"Meeting notes",scope:"Scope",pricing:"Pricing",propTimeline:"Timeline",deliverables:"Deliverables",proposalStatus:"Proposal status",discovery:"Discovery",brand:"Brand",devPhase:"Development",launch:"Launch",caseStudy:"Case study",csLead:"Lead",csResearch:"Research",csAudit:"Audit",csOutreach:"Outreach",csMeeting:"Meeting",csProposal:"Proposal",csWon:"Won",csLost:"Lost",csCompleted:"Completed",pCritical:"CRITICAL",osNotStarted:"Not started",osContacted:"Contacted",osReplied:"Replied",osMeetingSet:"Meeting set",osNoResponse:"No response",prDraft:"Draft",prSent:"Sent",prReview:"Under review",prAccepted:"Accepted",prDeclined:"Declined",commercialReadiness:"Commercial readiness",decisionComplexity:"Decision complexity",outreachProbability:"Outreach probability",secSignals:"Buying signals",signalLabel:"Signal",ratingLbl:"Rating",researchCompany:"Research Company",startResearch:"Start research",researching:"Researching…",secResearch:"Live Research",reRunResearch:"Re-run research",researchNeedsAnthropic:"Live research needs Anthropic as the provider — switch it in Settings",researchEmpty:"No research yet — tap \"Re-run research\"",secIntelDb:"Company Intelligence Database",rawResearch:"Raw research",structuring:"Structuring…",intelDbEmpty:"No structured database yet — running research will build it automatically",secStrategicAudit:"Strategic Audit",runStrategicAudit:"Run Strategic Audit",reRunStrategicAudit:"Re-run audit",analyzingStrategy:"Analyzing strategy…",strategicAuditGate:"Run research first so there's a database to analyze",strategicAuditEmpty:"No strategic audit yet — tap run",secCommercialStrategy:"Commercial Strategy",runCommercialStrategy:"Run Commercial Strategy",reRunCommercialStrategy:"Regenerate",buildingStrategy:"Building strategy…",commercialStrategyGate:"Run the strategic audit first",commercialStrategyEmpty:"No commercial strategy yet — tap run",secEngagement:"Engagement Package",runEngagement:"Build Engagement Package",reRunEngagement:"Rebuild",buildingEngagement:"Building package…",engagementGate:"Run the commercial strategy first",engagementEmpty:"No engagement package yet — tap run",secSnapshot:"Company Snapshot",researchCoverage:"Research coverage",strengthsLbl:"Strengths",weaknessesLbl:"Weaknesses",threatsLbl:"Threats",leadership:"Leadership",missingInfo:"Missing information",noKgYet:"No extracted data yet — this fills in automatically as pipeline stages run",employeesLbl:"Employees",dealSize:"Estimated deal size",foundDm:"Decision makers found",importCompanySnapshot:"Import Company Snapshot",captureCoFreePh:"Paste or freely describe anything about the company… from its website, LinkedIn, reports, notes",pickCompany:"Company",newCompanyOpt:"New company"}
 };
 
 /* ---------------- state ---------------- */
@@ -1073,6 +1073,188 @@ function runKnowledgeExtraction(id){
       catch(e){/* silent: extraction is best-effort background enrichment, never surfaces errors to the user */}
     }).catch(function(){/* silent, same reasoning */});
 }
+function companyIntakeSchemaText(){
+  return `# Company Snapshot Generator for Continuum
+
+You are generating a **Company Snapshot** for my CRM (Continuum).
+
+This snapshot has TWO purposes:
+
+1. A beautiful executive report that a human can read.
+2. A machine-readable JSON that Continuum can import directly.
+
+The company information I will provide may come from research, websites, LinkedIn, reports, PDFs, notes, or raw text.
+
+Your job is to organize everything.
+
+---
+
+# OBJECTIVES
+
+Think like: McKinsey Consultant, Gartner Analyst, Enterprise Sales Consultant, Brand Strategist, B2B Growth Consultant.
+
+Never invent information. If something is unknown write: Unknown. Never guess.
+
+---
+
+# OUTPUT STRUCTURE
+
+Return EXACTLY TWO SECTIONS.
+
+---
+
+# SECTION 1
+
+# 📊 Executive Company Snapshot
+
+Create a highly visual dashboard. Prefer tables, KPI cards, checklists, progress bars, trees, timelines, matrices, SWOT, badges. Avoid walls of text. Maximum paragraph = 3 lines.
+
+Include whenever possible: Executive KPIs (Company, Website, Industry, Founded, Employees, Revenue, Funding, Ownership, CEO, CMO, Priority, Expected Deal Size, Commercial Readiness, Decision Complexity); Company Overview (Mission, Vision, Business Model, Value Proposition); Products table; Services table; Industries badges; Buyer Personas table; Leadership table; Decision Makers table; Organization Structure (ASCII tree); Technology Stack (grouped table); Competitors (comparison table); Integrations (checklist); Partners table; Customers (named customers, industries, case studies, testimonials); Hiring Signals; Funding Timeline; News Timeline; Marketing (channels, SEO, content, social); Sales Motion; Pricing (known/estimated/unknown); Buying Signals (priority table); Risks (priority table); Opportunities (priority table); SWOT; Missing Information (checklist); Research Coverage (progress bars: Website, LinkedIn, Jobs, Customers, Technology, News, Leadership, Overall).
+
+---
+
+# SECTION 2
+
+Return ONLY ONE JSON block, inside a \`\`\`json code fence. No explanation. No comments outside the fence. Use this exact schema:
+
+\`\`\`json
+{
+  "action":"create",
+  "matchCompanyId":"null",
+  "matchConfidence":"none",
+  "company":{
+    "name":"","website":"","linkedin":"","industry":"","subcategory":"","hq":"","regions":[],
+    "employees":"","founded":"","ownership":"","revenue":"","funding":"",
+    "status":"prospect","priority":"high|medium|low",
+    "overview":"","mission":"","vision":"","businessModel":"","valueProposition":"",
+    "products":[],"services":[],"industries":[],"customers":[],"buyerPersonas":[],
+    "leadership":[{"name":"","role":"","linkedin":""}],
+    "decisionMakers":[{"name":"","role":"","priority":"high|medium|low"}],
+    "competitors":[],"partners":[],
+    "technology":{"frontend":[],"backend":[],"cloud":[],"database":[],"ai":[],"crm":[],"analytics":[],"cms":[]},
+    "integrations":[],"pricing":"","salesMotion":"","marketingChannels":[],
+    "buyingSignals":[],"risks":[],"opportunities":[],"strengths":[],"weaknesses":[],
+    "news":[{"date":"","title":"","summary":""}],
+    "timeline":[{"date":"","event":""}],
+    "sources":[],"notes":"","nextAction":""
+  }
+}
+\`\`\`
+
+# RULES
+
+Populate every field that can be verified. Leave unknown fields empty. Do not hallucinate. Do not omit keys. Arrays must always exist. Return valid JSON only inside the fence.
+
+The JSON must be directly importable into Continuum without any manual editing. The executive report (Section 1) and the JSON (Section 2) must describe exactly the same company.`;
+}
+function companyIntakeSystemPrompt(scopedId){
+  if(scopedId){
+    var sc=company(scopedId);
+    return companyIntakeSchemaText()+"\n\n---\n\nThis intake is for an EXISTING company: \""+(sc?sc.ov.name:"")+"\" (id: "+scopedId+"). Always set action=\"update\", matchCompanyId=\""+scopedId+"\", matchConfidence=\"exact\" regardless of what the input text says.";
+  }
+  var list=S.companies.map(function(cc){return cc.id+": "+cc.ov.name;}).join("\n")||"(no companies exist yet)";
+  return companyIntakeSchemaText()+"\n\n---\n\nExisting companies right now (id: name):\n"+list+"\n\nSet action=\"create\" if this clearly does not match any existing company. Set action=\"update\" with the correct matchCompanyId if it clearly does. Set matchConfidence honestly — \"exact\" only if truly certain, otherwise \"fuzzy\" or \"none\".";
+}
+function extractJsonBlock(raw){
+  var s=String(raw||"");
+  var fenced=s.match(/```json\s*([\s\S]*?)```/i);
+  if(fenced)return {json:fenced[1].trim(),report:s.slice(0,fenced.index).trim()};
+  var start=s.indexOf("{");
+  if(start<0)return {json:null,report:s.trim()};
+  var depth=0,end=-1;
+  for(var i=start;i<s.length;i++){
+    if(s[i]==="{")depth++;
+    else if(s[i]==="}"){depth--;if(depth===0){end=i;break;}}
+  }
+  if(end<0)return {json:null,report:s.trim()};
+  return {json:s.slice(start,end+1),report:s.slice(0,start).trim()};
+}
+function parseCompanyIntakeJSON(raw){
+  var split=extractJsonBlock(raw);
+  if(!split.json)throw new Error("bad-shape");
+  var d=JSON.parse(split.json);
+  if(!d||!d.company||!d.company.name)throw new Error("bad-shape");
+  var pj=d.company;
+  ["regions","products","services","industries","customers","buyerPersonas","leadership","decisionMakers","competitors","partners","integrations","marketingChannels","buyingSignals","risks","opportunities","strengths","weaknesses","news","timeline","sources"].forEach(function(k){
+    if(!Array.isArray(pj[k]))pj[k]=[];
+  });
+  pj.technology=pj.technology||{};
+  ["frontend","backend","cloud","database","ai","crm","analytics","cms"].forEach(function(k){
+    if(!Array.isArray(pj.technology[k]))pj.technology[k]=[];
+  });
+  return {parsed:d,report:split.report};
+}
+function mapIntakeToCompany(pj,c){
+  if(pj.name)c.ov.name=pj.name;
+  if(pj.website)c.ov.website=pj.website;
+  if(pj.industry)c.ov.industry=pj.industry;
+  if(pj.hq)c.ov.country=pj.hq;
+  if(pj.priority==="high"||pj.priority==="medium"||pj.priority==="low")c.ov.priority=pj.priority;
+  if(pj.nextAction)c.ov.next=pj.nextAction;
+  if(pj.employees)c.kg.employees=pj.employees;
+  if(pj.regions&&pj.regions.length)c.kg.locations=uniqStrings(c.kg.locations.concat(pj.regions));
+  if((pj.products&&pj.products.length)||(pj.services&&pj.services.length))c.kg.products=uniqStrings(c.kg.products.concat(pj.products||[],pj.services||[]));
+  if(pj.competitors&&pj.competitors.length)c.kg.competitors=uniqStrings(c.kg.competitors.concat(pj.competitors));
+  if(pj.partners&&pj.partners.length)c.kg.partners=uniqStrings(c.kg.partners.concat(pj.partners));
+  if(pj.buyingSignals&&pj.buyingSignals.length)c.kg.buyingSignals=uniqStrings(c.kg.buyingSignals.concat(pj.buyingSignals));
+  if(pj.strengths&&pj.strengths.length)c.kg.strengths=uniqStrings(c.kg.strengths.concat(pj.strengths));
+  if(pj.weaknesses&&pj.weaknesses.length)c.kg.weaknesses=uniqStrings(c.kg.weaknesses.concat(pj.weaknesses));
+  if(pj.risks&&pj.risks.length)c.kg.problems=uniqStrings(c.kg.problems.concat(pj.risks));
+  if(pj.linkedin)c.kg.socialLinks=uniqStrings(c.kg.socialLinks.concat([pj.linkedin]));
+  if(pj.sources&&pj.sources.length)c.int.sources=c.int.sources?(c.int.sources+"\n"+pj.sources.join("\n")):pj.sources.join("\n");
+  var tech=[];
+  if(pj.technology){["frontend","backend","cloud","database","ai","crm","analytics","cms"].forEach(function(k){tech=tech.concat(pj.technology[k]||[]);});}
+  tech=tech.concat(pj.integrations||[]);
+  if(tech.length)c.kg.techStack=uniqStrings(c.kg.techStack.concat(tech));
+  if(pj.news&&pj.news.length){
+    var newsLines=pj.news.map(function(n){return [n.date,n.title,n.summary].filter(Boolean).join(" — ");}).filter(Boolean);
+    if(newsLines.length)c.kg.recentNews=uniqStrings(c.kg.recentNews.concat(newsLines));
+  }
+  var dmNames=[];
+  (pj.leadership||[]).forEach(function(p){
+    if(!p||!p.name)return;
+    var roleKey=matchDmRole(p.role);
+    if(roleKey){c.dm[roleKey].role=p.name+(p.role?(" — "+p.role):"");if(p.linkedin)c.dm[roleKey].linkedin=p.linkedin;}
+    dmNames.push(p.name+(p.role?(" — "+p.role):""));
+  });
+  (pj.decisionMakers||[]).forEach(function(p){
+    if(!p||!p.name)return;
+    dmNames.push(p.name+(p.role?(" — "+p.role):""));
+  });
+  if(dmNames.length)c.kg.decisionMakers=uniqStrings(c.kg.decisionMakers.concat(dmNames));
+  if(pj.notes)c.notes=c.notes?(c.notes+"\n\n"+pj.notes):pj.notes;
+}
+function uniqStrings(arr){var seen={},out=[];(arr||[]).forEach(function(x){if(!x)return;var k=String(x).toLowerCase();if(!seen[k]){seen[k]=true;out.push(x);}});return out;}
+function matchDmRole(role){
+  var r=(role||"").toLowerCase();
+  if(!r)return null;
+  if(/\bceo\b|chief executive/.test(r))return"ceo";
+  if(/\bcmo\b|chief marketing/.test(r))return"cmo";
+  if(/\bcro\b|chief revenue/.test(r))return"cro";
+  if(/marketing/.test(r))return"marketing";
+  if(/sales/.test(r))return"sales";
+  if(/product/.test(r))return"product";
+  if(/tech|engineering|cto/.test(r))return"tech";
+  return null;
+}
+function applyCompanyIntake(parsed,report,targetId){
+  var pj=parsed.company||{};
+  if(!targetId){
+    var nc=newCompanyObj(pj.name||"—");
+    mapIntakeToCompany(pj,nc);
+    if(report)nc.research=report;
+    S.companies.unshift(nc);
+    save();
+    return {ok:true,id:nc.id,name:nc.ov.name,created:true};
+  }
+  var c=company(targetId);
+  if(!c)return {ok:false};
+  mapIntakeToCompany(pj,c);
+  if(report)c.research=c.research?(c.research+"\n\n---\n\n"+report):report;
+  c.updatedAt=Date.now();
+  save();
+  return {ok:true,id:c.id,name:c.ov.name,created:false};
+}
 function runCompanyResearch(id){
   var c=company(id);if(!c)return;
   if(!aiConfigured()){S._researchErr=T("aiOffHint");S._researchErrId=id;render();return;}
@@ -1092,6 +1274,65 @@ function runCompanyResearch(id){
       var m=(e&&e.message)||"error";if(/failed to fetch|networkerror|load failed|cors/i.test(m))m=T("aiNetErr");
       S._researchErr=m;S._researchErrId=id;render();
     });
+}
+function humanizeKey(k){return (k||"").replace(/([A-Z])/g," $1").replace(/^./,function(s){return s.toUpperCase();});}
+function renderSnapshot(c){
+  var kg=c.kg||defaultKg();
+  var h="";
+
+  var kpiRows=[
+    [T("companyName"),c.ov.name],
+    [T("website"),c.ov.website],
+    [T("industry"),kg.industry||c.ov.industry],
+    [T("country"),c.ov.country],
+    ["CEO",kg.ceo],
+    ["CMO",kg.cmo],
+    [T("employeesLbl"),kg.employees],
+    [T("dealSize"),kg.estimatedDealSize],
+    [T("priority"),c.ov.priority?T(PR_LABEL[c.ov.priority]):""]
+  ];
+  h+='<table class="kpitbl">'+kpiRows.map(function(r){return '<tr><td>'+esc(r[0])+'</td><td>'+(r[1]?esc(r[1]):"—")+'</td></tr>';}).join("")+'</table>';
+
+  var stages=[c.research,c.intelDb,c.strategicAudit,c.commercialStrategy,c.engagementPackage];
+  var stagesFilled=stages.filter(Boolean).length;
+  var kgKeys=Object.keys(kg);
+  var kgFilled=kgKeys.filter(function(k){var v=kg[k];return Array.isArray(v)?v.length>0:!!v;}).length;
+  var coveragePct=Math.round(((stagesFilled/5)*0.4+(kgFilled/kgKeys.length)*0.6)*100);
+  h+='<div style="margin-top:14px"><div class="row between" style="margin-bottom:4px"><span style="font-size:11.5px;color:var(--c-ink-500)">'+T("researchCoverage")+'</span><span style="font-size:11.5px;font-family:var(--mono);color:var(--c-ink-700)">'+coveragePct+'%</span></div><div class="trackbar"><i style="width:'+coveragePct+'%"></i></div></div>';
+
+  function chipRow(label,arr){
+    if(!arr||!arr.length)return"";
+    return '<div style="margin-top:12px"><div style="font-size:11px;color:var(--c-ink-500);text-transform:uppercase;letter-spacing:.04em;margin-bottom:6px">'+esc(label)+'</div><div style="display:flex;flex-wrap:wrap;gap:6px">'+arr.map(function(x){return '<span class="chip-sm">'+esc(x)+'</span>';}).join("")+'</div></div>';
+  }
+  h+=chipRow(T("competitors"),kg.competitors);
+  h+=chipRow(T("techStack"),kg.techStack);
+  h+=chipRow(T("secSignals"),kg.buyingSignals);
+
+  function swotCell(label,arr){
+    return '<div class="swotcell"><div class="lbl">'+esc(label)+'</div>'+((arr&&arr.length)?('<ul>'+arr.slice(0,5).map(function(x){return '<li>'+esc(x)+'</li>';}).join("")+'</ul>'):'<div style="color:var(--c-ink-300);font-size:12px">—</div>')+'</div>';
+  }
+  h+='<div class="swotgrid" style="margin-top:14px">'+
+    swotCell(T("strengthsLbl"),kg.strengths)+
+    swotCell(T("weaknessesLbl"),kg.weaknesses)+
+    swotCell(T("opportunities"),kg.recommendedServices)+
+    swotCell(T("threatsLbl"),kg.problems)+
+    '</div>';
+
+  var leaders=[];
+  if(kg.ceo)leaders.push("CEO — "+kg.ceo);
+  if(kg.cmo)leaders.push("CMO — "+kg.cmo);
+  if(kg.vpMarketing)leaders.push("VP Marketing — "+kg.vpMarketing);
+  (kg.decisionMakers||[]).forEach(function(x){leaders.push(x);});
+  if(leaders.length)h+='<div style="margin-top:12px"><div style="font-size:11px;color:var(--c-ink-500);text-transform:uppercase;letter-spacing:.04em;margin-bottom:6px">'+T("leadership")+'</div><div style="display:flex;flex-wrap:wrap;gap:6px">'+leaders.map(function(x){return '<span class="chip-sm">'+esc(x)+'</span>';}).join("")+'</div></div>';
+
+  var missing=kgKeys.filter(function(k){var v=kg[k];return Array.isArray(v)?v.length===0:!v;});
+  if(kgFilled===0){
+    h+='<div class="ic-s" style="color:var(--c-ink-500);margin-top:14px">'+T("noKgYet")+'</div>';
+  }else if(missing.length){
+    h+='<div style="margin-top:14px"><div style="font-size:11px;color:var(--c-ink-500);text-transform:uppercase;letter-spacing:.04em;margin-bottom:2px">'+T("missingInfo")+'</div>'+
+      missing.map(function(k){return '<div class="missrow">☐ '+esc(humanizeKey(k))+'</div>';}).join("")+'</div>';
+  }
+  return h;
 }
 function mdToHtml(md){
   if(!md)return"";
@@ -1517,7 +1758,7 @@ var CS_LABEL={lead:"csLead",research:"csResearch",audit:"csAudit",outreach:"csOu
 var CS_ORDER=["lead","research","audit","outreach","meeting","proposal","won","lost","completed"];
 var PR_LABEL={low:"pLow",medium:"pMed",high:"pHigh",critical:"pCritical"};
 function vCompanies(){
-  var h='<div class="greet" style="display:flex;align-items:center;justify-content:space-between"><span>'+T("companiesNav")+'</span><div class="row" style="gap:6px"><button class="btn btn-ghost btn-sm" data-a="researchCompanySheet">🔍 '+T("researchCompany")+'</button><button class="btn btn-ghost btn-sm" data-a="newCompanySheet">'+svg(IC.plus,"")+' '+T("newCompany")+'</button></div></div>';
+  var h='<div class="greet" style="display:flex;align-items:center;justify-content:space-between"><span>'+T("companiesNav")+'</span><div class="row" style="gap:6px"><button class="btn btn-ghost btn-sm" data-a="coCapMode" data-m="ai">📥 '+T("importCompanySnapshot")+'</button><button class="btn btn-ghost btn-sm" data-a="researchCompanySheet">🔍 '+T("researchCompany")+'</button><button class="btn btn-ghost btn-sm" data-a="newCompanySheet">'+svg(IC.plus,"")+' '+T("newCompany")+'</button></div></div>';
   h+='<div class="sub">'+T("companiesSub")+'</div>';
   h+='<div class="field" style="margin-bottom:10px"><input id="coSearch" placeholder="'+T("searchCoPh")+'" value="'+esc(S._cq||"")+'"></div>';
   var filt=S._cstatus||"all";
@@ -1548,6 +1789,7 @@ function vCompany(){
   var prios=["low","medium","high","critical"];
   h+='<div class="row" style="margin-top:10px;gap:8px;align-items:center"><span style="font-size:12px;color:var(--c-ink-500)">'+T("priority")+'</span><select data-a="coPriority" style="border:1px solid var(--border);background:var(--bg-elevated);border-radius:var(--r-sm);padding:5px 9px;color:var(--c-ink-700);font-size:13px">'+
      prios.map(function(p){return '<option value="'+p+'" '+((c.ov.priority||"medium")===p?"selected":"")+'>'+T(PR_LABEL[p])+'</option>'}).join("")+'</select></div>';
+  h+='<button class="btn btn-ghost btn-sm" data-a="coCapMode" data-m="ai" data-id="'+c.id+'" style="margin-top:8px">📥 '+T("updateViaCapture")+'</button>';
 
   h+='<div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:14px">';
   [["commercialReadiness"],["decisionComplexity"]].forEach(function(pair){
@@ -1561,6 +1803,9 @@ function vCompany(){
     [0,5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100].map(function(n){return '<option value="'+n+'" '+(String(op)===String(n)?"selected":"")+'>'+n+'%</option>'}).join("")+
     '</select><div class="trackbar"><i style="width:'+(op?+op:0)+'%"></i></div></div>';
   h+='</div>';
+
+  h+='<div class="eyebrow">📇 '+T("secSnapshot")+'</div>';
+  h+='<div class="card">'+renderSnapshot(c)+'</div>';
 
   h+='<div class="eyebrow">01 · '+T("secOverview")+'</div>';
   h+=fld("co_ov_name",T("companyName"),c.ov.name);
@@ -2116,6 +2361,61 @@ function sheetResearchCompany(){
     '<div class="sheet-actions"><button class="btn btn-ghost" data-a="closeSheet">'+T("cancel")+'</button><button class="btn btn-primary" data-a="doResearchCompany">'+T("startResearch")+'</button></div>');
   setTimeout(function(){var e=document.getElementById("rcName");if(e)e.focus()},250);
 }
+function sheetCompanyIntake(scopedId){
+  var mode=SH._coCapMode||"ai",canAI=aiConfigured(),sp=scopedId?company(scopedId):null;
+  var idAttr=scopedId||"";
+  var body='<h3>'+(sp?(T("updateViaCapture")+" — "+esc(sp.ov.name)):T("importCompanySnapshot"))+'</h3>'+
+    '<div class="seg" style="margin-bottom:12px">'+
+      '<button class="'+(mode==="ai"?"on":"")+'" data-a="coCapMode" data-m="ai" data-id="'+idAttr+'">'+T("describeAI")+'</button>'+
+      '<button class="'+(mode==="json"?"on":"")+'" data-a="coCapMode" data-m="json" data-id="'+idAttr+'">'+T("pasteJson")+'</button>'+
+    '</div>';
+  if(mode==="ai"){
+    if(canAI){
+      body+='<textarea id="coCapFree" class="cap-textarea" placeholder="'+T("captureCoFreePh")+'">'+esc(SH._coCapFree||"")+'</textarea>'+
+        '<button class="btn btn-primary btn-block" data-a="doCoCapAI" data-id="'+idAttr+'" style="margin-top:10px">✦ '+T("generate")+'</button>';
+    }else{
+      body+='<div class="ic-s">'+T("aiOffHint")+'</div>';
+    }
+  }else{
+    body+='<textarea id="coCapJson" class="cap-textarea mono" placeholder=\'{"action":"create",...}\'>'+esc(SH._coCapJson||"")+'</textarea>'+
+      '<button class="btn btn-primary btn-block" data-a="doCoCapJSON" data-id="'+idAttr+'" style="margin-top:10px">'+T("importNow")+'</button>';
+  }
+  if(SH._coCapLoading)body+='<div class="askans ai-thinking" style="margin-top:10px">✦ '+T("aiThinking")+'<span class="dots"><i></i><i></i><i></i></span></div>';
+  if(SH._coCapErr)body+='<div class="ic-s" style="color:var(--danger);margin-top:8px">'+esc(SH._coCapErr)+'</div>';
+  body+='<button class="btn btn-ghost btn-block" data-a="closeSheet" style="margin-top:10px">'+T("cancel")+'</button>';
+  openSheet(body);
+  setTimeout(function(){var e=document.getElementById("coCapFree")||document.getElementById("coCapJson");if(e)e.focus()},250);
+}
+function sheetCompanyConfirmMatch(parsed,report){
+  var guessId=parsed.matchCompanyId&&company(parsed.matchCompanyId)?parsed.matchCompanyId:null;
+  var guessName=guessId?company(guessId).ov.name:null;
+  var opts=S.companies.map(function(cc){return '<option value="'+cc.id+'">'+esc(cc.ov.name)+'</option>';}).join("");
+  openSheet('<h3>'+T("confirmMatch")+'</h3>'+
+    '<div class="ic-s" style="margin-bottom:10px">'+(guessName?(T("looksLike")+' "'+esc(guessName)+'"'):T("noGuess"))+'</div>'+
+    '<div class="field"><label>'+T("pickCompany")+'</label><select id="ccmSelect"><option value="">'+T("newCompanyOpt")+'</option>'+opts+'</select></div>'+
+    '<div class="sheet-actions"><button class="btn btn-ghost" data-a="closeSheet">'+T("cancel")+'</button><button class="btn btn-primary" data-a="doConfirmCompanyMatch">'+T("confirmImport")+'</button></div>');
+  SH._pendingCompanySnapshot=parsed;SH._pendingCompanyReport=report;
+  setTimeout(function(){var sel=document.getElementById("ccmSelect");if(sel&&guessId)sel.value=guessId;},50);
+}
+function proceedWithCompanyParsed(parsed,report,scopedId){
+  if(scopedId){
+    var r=applyCompanyIntake(parsed,report,scopedId);closeSheet();
+    if(r&&r.ok){toast(T("updated")+": "+r.name);openCompany(r.id);}else render();
+    return;
+  }
+  var cid=parsed.matchCompanyId,exists=cid&&company(cid);
+  if(parsed.action==="update"&&exists&&parsed.matchConfidence==="exact"){
+    var r2=applyCompanyIntake(parsed,report,cid);closeSheet();
+    if(r2&&r2.ok){toast(T("updated")+": "+r2.name);openCompany(r2.id);}
+    return;
+  }
+  if(parsed.action==="create"){
+    var r3=applyCompanyIntake(parsed,report,null);closeSheet();
+    if(r3&&r3.ok){toast(T("created")+": "+r3.name);openCompany(r3.id);}
+    return;
+  }
+  sheetCompanyConfirmMatch(parsed,report);
+}
 function sheetSnapshot(pid){
   openSheet('<h3>'+T("snapTitle")+'</h3>'+
     '<div class="field"><label>'+T("whatDone")+'</label><textarea id="snDone" placeholder="'+T("whatDone")+'"></textarea></div>'+
@@ -2232,6 +2532,27 @@ document.addEventListener("click",function(e){
     case"doConfirmMatch":{var pend=SH._pendingSnapshot;if(!pend){closeSheet();break;}
       var chosen=val("cmSelect")||null;var rr=applySnapshot(pend,chosen);closeSheet();
       if(rr&&rr.ok){toast((chosen?T("updated"):T("created"))+": "+rr.name);open(rr.id);}else render();
+      break;}
+    case"coCapMode":{SH._coCapMode=el.getAttribute("data-m");SH._coCapErr="";sheetCompanyIntake(el.getAttribute("data-id")||null);break;}
+    case"doCoCapAI":{var csid=id||null;var cta=document.getElementById("coCapFree");var ctxt=cta?cta.value:"";SH._coCapFree=ctxt;if(!ctxt.trim())break;
+      SH._coCapLoading=true;SH._coCapErr="";sheetCompanyIntake(csid);
+      aiChat(companyIntakeSystemPrompt(csid),ctxt,false,8000).then(function(raw){
+        SH._coCapLoading=false;
+        try{var res=parseCompanyIntakeJSON(raw);proceedWithCompanyParsed(res.parsed,res.report,csid);}
+        catch(e){SH._coCapErr=T("captureParseErr");sheetCompanyIntake(csid);}
+      }).catch(function(e){
+        SH._coCapLoading=false;var cm=(e&&e.message)||"error";
+        if(/failed to fetch|networkerror|load failed|cors/i.test(cm))cm=T("aiNetErr");
+        SH._coCapErr=cm;sheetCompanyIntake(csid);
+      });
+      break;}
+    case"doCoCapJSON":{var csid2=id||null;var ctj=document.getElementById("coCapJson");var ctxt2=ctj?ctj.value:"";SH._coCapJson=ctxt2;
+      try{var res2=parseCompanyIntakeJSON(ctxt2);proceedWithCompanyParsed(res2.parsed,res2.report,csid2);}
+      catch(e){SH._coCapErr=T("captureParseErr");sheetCompanyIntake(csid2);}
+      break;}
+    case"doConfirmCompanyMatch":{var cpend=SH._pendingCompanySnapshot;if(!cpend){closeSheet();break;}
+      var cchosen=val("ccmSelect")||null;var crr=applyCompanyIntake(cpend,SH._pendingCompanyReport,cchosen);closeSheet();
+      if(crr&&crr.ok){toast((cchosen?T("updated"):T("created"))+": "+crr.name);openCompany(crr.id);}else render();
       break;}
     case"resume":{var p=project(id);p.lastWorkedAt=Date.now();p.status="active";save();toast(T("resumed"));open(id);break;}
     case"focus":{var fp=project(id);if(fp){fp.lastWorkedAt=Date.now();fp.status="active";save();}nav("focus",id);break;}

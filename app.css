@@ -98,6 +98,17 @@
   .sigrow{background:var(--bg-elevated);border:1px solid var(--border);border-radius:12px;padding:10px 14px;display:flex;gap:10px;align-items:center;margin-bottom:8px}
   .sigrow input{flex:1;background:transparent;border:none;color:var(--c-ink-900);font-size:14px;outline:none}
   .sigrow select{background:transparent;border:1px solid var(--border);border-radius:8px;padding:4px 8px;color:var(--c-ink-700);font-size:13px}
+  .kpitbl{width:100%;border-collapse:collapse;font-size:13px}
+  .kpitbl td{padding:7px 4px;border-bottom:1px solid var(--border)}
+  .kpitbl td:first-child{color:var(--c-ink-500);width:42%}
+  .kpitbl td:last-child{color:var(--c-ink-900);font-weight:500}
+  .swotgrid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+  .swotcell{background:var(--bg-elevated);border:1px solid var(--border);border-radius:10px;padding:10px 12px}
+  .swotcell .lbl{font-size:10.5px;text-transform:uppercase;letter-spacing:.04em;color:var(--c-ink-500);margin-bottom:6px}
+  .swotcell ul{margin:0;padding-inline-start:16px;font-size:12.5px;color:var(--c-ink-700)}
+  .swotcell li{margin-bottom:3px}
+  .missrow{display:flex;align-items:center;gap:8px;padding:5px 0;font-size:12.5px;color:var(--c-ink-500)}
+  .chip-sm{display:inline-block;padding:4px 10px;border-radius:999px;background:var(--bg-elevated);border:1px solid var(--border);font-size:12px;color:var(--c-ink-700)}
   .md-tbl{width:100%;border-collapse:collapse;margin:8px 0 14px;font-size:12.5px}
   .md-tbl th,.md-tbl td{border:1px solid var(--border);padding:6px 9px;text-align:start;vertical-align:top}
   .md-tbl th{background:var(--bg-hover);color:var(--c-ink-700);font-weight:600}
