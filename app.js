@@ -1508,11 +1508,11 @@ function sheetImportSnapshot(scopedId){
       '<button class="'+(mode==="json"?"on":"")+'" data-a="capMode" data-m="json" data-id="'+idAttr+'">'+T("pasteJson")+'</button>'+
     '</div>';
   if(mode==="ai"){
+    body+='<textarea id="capFree" class="cap-textarea" placeholder="'+T("captureFreePh")+'">'+esc(SH._capFree||"")+'</textarea>';
     if(canAI){
-      body+='<textarea id="capFree" class="cap-textarea" placeholder="'+T("captureFreePh")+'">'+esc(SH._capFree||"")+'</textarea>'+
-        '<button class="btn btn-primary btn-block" data-a="doCaptureAI" data-id="'+idAttr+'" style="margin-top:10px">✦ '+T("generate")+'</button>';
+      body+='<button class="btn btn-primary btn-block" data-a="doCaptureAI" data-id="'+idAttr+'" style="margin-top:10px">✦ '+T("generate")+'</button>';
     }else{
-      body+='<div class="ic-s">'+T("aiOffHint")+'</div>';
+      body+='<div class="ic-s" style="margin-top:10px">'+T("aiOffHint")+'</div>';
     }
   }else{
     body+='<textarea id="capJson" class="cap-textarea mono" placeholder=\'{"action":"create",...}\'>'+esc(SH._capJson||"")+'</textarea>'+
@@ -2370,11 +2370,11 @@ function sheetCompanyIntake(scopedId){
       '<button class="'+(mode==="json"?"on":"")+'" data-a="coCapMode" data-m="json" data-id="'+idAttr+'">'+T("pasteJson")+'</button>'+
     '</div>';
   if(mode==="ai"){
+    body+='<textarea id="coCapFree" class="cap-textarea" placeholder="'+T("captureCoFreePh")+'">'+esc(SH._coCapFree||"")+'</textarea>';
     if(canAI){
-      body+='<textarea id="coCapFree" class="cap-textarea" placeholder="'+T("captureCoFreePh")+'">'+esc(SH._coCapFree||"")+'</textarea>'+
-        '<button class="btn btn-primary btn-block" data-a="doCoCapAI" data-id="'+idAttr+'" style="margin-top:10px">✦ '+T("generate")+'</button>';
+      body+='<button class="btn btn-primary btn-block" data-a="doCoCapAI" data-id="'+idAttr+'" style="margin-top:10px">✦ '+T("generate")+'</button>';
     }else{
-      body+='<div class="ic-s">'+T("aiOffHint")+'</div>';
+      body+='<div class="ic-s" style="margin-top:10px">'+T("aiOffHint")+'</div>';
     }
   }else{
     body+='<textarea id="coCapJson" class="cap-textarea mono" placeholder=\'{"action":"create",...}\'>'+esc(SH._coCapJson||"")+'</textarea>'+
